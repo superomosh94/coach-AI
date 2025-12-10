@@ -7,6 +7,7 @@
     <title>
         <%= title %>
     </title>
+    <link rel="icon" type="image/png" href="/images/favicon.png">
     <style>
         * {
             margin: 0;
@@ -16,7 +17,11 @@
 
         body {
             font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            background-image: url('/images/dark-lines-bg.png');
+            background-size: cover;
+            background-position: center;
+            background-attachment: fixed;
+            background-color: #0f0f1e;
             min-height: 100vh;
             padding: 20px;
         }
@@ -293,11 +298,10 @@
                         </span></span>
                 </div>
 
-                <% // Calculate pagination variables const maxPages=7; let startPage=Math.max(1, currentPage -
-                    Math.floor(maxPages / 2)); let endPage=Math.min(totalPages, startPage + maxPages - 1); if (endPage -
-                    startPage < maxPages - 1) { startPage=Math.max(1, endPage - maxPages + 1); } %>
+                <% const maxPages=7; let startPage=Math.max(1, currentPage - Math.floor(maxPages / 2)); let
+                    endPage=Math.min(totalPages, startPage + maxPages - 1); if (endPage - startPage < maxPages - 1) {
+                    startPage=Math.max(1, endPage - maxPages + 1); } %>
 
-                    <!-- Pagination Top -->
                     <% if (totalPages> 1) { %>
                         <div class="pagination">
                             <% if (currentPage> 1) { %>
@@ -305,7 +309,8 @@
                                 <% } %>
                                     <% if (startPage> 1) { %>
                                         <a href="/lines?page=1" class="page-num">1</a>
-                                        <% if (startPage> 2) { %><span class="page-dots">...</span>
+                                        <% if (startPage> 2) { %>
+                                            <span class="page-dots">...</span>
                                             <% } %>
                                                 <% } %>
                                                     <% for (let i=startPage; i <=endPage; i++) { %>
@@ -315,8 +320,8 @@
                                                         </a>
                                                         <% } %>
                                                             <% if (endPage < totalPages) { %>
-                                                                <% if (endPage < totalPages - 1) { %><span
-                                                                        class="page-dots">...</span>
+                                                                <% if (endPage < totalPages - 1) { %>
+                                                                    <span class="page-dots">...</span>
                                                                     <% } %>
                                                                         <a href="/lines?page=<%= totalPages %>"
                                                                             class="page-num">
@@ -332,7 +337,7 @@
 
                             <% if (lines.length> 0) { %>
                                 <div class="lines-grid" id="linesGrid">
-                                    <% lines.forEach(line=> { %>
+                                    <% lines.forEach(function(line) { %>
                                         <div class="line-card" data-category="<%= line.category %>"
                                             data-style="<%= line.style %>"
                                             data-text="<%= line.line_text.toLowerCase() %>">
@@ -355,7 +360,6 @@
                                         <% }); %>
                                 </div>
 
-                                <!-- Pagination Bottom -->
                                 <% if (totalPages> 1) { %>
                                     <div class="pagination" style="margin-top: 30px;">
                                         <% if (currentPage> 1) { %>
@@ -363,7 +367,8 @@
                                             <% } %>
                                                 <% if (startPage> 1) { %>
                                                     <a href="/lines?page=1" class="page-num">1</a>
-                                                    <% if (startPage> 2) { %><span class="page-dots">...</span>
+                                                    <% if (startPage> 2) { %>
+                                                        <span class="page-dots">...</span>
                                                         <% } %>
                                                             <% } %>
                                                                 <% for (let i=startPage; i <=endPage; i++) { %>
@@ -373,8 +378,8 @@
                                                                     </a>
                                                                     <% } %>
                                                                         <% if (endPage < totalPages) { %>
-                                                                            <% if (endPage < totalPages - 1) { %><span
-                                                                                    class="page-dots">...</span>
+                                                                            <% if (endPage < totalPages - 1) { %>
+                                                                                <span class="page-dots">...</span>
                                                                                 <% } %>
                                                                                     <a href="/lines?page=<%= totalPages %>"
                                                                                         class="page-num">
