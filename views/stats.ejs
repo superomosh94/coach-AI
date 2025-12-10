@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>
+        <%= title %>
+    </title>
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1>📊 Database Statistics</h1>
+        <p class="subtitle">Insights into our flirting lines collection</p>
+
+        <nav class="nav">
+            <a href="/">Home</a>
+            <a href="/add">Add Line</a>
+            <a href="/lines">View Lines</a>
+            <a href="/stats">Statistics</a>
+        </nav>
+
+        <% if (error) { %>
+            <div class="alert alert-error">
+                <%= error %>
+            </div>
+            <% } %>
+
+                <div class="stat-box">
+                    <div class="stat-number">
+                        <%= total %>
+                    </div>
+                    <div class="stat-label">Total Flirting Lines</div>
+                </div>
+
+                <div class="section">
+                    <h2>Lines by Category</h2>
+                    <% if (byCategory.length> 0) { %>
+                        <% byCategory.forEach(cat=> { %>
+                            <div class="category-item">
+                                <span style="font-weight: 600;">
+                                    <%= cat.category %>
+                                </span>
+                                <span><strong>
+                                        <%= cat.count %>
+                                    </strong> lines</span>
+                            </div>
+                            <% }); %>
+                                <% } else { %>
+                                    <p style="color: #999;">No categories yet</p>
+                                    <% } %>
+                </div>
+
+                <div class="section">
+                    <h2>Most Used Lines</h2>
+                    <% if (mostUsed.length> 0) { %>
+                        <% mostUsed.forEach(line=> { %>
+                            <div class="line-item" style="flex-direction: column; align-items: flex-start;">
+                                <div style="margin-bottom: 5px;">"<%= line.line_text %>"</div>
+                                <div style="color: #667eea; font-weight: 600;">Used <%= line.usage_count %> times</div>
+                            </div>
+                            <% }); %>
+                                <% } else { %>
+                                    <p style="color: #999;">No usage data yet</p>
+                                    <% } %>
+                </div>
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,434 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>
+        <%= title %>
+    </title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            padding: 20px;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        .header {
+            text-align: center;
+            color: white;
+            margin-bottom: 30px;
+        }
+
+        .header h1 {
+            font-size: 2.5em;
+            margin-bottom: 10px;
+        }
+
+        .header p {
+            opacity: 0.9;
+        }
+
+        .nav {
+            display: flex;
+            justify-content: center;
+            gap: 15px;
+            margin-bottom: 30px;
+            flex-wrap: wrap;
+        }
+
+        .nav a {
+            color: white;
+            text-decoration: none;
+            padding: 10px 25px;
+            background: rgba(255, 255, 255, 0.2);
+            border-radius: 25px;
+            backdrop-filter: blur(10px);
+            transition: all 0.3s;
+        }
+
+        .nav a:hover {
+            background: rgba(255, 255, 255, 0.3);
+            transform: translateY(-2px);
+        }
+
+        .toolbar {
+            background: white;
+            padding: 20px;
+            border-radius: 15px;
+            margin-bottom: 20px;
+            display: flex;
+            gap: 15px;
+            flex-wrap: wrap;
+            align-items: center;
+            box-shadow: 0 5px 20px rgba(0, 0, 0, 0.2);
+        }
+
+        .search-box {
+            flex: 1;
+            min-width: 250px;
+        }
+
+        .search-box input {
+            width: 100%;
+            padding: 12px;
+            border: 2px solid #e0e0e0;
+            border-radius: 10px;
+            font-size: 14px;
+        }
+
+        .search-box input:focus {
+            outline: none;
+            border-color: #667eea;
+        }
+
+        select {
+            padding: 12px;
+            border: 2px solid #e0e0e0;
+            border-radius: 10px;
+            font-size: 14px;
+            background: white;
+        }
+
+        .lines-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+            gap: 20px;
+        }
+
+        .line-card {
+            background: white;
+            padding: 20px;
+            border-radius: 15px;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+            transition: all 0.3s;
+        }
+
+        .line-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 25px rgba(0, 0, 0, 0.3);
+        }
+
+        .line-text {
+            font-size: 16px;
+            line-height: 1.6;
+            margin-bottom: 15px;
+            color: #333;
+            font-style: italic;
+        }
+
+        .line-meta {
+            display: flex;
+            gap: 10px;
+            flex-wrap: wrap;
+            font-size: 13px;
+        }
+
+        .badge {
+            padding: 5px 12px;
+            border-radius: 15px;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            font-weight: 600;
+        }
+
+        .badge-style {
+            background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%);
+        }
+
+        .badge-quality {
+            background: linear-gradient(135deg, #ffd89b 0%, #19547b 100%);
+        }
+
+        .stats-bar {
+            background: white;
+            padding: 15px 20px;
+            border-radius: 10px;
+            margin-bottom: 20px;
+            text-align: center;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+        }
+
+        .stats-bar span {
+            margin: 0 15px;
+            font-weight: 600;
+            color: #667eea;
+        }
+
+        .pagination {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 10px;
+            flex-wrap: wrap;
+            background: white;
+            padding: 20px;
+            border-radius: 15px;
+            margin-bottom: 20px;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+        }
+
+        .page-btn,
+        .page-num {
+            padding: 10px 15px;
+            border-radius: 8px;
+            text-decoration: none;
+            transition: all 0.3s;
+            font-weight: 600;
+        }
+
+        .page-btn {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+        }
+
+        .page-btn:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 5px 15px rgba(102, 126, 234, 0.4);
+        }
+
+        .page-num {
+            background: #f0f0f0;
+            color: #333;
+            min-width: 40px;
+            text-align: center;
+        }
+
+        .page-num.active {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+        }
+
+        .page-num:hover:not(.active) {
+            background: #e0e0e0;
+        }
+
+        .page-dots {
+            color: #999;
+            font-weight: bold;
+        }
+
+        .no-data {
+            background: white;
+            padding: 60px 20px;
+            border-radius: 15px;
+            text-align: center;
+        }
+
+        @media (max-width: 768px) {
+            .lines-grid {
+                grid-template-columns: 1fr;
+            }
+
+            .header h1 {
+                font-size: 2em;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>📚 Flirting Lines Collection</h1>
+            <p>Browse <%= total %> curated lines</p>
+        </div>
+
+        <nav class="nav">
+            <a href="/">🏠 Home</a>
+            <a href="/add">➕ Add Line</a>
+            <a href="/lines">📝 Browse</a>
+            <a href="/stats">📊 Stats</a>
+        </nav>
+
+        <% if (error) { %>
+            <div style="background: #ff4444; color: white; padding: 15px; border-radius: 10px; margin-bottom: 20px;">
+                <%= error %>
+            </div>
+            <% } %>
+
+                <div class="toolbar">
+                    <div class="search-box">
+                        <input type="text" id="searchBox" placeholder="🔍 Search lines..." onkeyup="filterLines()">
+                    </div>
+                    <select id="categoryFilter" onchange="filterLines()">
+                        <option value="">All Categories</option>
+                        <option value="romantic">Romantic</option>
+                        <option value="playful">Playful</option>
+                        <option value="funny">Funny</option>
+                        <option value="clever">Clever</option>
+                        <option value="smooth">Smooth</option>
+                        <option value="direct">Direct</option>
+                        <option value="cheesy">Cheesy</option>
+                        <option value="bold">Bold</option>
+                    </select>
+                    <select id="styleFilter" onchange="filterLines()">
+                        <option value="">All Styles</option>
+                        <option value="international">International</option>
+                        <option value="kenyan">Kenyan</option>
+                        <option value="sheng">Sheng</option>
+                        <option value="mixed">Mixed</option>
+                    </select>
+                </div>
+
+                <div class="stats-bar">
+                    <span>Total: <%= total %> lines</span>
+                    <span>|</span>
+                    <span>Page <%= currentPage %> of <%= totalPages %></span>
+                    <span>|</span>
+                    <span>Showing: <span id="showingCount">
+                            <%= lines.length %>
+                        </span></span>
+                </div>
+
+                <% // Calculate pagination variables const maxPages=7; let startPage=Math.max(1, currentPage -
+                    Math.floor(maxPages / 2)); let endPage=Math.min(totalPages, startPage + maxPages - 1); if (endPage -
+                    startPage < maxPages - 1) { startPage=Math.max(1, endPage - maxPages + 1); } %>
+
+                    <!-- Pagination Top -->
+                    <% if (totalPages> 1) { %>
+                        <div class="pagination">
+                            <% if (currentPage> 1) { %>
+                                <a href="/lines?page=<%= currentPage - 1 %>" class="page-btn">← Previous</a>
+                                <% } %>
+                                    <% if (startPage> 1) { %>
+                                        <a href="/lines?page=1" class="page-num">1</a>
+                                        <% if (startPage> 2) { %><span class="page-dots">...</span>
+                                            <% } %>
+                                                <% } %>
+                                                    <% for (let i=startPage; i <=endPage; i++) { %>
+                                                        <a href="/lines?page=<%= i %>"
+                                                            class="page-num <%= i === currentPage ? 'active' : '' %>">
+                                                            <%= i %>
+                                                        </a>
+                                                        <% } %>
+                                                            <% if (endPage < totalPages) { %>
+                                                                <% if (endPage < totalPages - 1) { %><span
+                                                                        class="page-dots">...</span>
+                                                                    <% } %>
+                                                                        <a href="/lines?page=<%= totalPages %>"
+                                                                            class="page-num">
+                                                                            <%= totalPages %>
+                                                                        </a>
+                                                                        <% } %>
+                                                                            <% if (currentPage < totalPages) { %>
+                                                                                <a href="/lines?page=<%= currentPage + 1 %>"
+                                                                                    class="page-btn">Next →</a>
+                                                                                <% } %>
+                        </div>
+                        <% } %>
+
+                            <% if (lines.length> 0) { %>
+                                <div class="lines-grid" id="linesGrid">
+                                    <% lines.forEach(line=> { %>
+                                        <div class="line-card" data-category="<%= line.category %>"
+                                            data-style="<%= line.style %>"
+                                            data-text="<%= line.line_text.toLowerCase() %>">
+                                            <div class="line-text">"<%= line.line_text %>"</div>
+                                            <div class="line-meta">
+                                                <span class="badge">
+                                                    <%= line.category %>
+                                                </span>
+                                                <% if (line.style) { %>
+                                                    <span class="badge badge-style">
+                                                        <%= line.style %>
+                                                    </span>
+                                                    <% } %>
+                                                        <% if (line.quality_score) { %>
+                                                            <span class="badge badge-quality">⭐ <%= line.quality_score
+                                                                    %></span>
+                                                            <% } %>
+                                            </div>
+                                        </div>
+                                        <% }); %>
+                                </div>
+
+                                <!-- Pagination Bottom -->
+                                <% if (totalPages> 1) { %>
+                                    <div class="pagination" style="margin-top: 30px;">
+                                        <% if (currentPage> 1) { %>
+                                            <a href="/lines?page=<%= currentPage - 1 %>" class="page-btn">← Previous</a>
+                                            <% } %>
+                                                <% if (startPage> 1) { %>
+                                                    <a href="/lines?page=1" class="page-num">1</a>
+                                                    <% if (startPage> 2) { %><span class="page-dots">...</span>
+                                                        <% } %>
+                                                            <% } %>
+                                                                <% for (let i=startPage; i <=endPage; i++) { %>
+                                                                    <a href="/lines?page=<%= i %>"
+                                                                        class="page-num <%= i === currentPage ? 'active' : '' %>">
+                                                                        <%= i %>
+                                                                    </a>
+                                                                    <% } %>
+                                                                        <% if (endPage < totalPages) { %>
+                                                                            <% if (endPage < totalPages - 1) { %><span
+                                                                                    class="page-dots">...</span>
+                                                                                <% } %>
+                                                                                    <a href="/lines?page=<%= totalPages %>"
+                                                                                        class="page-num">
+                                                                                        <%= totalPages %>
+                                                                                    </a>
+                                                                                    <% } %>
+                                                                                        <% if (currentPage < totalPages)
+                                                                                            { %>
+                                                                                            <a href="/lines?page=<%= currentPage + 1 %>"
+                                                                                                class="page-btn">Next
+                                                                                                →</a>
+                                                                                            <% } %>
+                                    </div>
+                                    <% } %>
+                                        <% } else { %>
+                                            <div class="no-data">
+                                                <h2>No lines found</h2>
+                                                <p style="margin: 15px 0; color: #666;">Be the first to add a flirting
+                                                    line!</p>
+                                                <a href="/add"
+                                                    style="color: #667eea; text-decoration: none; font-weight: 600; font-size: 18px;">Add
+                                                    a Line →</a>
+                                            </div>
+                                            <% } %>
+    </div>
+
+    <script>
+        function filterLines() {
+            const searchText = document.getElementById('searchBox').value.toLowerCase();
+            const categoryFilter = document.getElementById('categoryFilter').value;
+            const styleFilter = document.getElementById('styleFilter').value;
+            const cards = document.querySelectorAll('.line-card');
+            let visibleCount = 0;
+
+            cards.forEach(card => {
+                const text = card.dataset.text;
+                const category = card.dataset.category;
+                const style = card.dataset.style;
+
+                const matchesSearch = text.includes(searchText);
+                const matchesCategory = !categoryFilter || category === categoryFilter;
+                const matchesStyle = !styleFilter || style === styleFilter;
+
+                if (matchesSearch && matchesCategory && matchesStyle) {
+                    card.style.display = 'block';
+                    visibleCount++;
+                } else {
+                    card.style.display = 'none';
+                }
+            });
+
+            document.getElementById('showingCount').textContent = visibleCount;
+        }
+    </script>
+</body>
+
+</html>

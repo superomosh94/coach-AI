@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>View Lines - Vibe Coach</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            padding: 20px;
+        }
+
+        .container {
+            max-width: 1000px;
+            margin: 0 auto;
+            background: white;
+            border-radius: 20px;
+            padding: 40px;
+            box-shadow: 0 20px 60px rgba(0, 0, 0, 0.3);
+        }
+
+        h1 {
+            color: #667eea;
+            margin-bottom: 30px;
+        }
+
+        .nav-links {
+            margin-bottom: 30px;
+            display: flex;
+            gap: 15px;
+        }
+
+        .nav-links a {
+            color: #667eea;
+            text-decoration: none;
+            padding: 8px 16px;
+            border: 2px solid #667eea;
+            border-radius: 8px;
+            transition: all 0.3s;
+        }
+
+        .nav-links a:hover {
+            background: #667eea;
+            color: white;
+        }
+
+        .line-card {
+            background: #f8f9fa;
+            padding: 20px;
+            border-radius: 12px;
+            margin-bottom: 15px;
+            border-left: 4px solid #667eea;
+        }
+
+        .line-text {
+            font-size: 18px;
+            margin-bottom: 10px;
+            color: #333;
+        }
+
+        .line-meta {
+            display: flex;
+            gap: 15px;
+            flex-wrap: wrap;
+            font-size: 14px;
+            color: #666;
+        }
+
+        .badge {
+            padding: 4px 12px;
+            border-radius: 20px;
+            background: #667eea;
+            color: white;
+            font-size: 12px;
+        }
+
+        .no-lines {
+            text-align: center;
+            padding: 40px;
+            color: #666;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <h1>📚 All Flirting Lines</h1>
+
+        <div class="nav-links">
+            <a href="/">Add Line</a>
+            <a href="/lines">View Lines</a>
+            <a href="/stats">Statistics</a>
+        </div>
+
+        {% if lines %}
+        {% for line in lines %}
+        <div class="line-card">
+            <div class="line-text">"{{ line.line_text }}"</div>
+            <div class="line-meta">
+                <span class="badge">{{ line.category }}</span>
+                {% if line.style %}
+                <span class="badge">{{ line.style }}</span>
+                {% endif %}
+                {% if line.language %}
+                <span>🌐 {{ line.language }}</span>
+                {% endif %}
+                <span>👍 Used {{ line.usage_count }} times</span>
+                <span>📅 {{ line.created_at.strftime('%Y-%m-%d') }}</span>
+            </div>
+        </div>
+        {% endfor %}
+        {% else %}
+        <div class="no-lines">
+            <h2>No lines found</h2>
+            <p>Add your first flirting line!</p>
+        </div>
+        {% endif %}
+    </div>
+</body>
+
+</html>

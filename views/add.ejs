@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>
+        <%= title %>
+    </title>
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1>📝 Add a Flirting Line</h1>
+        <p class="subtitle">Share your best lines with the community</p>
+
+        <nav class="nav">
+            <a href="/">Home</a>
+            <a href="/add">Add Line</a>
+            <a href="/lines">View Lines</a>
+            <a href="/stats">Statistics</a>
+        </nav>
+
+        <% if (message) { %>
+            <div class="alert alert-<%= message.type %>">
+                <%= message.text %>
+            </div>
+            <% } %>
+
+                <form action="/add-line" method="POST">
+                    <div class="form-group">
+                        <label for="line_text">Flirting Line <span class="required">*</span></label>
+                        <textarea id="line_text" name="line_text" required
+                            placeholder="Enter the flirting line..."></textarea>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="category">Category <span class="required">*</span></label>
+                        <select id="category" name="category" required>
+                            <option value="">Select a category</option>
+                            <option value="Opening">Opening</option>
+                            <option value="Playful">Playful</option>
+                            <option value="Romantic">Romantic</option>
+                            <option value="Confident">Confident</option>
+                            <option value="Casual">Casual</option>
+                            <option value="Bold">Bold</option>
+                            <option value="Sweet">Sweet</option>
+                            <option value="Witty">Witty</option>
+                        </select>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="style">Style</label>
+                        <select id="style" name="style">
+                            <option value="">Select a style</option>
+                            <option value="Kenyan">Kenyan</option>
+                            <option value="Sheng">Sheng</option>
+                            <option value="Swahili">Swahili</option>
+                            <option value="International">International</option>
+                            <option value="Modern">Modern</option>
+                            <option value="Classic">Classic</option>
+                        </select>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="language">Language</label>
+                        <input type="text" id="language" name="language" placeholder="e.g., English, Swahili, Sheng">
+                    </div>
+
+                    <div class="form-group">
+                        <label for="tags">Tags (comma-separated)</label>
+                        <input type="text" id="tags" name="tags" placeholder="e.g., funny, clever, romantic">
+                    </div>
+
+                    <button type="submit">Add Line</button>
+                </form>
+    </div>
+</body>
+
+</html>

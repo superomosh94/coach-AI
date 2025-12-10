@@ -1,0 +1,666 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vibe Coach - AI-Powered Flirting Lines</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            padding: 20px;
+        }
+
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+        }
+
+        .header {
+            text-align: center;
+            color: white;
+            margin-bottom: 40px;
+        }
+
+        .header h1 {
+            font-size: 3em;
+            margin-bottom: 10px;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+        }
+
+        .header p {
+            font-size: 1.2em;
+            opacity: 0.9;
+        }
+
+        .nav-links {
+            display: flex;
+            justify-content: center;
+            gap: 15px;
+            margin-bottom: 30px;
+            flex-wrap: wrap;
+        }
+
+        .nav-links a {
+            color: white;
+            text-decoration: none;
+            padding: 10px 25px;
+            background: rgba(255, 255, 255, 0.2);
+            border-radius: 25px;
+            backdrop-filter: blur(10px);
+            transition: all 0.3s;
+        }
+
+        .nav-links a:hover {
+            background: rgba(255, 255, 255, 0.3);
+            transform: translateY(-2px);
+        }
+
+        .card {
+            background: white;
+            border-radius: 20px;
+            padding: 30px;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+            margin-bottom: 30px;
+        }
+
+        .card h2 {
+            color: #667eea;
+            margin-bottom: 20px;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+
+        .textarea-container {
+            margin-bottom: 20px;
+        }
+
+        textarea {
+            width: 100%;
+            padding: 15px;
+            border: 2px solid #e0e0e0;
+            border-radius: 10px;
+            font-size: 16px;
+            font-family: inherit;
+            resize: vertical;
+            min-height: 120px;
+            transition: border-color 0.3s;
+        }
+
+        textarea:focus {
+            outline: none;
+            border-color: #667eea;
+        }
+
+        .filter-group {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 15px;
+            margin-bottom: 20px;
+        }
+
+        .filter-item {
+            display: flex;
+            flex-direction: column;
+        }
+
+        .filter-item label {
+            font-weight: 600;
+            margin-bottom: 5px;
+            color: #333;
+            font-size: 14px;
+        }
+
+        select,
+        input[type="number"] {
+            padding: 10px;
+            border: 2px solid #e0e0e0;
+            border-radius: 8px;
+            font-size: 14px;
+            transition: border-color 0.3s;
+        }
+
+        select:focus,
+        input:focus {
+            outline: none;
+            border-color: #667eea;
+        }
+
+        .button-group {
+            display: flex;
+            gap: 15px;
+            flex-wrap: wrap;
+        }
+
+        button {
+            padding: 15px 30px;
+            border: none;
+            border-radius: 10px;
+            font-size: 16px;
+            font-weight: 600;
+            cursor: pointer;
+            transition: all 0.3s;
+            flex: 1;
+            min-width: 150px;
+        }
+
+        .btn-primary {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+        }
+
+        .btn-primary:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 5px 15px rgba(102, 126, 234, 0.4);
+        }
+
+        .btn-secondary {
+            background: #f0f0f0;
+            color: #333;
+        }
+
+        .btn-secondary:hover {
+            background: #e0e0e0;
+        }
+
+        .loading {
+            display: none;
+            text-align: center;
+            padding: 20px;
+            color: #667eea;
+        }
+
+        .loading.active {
+            display: block;
+        }
+
+        .spinner {
+            border: 3px solid #f3f3f3;
+            border-top: 3px solid #667eea;
+            border-radius: 50%;
+            width: 40px;
+            height: 40px;
+            animation: spin 1s linear infinite;
+            margin: 0 auto 10px;
+        }
+
+        @keyframes spin {
+            0% {
+                transform: rotate(0deg);
+            }
+
+            100% {
+                transform: rotate(360deg);
+            }
+        }
+
+        .results {
+            margin-top: 30px;
+        }
+
+        .analysis {
+            background: #f8f9fa;
+            padding: 20px;
+            border-radius: 10px;
+            margin-bottom: 20px;
+        }
+
+        .analysis h3 {
+            color: #667eea;
+            margin-bottom: 15px;
+        }
+
+        .analysis-item {
+            display: flex;
+            justify-content: space-between;
+            padding: 10px;
+            margin-bottom: 5px;
+            background: white;
+            border-radius: 8px;
+        }
+
+        .analysis-label {
+            font-weight: 600;
+            color: #555;
+        }
+
+        .analysis-value {
+            color: #667eea;
+            font-weight: 600;
+            text-transform: capitalize;
+        }
+
+        .line-item {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 20px;
+            border-radius: 15px;
+            margin-bottom: 15px;
+            box-shadow: 0 5px 15px rgba(102, 126, 234, 0.3);
+            transition: transform 0.3s;
+        }
+
+        .line-item:hover {
+            transform: translateY(-3px);
+        }
+
+        .line-text {
+            font-size: 18px;
+            margin-bottom: 12px;
+            line-height: 1.5;
+        }
+
+        .line-meta {
+            display: flex;
+            gap: 15px;
+            font-size: 14px;
+            opacity: 0.9;
+            flex-wrap: wrap;
+        }
+
+        .meta-badge {
+            background: rgba(255, 255, 255, 0.2);
+            padding: 4px 12px;
+            border-radius: 15px;
+            backdrop-filter: blur(10px);
+        }
+
+        .quality-score {
+            background: rgba(255, 215, 0, 0.3);
+            font-weight: 600;
+        }
+
+        .stats-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+            gap: 15px;
+            margin-top: 20px;
+        }
+
+        .stat-card {
+            background: #f8f9fa;
+            padding: 15px;
+            border-radius: 10px;
+            text-align: center;
+        }
+
+        .stat-value {
+            font-size: 28px;
+            font-weight: bold;
+            color: #667eea;
+        }
+
+        .stat-label {
+            font-size: 14px;
+            color: #666;
+            margin-top: 5px;
+        }
+
+        @media (max-width: 768px) {
+            .header h1 {
+                font-size: 2em;
+            }
+
+            .button-group {
+                flex-direction: column;
+            }
+
+            button {
+                width: 100%;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>🤖 Vibe Coach AI</h1>
+            <p>Your intelligent flirting line companion</p>
+        </div>
+
+        <div class="nav-links">
+            <a href="/">🏠 Home</a>
+            <a href="/lines">📝 Browse Lines</a>
+            <a href="/add">➕ Add Line</a>
+            <a href="/stats">📊 Statistics</a>
+        </div>
+
+        <!-- AI Recommendation Section -->
+        <div class="card">
+            <h2>🧠 AI-Powered Recommendations</h2>
+            <p style="margin-bottom: 20px; color: #666;">
+                Paste your conversation and get contextually appropriate flirting lines!
+            </p>
+
+            <div class="textarea-container">
+                <label for="conversation" style="font-weight: 600; display: block; margin-bottom: 10px;">Your
+                    Conversation:</label>
+                <textarea id="conversation"
+                    placeholder="Example: Hi there! You look amazing today. I love your smile and your beautiful eyes."></textarea>
+            </div>
+
+            <div class="filter-item" style="margin-bottom: 20px;">
+                <label for="count">Number of Suggestions:</label>
+                <input type="number" id="count" value="5" min="1" max="10">
+            </div>
+
+            <div class="button-group">
+                <button class="btn-primary" onclick="getRecommendations()">
+                    🎯 Get AI Recommendations
+                </button>
+                <button class="btn-secondary" onclick="analyzeOnly()">
+                    🔍 Analyze Only
+                </button>
+            </div>
+
+            <div class="loading" id="loading">
+                <div class="spinner"></div>
+                <p>Analyzing conversation...</p>
+            </div>
+
+            <div id="results" class="results"></div>
+        </div>
+
+        <!-- Quick Random Selection -->
+        <div class="card">
+            <h2>🎲 Quick Random Selection</h2>
+            <p style="margin-bottom: 20px; color: #666;">
+                Get random lines with optional filters
+            </p>
+
+            <div class="filter-group">
+                <div class="filter-item">
+                    <label for="filter-category">Category:</label>
+                    <select id="filter-category">
+                        <option value="">All Categories</option>
+                        <option value="romantic">Romantic</option>
+                        <option value="playful">Playful</option>
+                        <option value="funny">Funny</option>
+                        <option value="clever">Clever</option>
+                        <option value="direct">Direct</option>
+                        <option value="smooth">Smooth</option>
+                        <option value="cheesy">Cheesy</option>
+                        <option value="bold">Bold</option>
+                    </select>
+                </div>
+
+                <div class="filter-item">
+                    <label for="filter-style">Style:</label>
+                    <select id="filter-style">
+                        <option value="">All Styles</option>
+                        <option value="international">International</option>
+                        <option value="kenyan">Kenyan</option>
+                        <option value="sheng">Sheng</option>
+                        <option value="mixed">Mixed</option>
+                    </select>
+                </div>
+
+                <div class="filter-item">
+                    <label for="filter-context">Context:</label>
+                    <select id="filter-context">
+                        <option value="">All Contexts</option>
+                        <option value="opening">Opening</option>
+                        <option value="followup">Follow-up</option>
+                        <option value="response">Response</option>
+                        <option value="compliment">Compliment</option>
+                    </select>
+                </div>
+
+                <div class="filter-item">
+                    <label for="filter-count">Count:</label>
+                    <input type="number" id="filter-count" value="5" min="1" max="20">
+                </div>
+            </div>
+
+            <div class="button-group">
+                <button class="btn-primary" onclick="getRandomLines()">
+                    🎲 Get Random Lines
+                </button>
+                <button class="btn-primary" onclick="getWeightedRandom()">
+                    ⭐ Get High Quality Lines
+                </button>
+            </div>
+
+            <div id="random-results" class="results"></div>
+        </div>
+
+        <!-- Database Stats -->
+        <div class="card">
+            <h2>📊 Database Overview</h2>
+            <div class="stats-grid">
+                <div class="stat-card">
+                    <div class="stat-value">611</div>
+                    <div class="stat-label">Total Lines</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-value">8</div>
+                    <div class="stat-label">Categories</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-value">5</div>
+                    <div class="stat-label">Styles</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-value">4.18</div>
+                    <div class="stat-label">Avg Quality</div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        async function getRecommendations() {
+            const conversation = document.getElementById('conversation').value.trim();
+            const count = parseInt(document.getElementById('count').value);
+            const loading = document.getElementById('loading');
+            const results = document.getElementById('results');
+
+            if (!conversation) {
+                alert('Please enter a conversation!');
+                return;
+            }
+
+            loading.classList.add('active');
+            results.innerHTML = '';
+
+            try {
+                const response = await fetch('/api/recommend', {
+                    method: 'POST',
+                    headers: { 'Content-Type': 'application/json' },
+                    body: JSON.stringify({ conversation, count })
+                });
+
+                const data = await response.json();
+
+                if (data.success) {
+                    displayResults(data);
+                } else {
+                    results.innerHTML = `<p style="color: red;">Error: ${data.error}</p>`;
+                }
+            } catch (error) {
+                results.innerHTML = `<p style="color: red;">Error: ${error.message}</p>`;
+            } finally {
+                loading.classList.remove('active');
+            }
+        }
+
+        async function analyzeOnly() {
+            const conversation = document.getElementById('conversation').value.trim();
+            const loading = document.getElementById('loading');
+            const results = document.getElementById('results');
+
+            if (!conversation) {
+                alert('Please enter a conversation!');
+                return;
+            }
+
+            loading.classList.add('active');
+            results.innerHTML = '';
+
+            try {
+                const response = await fetch('/api/analyze', {
+                    method: 'POST',
+                    headers: { 'Content-Type': 'application/json' },
+                    body: JSON.stringify({ conversation })
+                });
+
+                const data = await response.json();
+
+                if (data.success) {
+                    results.innerHTML = `
+                        <div class="analysis">
+                            <h3>📊 Conversation Analysis</h3>
+                            <div class="analysis-item">
+                                <span class="analysis-label">Detected Tone:</span>
+                                <span class="analysis-value">${data.analysis.tone}</span>
+                            </div>
+                            <div class="analysis-item">
+                                <span class="analysis-label">Conversation Stage:</span>
+                                <span class="analysis-value">${data.analysis.stage}</span>
+                            </div>
+                            <div class="analysis-item">
+                                <span class="analysis-label">Preferred Style:</span>
+                                <span class="analysis-value">${data.analysis.preferredStyle}</span>
+                            </div>
+                            ${data.analysis.preferredCategory ? `
+                            <div class="analysis-item">
+                                <span class="analysis-label">Suggested Category:</span>
+                                <span class="analysis-value">${data.analysis.preferredCategory}</span>
+                            </div>
+                            ` : ''}
+                        </div>
+                    `;
+                }
+            } catch (error) {
+                results.innerHTML = `<p style="color: red;">Error: ${error.message}</p>`;
+            } finally {
+                loading.classList.remove('active');
+            }
+        }
+
+        function displayResults(data) {
+            const results = document.getElementById('results');
+            let html = '';
+
+            // Show analysis
+            html += `
+                <div class="analysis">
+                    <h3>📊 Analysis</h3>
+                    <div class="analysis-item">
+                        <span class="analysis-label">Tone:</span>
+                        <span class="analysis-value">${data.analysis.tone}</span>
+                    </div>
+                    <div class="analysis-item">
+                        <span class="analysis-label">Stage:</span>
+                        <span class="analysis-value">${data.analysis.stage}</span>
+                    </div>
+                    <div class="analysis-item">
+                        <span class="analysis-label">Style:</span>
+                        <span class="analysis-value">${data.analysis.preferredStyle}</span>
+                    </div>
+                </div>
+            `;
+
+            // Show recommendations
+            html += `<h3 style="margin: 20px 0 15px; color: #667eea;">💡 Recommended Lines (${data.count})</h3>`;
+
+            data.recommendations.forEach((line, index) => {
+                html += `
+                    <div class="line-item">
+                        <div class="line-text">${index + 1}. "${line.line_text}"</div>
+                        <div class="line-meta">
+                            <span class="meta-badge">${line.category}</span>
+                            <span class="meta-badge">${line.style}</span>
+                            <span class="meta-badge">${line.context}</span>
+                            <span class="meta-badge quality-score">⭐ ${line.quality_score}/5.0</span>
+                        </div>
+                    </div>
+                `;
+            });
+
+            results.innerHTML = html;
+        }
+
+        async function getRandomLines() {
+            const category = document.getElementById('filter-category').value;
+            const style = document.getElementById('filter-style').value;
+            const context = document.getElementById('filter-context').value;
+            const count = document.getElementById('filter-count').value;
+
+            const params = new URLSearchParams();
+            if (category) params.append('category', category);
+            if (style) params.append('style', style);
+            if (context) params.append('context', context);
+            params.append('count', count);
+
+            try {
+                const response = await fetch(`/api/random?${params}`);
+                const data = await response.json();
+
+                if (data.success) {
+                    displayRandomResults(data.lines);
+                }
+            } catch (error) {
+                console.error('Error:', error);
+            }
+        }
+
+        async function getWeightedRandom() {
+            const count = document.getElementById('filter-count').value;
+
+            try {
+                const response = await fetch(`/api/weighted-random?count=${count}`);
+                const data = await response.json();
+
+                if (data.success) {
+                    displayRandomResults(data.lines);
+                }
+            } catch (error) {
+                console.error('Error:', error);
+            }
+        }
+
+        function displayRandomResults(lines) {
+            const results = document.getElementById('random-results');
+            let html = `<h3 style="margin: 20px 0 15px; color: #667eea;">🎲 Random Selection (${lines.length})</h3>`;
+
+            lines.forEach((line, index) => {
+                html += `
+                    <div class="line-item">
+                        <div class="line-text">${index + 1}. "${line.line_text}"</div>
+                        <div class="line-meta">
+                            <span class="meta-badge">${line.category}</span>
+                            <span class="meta-badge">${line.style}</span>
+                            <span class="meta-badge">${line.context}</span>
+                            <span class="meta-badge quality-score">⭐ ${line.quality_score}/5.0</span>
+                        </div>
+                    </div>
+                `;
+            });
+
+            results.innerHTML = html;
+        }
+
+        // Add sample conversations as examples
+        const samples = [
+            "Hi there! You look amazing today. I love your smile and your beautiful eyes.",
+            "Wah! Niaje msee? Uko poa sana. Nairobi represents!",
+            "That was hilarious! You have such a great sense of humor.",
+            "I can't stop thinking about you since we met."
+        ];
+
+        // You can add a button to load sample conversations if needed
+    </script>
+</body>
+
+</html>

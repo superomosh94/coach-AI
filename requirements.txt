@@ -1,0 +1,9 @@
+mysql-connector-python
+python-dotenv
+python-telegram-bot
+flask
+beautifulsoup4
+requests
+lxml
+
+

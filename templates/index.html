@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vibe Coach - Add Lines</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            padding: 20px;
+        }
+
+        .container {
+            max-width: 600px;
+            margin: 0 auto;
+            background: white;
+            border-radius: 20px;
+            padding: 40px;
+            box-shadow: 0 20px 60px rgba(0,0,0,0.3);
+        }
+
+        h1 {
+            color: #667eea;
+            margin-bottom: 10px;
+            font-size: 2em;
+        }
+
+        .subtitle {
+            color: #666;
+            margin-bottom: 30px;
+        }
+
+        .nav-links {
+            margin-bottom: 30px;
+            display: flex;
+            gap: 15px;
+        }
+
+        .nav-links a {
+            color: #667eea;
+            text-decoration: none;
+            padding: 8px 16px;
+            border: 2px solid #667eea;
+            border-radius: 8px;
+            transition: all 0.3s;
+        }
+
+        .nav-links a:hover {
+            background: #667eea;
+            color: white;
+        }
+
+        .form-group {
+            margin-bottom: 20px;
+        }
+
+        label {
+            display: block;
+            margin-bottom: 8px;
+            color: #333;
+            font-weight: 600;
+        }
+
+        input, select, textarea {
+            width: 100%;
+            padding: 12px;
+            border: 2px solid #e0e0e0;
+            border-radius: 8px;
+            font-size: 16px;
+            transition: border-color 0.3s;
+        }
+
+        input:focus, select:focus, textarea:focus {
+            outline: none;
+            border-color: #667eea;
+        }
+
+        textarea {
+            min-height: 100px;
+            resize: vertical;
+        }
+
+        button {
+            width: 100%;
+            padding: 15px;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            border: none;
+            border-radius: 8px;
+            font-size: 18px;
+            font-weight: 600;
+            cursor: pointer;
+            transition: transform 0.2s;
+        }
+
+        button:hover {
+            transform: translateY(-2px);
+        }
+
+        button:active {
+            transform: translateY(0);
+        }
+
+        .message {
+            padding: 15px;
+            border-radius: 8px;
+            margin-bottom: 20px;
+            display: none;
+        }
+
+        .message.success {
+            background: #d4edda;
+            color: #155724;
+            border: 1px solid #c3e6cb;
+        }
+
+        .message.error {
+            background: #f8d7da;
+            color: #721c24;
+            border: 1px solid #f5c6cb;
+        }
+
+        .required {
+            color: #f44336;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>🎯 Vibe Coach Admin</h1>
+        <p class="subtitle">Add flirting lines to the database</p>
+
+        <div class="nav-links">
+            <a href="/">Add Line</a>
+            <a href="/lines">View Lines</a>
+            <a href="/stats">Statistics</a>
+        </div>
+
+        <div id="message" class="message"></div>
+
+        <form id="addLineForm">
+            <div class="form-group">
+                <label for="line_text">Flirting Line <span class="required">*</span></label>
+                <textarea id="line_text" name="line_text" required placeholder="Enter the flirting line..."></textarea>
+            </div>
+
+            <div class="form-group">
+                <label for="category">Category <span class="required">*</span></label>
+                <select id="category" name="category" required>
+                    <option value="">Select a category</option>
+                    <option value="Opening">Opening</option>
+                    <option value="Playful">Playful</option>
+                    <option value="Romantic">Romantic</option>
+                    <option value="Confident">Confident</option>
+                    <option value="Casual">Casual</option>
+                    <option value="Bold">Bold</option>
+                    <option value="Sweet">Sweet</option>
+                    <option value="Witty">Witty</option>
+                </select>
+            </div>
+
+            <div class="form-group">
+                <label for="style">Style</label>
+                <select id="style" name="style">
+                    <option value="">Select a style</option>
+                    <option value="Kenyan">Kenyan</option>
+                    <option value="Sheng">Sheng</option>
+                    <option value="Swahili">Swahili</option>
+                    <option value="International">International</option>
+                    <option value="Modern">Modern</option>
+                    <option value="Classic">Classic</option>
+                </select>
+            </div>
+
+            <div class="form-group">
+                <label for="language">Language</label>
+                <input type="text" id="language" name="language" placeholder="e.g., English, Swahili, Sheng">
+            </div>
+
+            <div class="form-group">
+                <label for="tags">Tags (comma-separated)</label>
+                <input type="text" id="tags" name="tags" placeholder="e.g., funny, clever, romantic">
+            </div>
+
+            <button type="submit">Add Line</button>
+        </form>
+    </div>
+
+    <script>
+        document.getElementById('addLineForm').addEventListener('submit', async (e) => {
+            e.preventDefault();
+            
+            const formData = new FormData(e.target);
+            const messageDiv = document.getElementById('message');
+            
+            try {
+                const response = await fetch('/add_line', {
+                    method: 'POST',
+                    body: formData
+                });
+                
+                const result = await response.json();
+                
+                if (result.success) {
+                    messageDiv.className = 'message success';
+                    messageDiv.textContent = result.message;
+                    messageDiv.style.display = 'block';
+                    e.target.reset();
+                } else {
+                    messageDiv.className = 'message error';
+                    messageDiv.textContent = result.message;
+                    messageDiv.style.display = 'block';
+                }
+                
+                // Hide message after 3 seconds
+                setTimeout(() => {
+                    messageDiv.style.display = 'none';
+                }, 3000);
+                
+            } catch (error) {
+                messageDiv.className = 'message error';
+                messageDiv.textContent = 'Error: ' + error.message;
+                messageDiv.style.display = 'block';
+            }
+        });
+    </script>
+</body>
+</html>

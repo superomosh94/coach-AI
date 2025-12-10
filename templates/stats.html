@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Statistics - Vibe Coach</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            padding: 20px;
+        }
+
+        .container {
+            max-width: 1000px;
+            margin: 0 auto;
+            background: white;
+            border-radius: 20px;
+            padding: 40px;
+            box-shadow: 0 20px 60px rgba(0, 0, 0, 0.3);
+        }
+
+        h1 {
+            color: #667eea;
+            margin-bottom: 30px;
+        }
+
+        .nav-links {
+            margin-bottom: 30px;
+            display: flex;
+            gap: 15px;
+        }
+
+        .nav-links a {
+            color: #667eea;
+            text-decoration: none;
+            padding: 8px 16px;
+            border: 2px solid #667eea;
+            border-radius: 8px;
+            transition: all 0.3s;
+        }
+
+        .nav-links a:hover {
+            background: #667eea;
+            color: white;
+        }
+
+        .stat-box {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 30px;
+            border-radius: 12px;
+            text-align: center;
+            margin-bottom: 30px;
+        }
+
+        .stat-number {
+            font-size: 48px;
+            font-weight: bold;
+        }
+
+        .stat-label {
+            font-size: 18px;
+            margin-top: 10px;
+        }
+
+        .section {
+            margin-bottom: 30px;
+        }
+
+        h2 {
+            color: #333;
+            margin-bottom: 15px;
+        }
+
+        .category-item {
+            display: flex;
+            justify-content: space-between;
+            padding: 12px;
+            background: #f8f9fa;
+            border-radius: 8px;
+            margin-bottom: 8px;
+        }
+
+        .line-item {
+            padding: 12px;
+            background: #f8f9fa;
+            border-radius: 8px;
+            margin-bottom: 8px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <h1>📊 Database Statistics</h1>
+
+        <div class="nav-links">
+            <a href="/">Add Line</a>
+            <a href="/lines">View Lines</a>
+            <a href="/stats">Statistics</a>
+        </div>
+
+        <div class="stat-box">
+            <div class="stat-number">{{ total_lines }}</div>
+            <div class="stat-label">Total Flirting Lines</div>
+        </div>
+
+        <div class="section">
+            <h2>Lines by Category</h2>
+            {% for cat in by_category %}
+            <div class="category-item">
+                <span>{{ cat.category }}</span>
+                <span><strong>{{ cat.count }}</strong> lines</span>
+            </div>
+            {% endfor %}
+        </div>
+
+        <div class="section">
+            <h2>Most Used Lines</h2>
+            {% for line in most_used %}
+            <div class="line-item">
+                <div>"{{ line.line_text }}"</div>
+                <div style="color: #667eea; margin-top: 5px;">Used {{ line.usage_count }} times</div>
+            </div>
+            {% endfor %}
+        </div>
+    </div>
+</body>
+
+</html>

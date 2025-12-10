@@ -1,0 +1,114 @@
+line_text,category,style,context,stage,target_gender,source_type,quality_score,success_rate,has_emoji,has_question,has_compliment
+"Uko na ubao? Kwa maana umenipoteza huku nimeanguka kwa upendo.",playful,kenyan,opening,initial,female,manual_entry,4.5,0.7,0,1,1
+"Sio mkali, but ukinitazama hivyo, nitaanza kuchemka.",smooth,sheng,response,initial,female,manual_entry,4.7,0.75,0,0,1
+"Unajua nini inanifanya nitabasamu? Notification kutoka kwako.",playful,kenyan,opening,initial,neutral,manual_entry,4.3,0.8,0,1,0
+"Kama ni mbaya kuassume, then assume nikutake.",direct,sheng,opening,initial,female,manual_entry,4.0,0.65,0,0,1
+"Hata kama sio programmer, najua you're my exception handler.",clever,mixed,opening,initial,female,manual_entry,4.2,0.7,0,0,0
+"Uko single kama nilikuwa? Because hii connection ina ping poa.",playful,sheng,opening,initial,female,manual_entry,4.4,0.75,0,1,0
+"Unajua kuskiza voicemail yako ni kama kunywa stoney mchana joto.",smooth,kenyan,response,middle,female,manual_entry,4.6,0.8,0,0,1
+"Kama ni kukosa direction, ningekuuliza location yako.",cheesy,kenyan,opening,initial,female,manual_entry,3.8,0.6,0,0,0
+"Hata ukiniignore, bado nitaendelea kuku-slide kwenye DMs.",bold,sheng,followup,middle,female,manual_entry,4.1,0.7,0,0,1
+"Wewe ni kama Thika Road - nimekuwa stuck kwako kwa masaa.",funny,kenyan,opening,initial,female,manual_entry,4.3,0.72,0,0,0
+"Unaitwa nini? Ata nikiita support, system inasema you're my missing component.",clever,mixed,opening,initial,female,manual_entry,4.5,0.78,0,1,1
+"Kama unataka kunitest, basi niku-test mwenyewe.",direct,sheng,response,advanced,female,manual_entry,4.2,0.68,0,0,0
+"Nimeku-search Google, YouTube, na hata Jumia, but haukupatikani.",playful,kenyan,opening,initial,female,manual_entry,4.4,0.74,0,0,1
+"Hata ukini-block, bado nita-request kufollow tena.",bold,sheng,followup,middle,female,manual_entry,3.9,0.63,0,0,1
+"Unajua unaweza kuwa na million followers, but I'll be your one like.",romantic,mixed,response,middle,female,manual_entry,4.6,0.77,0,0,1
+"Kama ni kukosa credit, ningeku-send airtime daily.",cheesy,kenyan,opening,initial,female,manual_entry,3.7,0.58,0,0,0
+"Wewe ni kama Safaricom - The better option.",smooth,kenyan,compliment,initial,female,manual_entry,4.3,0.71,0,0,1
+"Nimeku-add kwa contacts, now you're my favorite person.",playful,mixed,followup,middle,neutral,manual_entry,4.1,0.69,0,0,1
+"Ukinitaka niku-screenshot, because you're worth saving.",romantic,mixed,response,middle,female,manual_entry,4.5,0.76,0,0,1
+"Kama unajua kunyimwa lift, hio ndio nafsi yangu right now.",funny,sheng,opening,initial,female,manual_entry,4.0,0.7,0,0,0
+"Nimeku-save kwa speed dial, because emergencies happen.",playful,mixed,response,middle,female,manual_entry,4.2,0.72,0,0,0
+"Uko na WiFi? Kwa maana sina connection mingine.",cheesy,kenyan,opening,initial,female,manual_entry,3.8,0.61,0,1,0
+"Nimeku-favorite kama WhatsApp message.",smooth,mixed,response,middle,female,manual_entry,4.3,0.73,0,0,1
+"Ukinitaka niku-download, because offline is boring.",playful,mixed,followup,middle,female,manual_entry,4.1,0.68,0,0,0
+"Wewe ni kama M-Pesa - convenient na reliable.",smooth,kenyan,compliment,initial,female,manual_entry,4.4,0.75,0,0,1
+"Nimeku-bookmark kwa maana sikutaki kupotea.",romantic,mixed,response,middle,female,manual_entry,4.5,0.77,0,0,1
+"Kama ni kukosa data, ningeku-stream offline.",cheesy,kenyan,opening,initial,female,manual_entry,3.6,0.59,0,0,0
+"Wewe ni kama Uber - you take me places.",smooth,kenyan,compliment,initial,female,manual_entry,4.2,0.7,0,0,1
+"Nimeku-star kama important email.",playful,mixed,response,middle,female,manual_entry,4.0,0.67,0,0,0
+"Ukinitaka niku-sync, because being apart is outdated.",clever,mixed,followup,advanced,female,manual_entry,4.3,0.72,0,0,1
+"Wewe ni kama Nairobi sun - impossible to ignore.",romantic,kenyan,compliment,initial,female,manual_entry,4.6,0.78,0,0,1
+"Nimeku-pin kwa top conversations.",playful,mixed,response,middle,neutral,manual_entry,4.1,0.69,0,0,0
+"Kama ni kukosa mboga, ningeku-pea kila siku.",cheesy,kenyan,opening,initial,female,manual_entry,3.5,0.57,0,0,0
+"Wewe ni kama Kenyan tea - sweet na refreshing.",smooth,kenyan,compliment,initial,female,manual_entry,4.3,0.74,0,0,1
+"Nimeku-mute the world, because your volume is enough.",romantic,mixed,response,advanced,female,manual_entry,4.7,0.79,0,0,1
+"Ukinitaka niku-share, because you're too good to keep.",playful,mixed,followup,middle,female,manual_entry,4.2,0.7,0,0,1
+"Wewe ni kama matatu ya Thika Road - always on my mind.",funny,kenyan,opening,initial,female,manual_entry,4.1,0.71,0,0,0
+"Nimeku-save as draft, because perfection takes time.",smooth,mixed,response,middle,female,manual_entry,4.4,0.75,0,0,1
+"Kama ni kukosa jiko, ningeku-cook with love.",cheesy,kenyan,opening,initial,female,manual_entry,3.4,0.56,0,0,0
+"Wewe ni kama Kilimanjaro - breathtaking view.",romantic,kenyan,compliment,initial,female,manual_entry,4.8,0.8,0,0,1
+"Nimeku-archive the rest, you're the only one I need.",romantic,mixed,response,advanced,female,manual_entry,4.6,0.77,0,0,1
+"Sema ukinitaka ni-kujoin group ya wewe na mimi.",direct,sheng,opening,initial,female,manual_entry,4.0,0.66,0,0,0
+"Wapi nimekosea? Maana nimekosa mwezi mzima.",playful,swahili,opening,initial,female,manual_entry,4.2,0.7,0,1,0
+"Unajua hata simu inakata, lakini mazungumzo yetu hayakati.",romantic,swahili,followup,middle,neutral,manual_entry,4.5,0.76,0,0,0
+"Kama ni kukosa simu, ningekupa yangu with unlimited minutes.",cheesy,kenyan,opening,initial,female,manual_entry,3.3,0.55,0,0,0
+"Wewe ni kama satellite - you make my world go round.",smooth,mixed,compliment,initial,female,manual_entry,4.3,0.73,0,0,1
+"Nimeku-block distractions, you're my main focus.",romantic,mixed,response,advanced,female,manual_entry,4.7,0.78,0,0,1
+"Ukinitaka niku-backup, because losing you isn't an option.",romantic,mixed,followup,advanced,female,manual_entry,4.6,0.77,0,0,1
+"Wewe ni kama solar panel - unanipa power.",smooth,kenyan,compliment,initial,female,manual_entry,4.2,0.71,0,0,1
+"Nimeku-silence notifications, your voice is all I want.",romantic,mixed,response,advanced,female,manual_entry,4.8,0.81,0,0,1
+"Sema nikikupa number yangu, uta-i-save kwa nani?",playful,sheng,opening,initial,female,manual_entry,4.1,0.68,0,1,0
+"Unajua hata darasa lingine, but mimi niko kwa class yako.",clever,sheng,response,middle,female,manual_entry,4.3,0.72,0,0,0
+"Kama ni kukosa baiskeli, ningekuchukua piggy-back.",cheesy,kenyan,opening,initial,female,manual_entry,3.2,0.54,0,0,0
+"Wewe ni kama generator - unaninipa light giza.",smooth,kenyan,compliment,initial,female,manual_entry,4.1,0.7,0,0,1
+"Nimeku-close other tabs, you're my homepage.",romantic,mixed,response,advanced,female,manual_entry,4.6,0.78,0,0,1
+"Ukinitaka niku-cache, for faster access always.",playful,mixed,followup,middle,female,manual_entry,4.0,0.67,0,0,0
+"Wewe ni kama emergency exit - you show me the way.",smooth,mixed,compliment,initial,female,manual_entry,4.2,0.71,0,0,1
+"Nimeku-minimize everything else, you're my main window.",romantic,mixed,response,advanced,female,manual_entry,4.7,0.79,0,0,1
+"Sema nikikupigia, uta-jibu ama uta-forward?",playful,sheng,opening,initial,female,manual_entry,4.0,0.65,0,1,0
+"Unajua hata kama ni fake account, bado ningeku-follow.",bold,sheng,response,middle,female,manual_entry,3.9,0.64,0,0,1
+"Kama ni kukosa dawa, ningeku-treat with care.",cheesy,kenyan,opening,initial,female,manual_entry,3.1,0.53,0,0,0
+"Wewe ni kama calculator - you solve my problems.",smooth,mixed,compliment,initial,female,manual_entry,4.0,0.69,0,0,1
+"Nimeku-book for next year, because you're worth waiting for.",romantic,mixed,response,advanced,female,manual_entry,4.8,0.82,0,0,1
+"Are you a parking ticket? Because you have FINE written all over you.",cheesy,international,opening,initial,female,website,3.5,0.5,0,1,1
+"If you were a triangle you'd be acute one.",clever,international,opening,initial,female,website,4.0,0.6,0,0,0
+"Is your name Google? Because you have everything I'm searching for.",cheesy,international,opening,initial,female,website,3.8,0.55,0,1,1
+"Are you made of copper and tellurium? Because you're Cu-Te.",clever,international,opening,initial,female,website,4.1,0.58,0,1,0
+"Do you have a map? I keep getting lost in your eyes.",cheesy,international,opening,initial,female,website,3.2,0.45,0,1,1
+"Is your dad a boxer? Because you're a knockout!",cheesy,international,opening,initial,female,website,3.0,0.4,0,1,1
+"Are you French? Because Eiffel for you.",clever,international,opening,initial,female,website,4.2,0.62,0,1,0
+"Do you like Star Wars? Because Yoda one for me!",funny,international,opening,initial,neutral,website,3.9,0.65,0,1,0
+"Are you a time traveler? Because I see you in my future.",romantic,international,opening,initial,female,website,4.5,0.7,0,1,0
+"Is your name Wi-fi? Because I'm really feeling a connection.",cheesy,international,opening,initial,female,website,3.6,0.5,0,1,0
+"Do you believe in love at first sight, or should I walk by again?",playful,international,opening,initial,female,website,4.3,0.68,0,1,0
+"Are you a bank loan? Because you have my interest.",clever,international,opening,initial,female,website,4.0,0.6,0,1,0
+"Is there an airport nearby or is that just my heart taking off?",cheesy,international,opening,initial,female,website,3.1,0.42,0,1,0
+"Do you have a Band-Aid? I just scraped my knee falling for you.",cheesy,international,opening,initial,female,website,3.3,0.44,0,1,1
+"Are you a campfire? Because you're hot and I want s'more.",cheesy,international,opening,initial,female,website,3.4,0.46,0,1,1
+"Is your dad an artist? Because you're a masterpiece.",smooth,international,compliment,initial,female,website,4.4,0.72,0,1,1
+"Do you have a pencil? Because I want to erase your past and write our future.",romantic,international,opening,initial,female,website,4.6,0.75,0,1,0
+"Are you a camera? Because every time I look at you, I smile.",cheesy,international,opening,initial,female,website,3.5,0.48,0,1,1
+"Is your name Chapstick? Because you're da balm!",funny,international,opening,initial,neutral,website,3.8,0.63,0,1,0
+"Do you like raisins? How do you feel about a date?",clever,international,opening,initial,female,website,4.1,0.64,0,1,0
+"Are you a magician? Because whenever I look at you, everyone else disappears.",romantic,international,opening,initial,female,website,4.7,0.78,0,1,1
+"Is this the Hogwarts Express? Because it feels like you and I are headed somewhere magical.",clever,international,opening,initial,neutral,website,4.3,0.7,0,1,0
+"Do you have a sunburn, or are you always this hot?",cheesy,international,opening,initial,female,website,2.9,0.38,0,1,1
+"Are you a parking ticket? 'Cause you've got "fine" written all over you.",cheesy,international,opening,initial,female,website,3.2,0.41,0,1,1
+"Is your dad a baker? Because you're a cutie pie!",cheesy,international,opening,initial,female,website,3.0,0.39,0,1,1
+"Do you have a mirror in your pocket? Because I can see myself in your pants.",bold,international,opening,initial,female,website,2.5,0.3,0,1,0
+"Are you an alien? Because you just abducted my heart.",cheesy,international,opening,initial,female,website,3.4,0.45,0,1,1
+"Is your name Cinderella? Because I see that dress disappearing at midnight.",bold,international,opening,initial,female,website,2.8,0.35,0,1,0
+"Do you believe in fate? Because I think we were meant to meet.",romantic,international,opening,initial,female,website,4.5,0.74,0,1,0
+"Are you a loan? Because you have my interest.",clever,international,opening,initial,female,website,4.0,0.62,0,1,0
+"I'm not a photographer, but I can picture us together.",smooth,international,opening,initial,female,website,4.2,0.68,0,0,0
+"Do you have a name or can I call you mine?",smooth,international,opening,initial,female,website,4.3,0.7,0,1,0
+"I was wondering if you had an extra heart, because mine was just stolen.",romantic,international,opening,initial,female,website,4.6,0.76,0,0,1
+"If beauty were time, you'd be eternity.",romantic,international,compliment,initial,female,website,4.8,0.82,0,0,1
+"You must be a magician because every time I look at you, everyone else disappears.",romantic,international,compliment,initial,female,website,4.7,0.8,0,0,1
+"I'm not usually this forward, but I had to meet you.",direct,international,opening,initial,female,website,4.4,0.72,0,0,0
+"If I could rearrange the alphabet, I'd put U and I together.",cheesy,international,opening,initial,female,website,3.9,0.6,0,0,0
+"You're like a dream I never want to wake up from.",romantic,international,compliment,initial,female,website,4.9,0.85,0,0,1
+"I think my heart just skipped a beat when you smiled.",romantic,international,response,initial,female,website,4.5,0.78,0,0,1
+"You're the reason I believe in love at first sight.",romantic,international,compliment,initial,female,website,4.7,0.81,0,0,1
+"I don't need to see the stars when I can look at your eyes.",romantic,international,compliment,initial,female,website,4.8,0.83,0,0,1
+"You make my heart smile.",romantic,international,compliment,initial,neutral,website,4.6,0.79,0,0,1
+"I was going to say something clever, but you left me speechless.",smooth,international,opening,initial,female,website,4.3,0.71,0,0,1
+"You're more beautiful than the most perfect sunset.",romantic,international,compliment,initial,female,website,4.7,0.8,0,0,1
+"I think you're the missing piece I've been searching for.",romantic,international,opening,initial,neutral,website,4.5,0.77,0,0,1
+"Your smile is brighter than the sun.",romantic,international,compliment,initial,female,website,4.4,0.75,0,0,1
+"I didn't believe in destiny until now.",romantic,international,opening,initial,female,website,4.6,0.79,0,0,0
+"You're the best thing that's happened to me all day.",smooth,international,response,initial,neutral,website,4.2,0.7,0,0,1
+"I feel like I've known you forever, even though we just met.",romantic,international,opening,initial,neutral,website,4.5,0.76,0,0,0
+"You're the answer to every prayer I never prayed.",romantic,international,compliment,initial,female,website,4.9,0.86,0,0,1
