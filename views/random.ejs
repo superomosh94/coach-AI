@@ -1,0 +1,399 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>
+        <%= title %>
+    </title>
+    <link rel="icon" type="image/png" href="/images/favicon.png">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.css">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-image: url('/images/dark-home-bg.png');
+            background-size: cover;
+            background-position: center;
+            background-attachment: fixed;
+            background-color: #0f0f1e;
+            min-height: 100vh;
+            padding: 20px;
+        }
+
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+        }
+
+        .header {
+            text-align: center;
+            color: white;
+            margin-bottom: 30px;
+        }
+
+        .header h1 {
+            font-size: 2.5em;
+            margin-bottom: 10px;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+        }
+
+        .nav-links {
+            display: flex;
+            justify-content: center;
+            gap: 15px;
+            margin-bottom: 30px;
+            flex-wrap: wrap;
+        }
+
+        .nav-links a {
+            color: white;
+            text-decoration: none;
+            padding: 10px 25px;
+            background: rgba(255, 255, 255, 0.2);
+            border-radius: 25px;
+            backdrop-filter: blur(10px);
+            transition: all 0.3s;
+        }
+
+        .nav-links a:hover,
+        .nav-links a.active {
+            background: rgba(255, 255, 255, 0.3);
+            transform: translateY(-2px);
+            font-weight: bold;
+        }
+
+        .card {
+            background: white;
+            border-radius: 20px;
+            padding: 30px;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+            margin-bottom: 30px;
+        }
+
+        .card h2 {
+            color: #667eea;
+            margin-bottom: 20px;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+
+        .filter-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 15px;
+            margin-bottom: 25px;
+        }
+
+        .filter-item {
+            display: flex;
+            flex-direction: column;
+        }
+
+        .filter-item label {
+            font-weight: 600;
+            margin-bottom: 5px;
+            color: #333;
+        }
+
+        select,
+        input[type="number"] {
+            padding: 12px;
+            border: 2px solid #e0e0e0;
+            border-radius: 10px;
+            font-size: 14px;
+            transition: border-color 0.3s;
+        }
+
+        select:focus,
+        input:focus {
+            outline: none;
+            border-color: #667eea;
+        }
+
+        .button-group {
+            display: flex;
+            justify-content: center;
+            margin-bottom: 30px;
+        }
+
+        button.generate-btn {
+            background: linear-gradient(135deg, #a18cd1 0%, #fbc2eb 100%);
+            color: white;
+            padding: 15px 40px;
+            border: none;
+            border-radius: 50px;
+            font-size: 18px;
+            font-weight: bold;
+            cursor: pointer;
+            transition: transform 0.3s, box-shadow 0.3s;
+            box-shadow: 0 10px 20px rgba(161, 140, 209, 0.4);
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+
+        button.generate-btn:hover {
+            transform: translateY(-3px) scale(1.05);
+            box-shadow: 0 15px 30px rgba(161, 140, 209, 0.5);
+        }
+
+        /* Line Item Styles */
+        .line-item {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 25px;
+            border-radius: 15px;
+            margin-bottom: 20px;
+            box-shadow: 0 5px 15px rgba(102, 126, 234, 0.3);
+            transition: transform 0.3s;
+            animation: fadeIn 0.5s ease-out;
+        }
+
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+                transform: translateY(10px);
+            }
+
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        .line-item:hover {
+            transform: translateY(-3px);
+        }
+
+        .line-text {
+            font-size: 20px;
+            margin-bottom: 15px;
+            line-height: 1.5;
+            font-weight: 500;
+        }
+
+        .line-meta {
+            display: flex;
+            gap: 10px;
+            font-size: 14px;
+            opacity: 0.9;
+            flex-wrap: wrap;
+        }
+
+        .meta-badge {
+            background: rgba(255, 255, 255, 0.2);
+            padding: 5px 15px;
+            border-radius: 20px;
+            backdrop-filter: blur(10px);
+        }
+
+        /* Copy Button Styles */
+        .copy-btn {
+            background: rgba(255, 255, 255, 0.2);
+            border: none;
+            color: white;
+            width: 40px;
+            height: 40px;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            cursor: pointer;
+            transition: all 0.3s;
+            backdrop-filter: blur(5px);
+        }
+
+        .copy-btn:hover {
+            background: white;
+            color: #667eea;
+            transform: scale(1.1);
+        }
+
+        /* Toast Notification */
+        .toast {
+            position: fixed;
+            bottom: 30px;
+            left: 50%;
+            transform: translateX(-50%);
+            background: rgba(0, 0, 0, 0.8);
+            color: white;
+            padding: 12px 24px;
+            border-radius: 30px;
+            z-index: 1000;
+            opacity: 0;
+            transition: opacity 0.3s;
+            pointer-events: none;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+
+        .toast.show {
+            opacity: 1;
+        }
+
+        .empty-state {
+            text-align: center;
+            color: #888;
+            padding: 40px;
+            font-style: italic;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="toast" class="toast">
+        <i class="bi bi-check-circle-fill" style="color: #4ade80;"></i>
+        <span>Copied to clipboard!</span>
+    </div>
+
+    <div class="container">
+        <div class="header">
+            <h1>🎲 Random Line Generator</h1>
+            <p>Roll the dice and find your perfect line</p>
+        </div>
+
+        <div class="nav-links">
+            <a href="/">🏠 Home</a>
+            <a href="/lines">📝 Browse Lines</a>
+            <a href="/analyze">🧠 AI Coach</a>
+            <a href="/random" class="active">🎲 Random</a>
+            <a href="/add">➕ Add Line</a>
+            <a href="/stats">📊 Statistics</a>
+        </div>
+
+        <div class="card">
+            <h2>⚙️ Filters</h2>
+            <div class="filter-grid">
+                <div class="filter-item">
+                    <label>Category</label>
+                    <select id="category">
+                        <option value="">Any Category</option>
+                        <option value="Romantic">Romantic</option>
+                        <option value="Funny">Funny</option>
+                        <option value="Playful">Playful</option>
+                        <option value="Direct">Direct</option>
+                        <option value="Bold">Bold</option>
+                    </select>
+                </div>
+                <div class="filter-item">
+                    <label>Style</label>
+                    <select id="style">
+                        <option value="">Any Style</option>
+                        <option value="Kenyan">Kenyan</option>
+                        <option value="International">International</option>
+                        <option value="Sheng">Sheng</option>
+                    </select>
+                </div>
+                <div class="filter-item">
+                    <label>Count</label>
+                    <select id="count">
+                        <option value="1">1 Line</option>
+                        <option value="3" selected>3 Lines</option>
+                        <option value="5">5 Lines</option>
+                    </select>
+                </div>
+            </div>
+
+            <div class="button-group">
+                <button class="generate-btn" onclick="getRandomLines()">
+                    <i class="bi bi-dice-5-fill"></i> Generate Random Lines
+                </button>
+            </div>
+
+            <div id="results">
+                <div class="empty-state">
+                    Click "Generate" to see some magic! ✨
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        async function getRandomLines() {
+            const category = document.getElementById('category').value;
+            const style = document.getElementById('style').value;
+            const count = document.getElementById('count').value;
+            const resultsDiv = document.getElementById('results');
+
+            // Show loading state
+            resultsDiv.innerHTML = '<div style="text-align:center; padding: 20px;"><div class="spinner-border text-primary" role="status"></div></div>';
+
+            try {
+                // Build query string
+                const params = new URLSearchParams({ count });
+                if (category) params.append('category', category);
+                if (style) params.append('style', style);
+                params.append('minQuality', 3.5); // Prefer higher quality
+
+                const response = await fetch(`/api/random?${params.toString()}`);
+                const data = await response.json();
+
+                if (data.success && data.lines.length > 0) {
+                    let html = '';
+                    data.lines.forEach(line => {
+                        html += `
+                        <div class="line-item">
+                             <div style="display: flex; justify-content: space-between; align-items: start; gap: 10px;">
+                                <div class="line-text">"${line.line_text}"</div>
+                                <button class="copy-btn" onclick="copyToClipboard('${line.line_text.replace(/'/g, "\\'")}', this)" title="Copy line">
+                                    <i class="bi bi-clipboard"></i>
+                                </button>
+                            </div>
+                            <div class="line-meta">
+                                <span class="meta-badge">${line.category}</span>
+                                <span class="meta-badge">${line.style}</span>
+                                <span class="meta-badge">⭐ ${line.quality_score}</span>
+                            </div>
+                        </div>`;
+                    });
+                    resultsDiv.innerHTML = html;
+                } else {
+                    resultsDiv.innerHTML = '<div class="empty-state">No lines found matching those filters. Try broadening your search!</div>';
+                }
+
+            } catch (error) {
+                resultsDiv.innerHTML = `<div class="empty-state" style="color:red">Error: ${error.message}</div>`;
+            }
+        }
+
+        function copyToClipboard(text, btn) {
+            navigator.clipboard.writeText(text).then(() => {
+                // Show feedback on button
+                const icon = btn.querySelector('i');
+                const originalClass = icon.className;
+
+                icon.className = 'bi bi-check-lg';
+                btn.style.background = '#4ade80';
+                btn.style.color = 'white';
+
+                // Show toast
+                const toast = document.getElementById('toast');
+                toast.classList.add('show');
+
+                setTimeout(() => {
+                    icon.className = originalClass;
+                    btn.style.background = '';
+                    btn.style.color = '';
+                    toast.classList.remove('show');
+                }, 2000);
+            }).catch(err => {
+                console.error('Failed to copy:', err);
+            });
+        }
+
+        // Load initial random lines
+        window.addEventListener('load', getRandomLines);
+    </script>
+</body>
+
+</html>

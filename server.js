@@ -45,6 +45,14 @@ app.get('/add', (req, res) => {
     res.render('add', { title: 'Add Line', message: null });
 });
 
+app.get('/analyze', (req, res) => {
+    res.render('analyze', { title: 'AI Coach Analysis' });
+});
+
+app.get('/random', (req, res) => {
+    res.render('random', { title: 'Random Line Generator' });
+});
+
 app.post('/add-line', (req, res) => {
     const { line_text, category, style, language, tags } = req.body;
 

@@ -164,23 +164,28 @@ class AIRecommender {
         }
 
         try {
-            const prompt = `You are an expert at analyzing conversations for a flirting coach app. Analyze the following conversation and return a JSON object with these fields:
-
-- tone: The overall tone (choose ONE: romantic, playful, funny, clever, direct, smooth, cheesy, bold)
-- stage: The relationship stage (choose ONE: initial, middle, advanced)
-- preferredStyle: Cultural style (choose ONE: kenyan, international, sheng, mixed, swahili)
-- preferredCategory: Best category for response (choose ONE: romantic, playful, funny, clever, direct, smooth, cheesy, bold)
-- confidence: Your confidence level (0.0 to 1.0)
+            const prompt = `You are an expert flirting coach and communication psychologist. Analyze the specific conversation context below. Do not just label the tone; explain the underlying dynamics.
 
 Conversation: "${conversation}"
 
-Respond with ONLY valid JSON, no additional text.`;
+Return a JSON object with this EXACT structure:
+{
+  "tone": "romantic|playful|funny|clever|direct|smooth|cheesy|bold",
+  "stage": "initial|middle|advanced",
+  "preferredStyle": "kenyan|international|sheng|mixed|swahili",
+  "preferredCategory": "romantic|playful|funny|clever|direct|smooth|cheesy|bold",
+  "intent": "Briefly describe what the other person likely wants or means (e.g., 'She is testing your confidence', 'He seeks validation').",
+  "thoughts": "Your internal analysis of the vibe (1-2 sentences).",
+  "strategy": "The best specific approach to take right now (e.g., 'Tease her about X', 'Be vulnerable').",
+  "suggestion": "A specific, perfect custom response line for this exact moment (not generic).",
+  "confidence": 0.8
+}`;
 
             const completion = await this.groq.chat.completions.create({
                 messages: [
                     {
                         role: "system",
-                        content: "You are a conversation analyzer for a flirting coach app. You respond only with valid JSON."
+                        content: "You are a world-class dating coach. You provide deep psychological insights and actionable advice. Respond with valid JSON only."
                     },
                     {
                         role: "user",
@@ -188,8 +193,8 @@ Respond with ONLY valid JSON, no additional text.`;
                     }
                 ],
                 model: "llama-3.3-70b-versatile",
-                temperature: 0.3,
-                max_tokens: 200,
+                temperature: 0.5,
+                max_tokens: 500,
                 response_format: { type: "json_object" }
             });
 
@@ -201,6 +206,10 @@ Respond with ONLY valid JSON, no additional text.`;
                 stage: analysis.stage || 'initial',
                 preferredStyle: analysis.preferredStyle || 'international',
                 preferredCategory: analysis.preferredCategory || null,
+                intent: analysis.intent || 'Unclear intent',
+                thoughts: analysis.thoughts || 'No specific thoughts',
+                strategy: analysis.strategy || 'Be yourself',
+                suggestion: analysis.suggestion || null,
                 confidence: analysis.confidence || 0.8,
                 method: 'groq-ai',
                 conversation: conversation

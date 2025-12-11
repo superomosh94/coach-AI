@@ -7,74 +7,261 @@
     <title>
         <%= title %>
     </title>
-    <link rel="stylesheet" href="/css/style.css">
+    <link rel="icon" type="image/png" href="/images/favicon.png">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.css">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #0f0c29 0%, #302b63 50%, #24243e 100%);
+            min-height: 100vh;
+            padding: 20px;
+            color: white;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+        }
+
+        .header {
+            text-align: center;
+            margin-bottom: 30px;
+        }
+
+        .header h1 {
+            font-size: 2.5em;
+            margin-bottom: 10px;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+        }
+
+        .subtitle {
+            opacity: 0.8;
+            font-size: 1.1em;
+        }
+
+        /* Navigation */
+        .nav-links {
+            display: flex;
+            justify-content: center;
+            gap: 15px;
+            margin-bottom: 40px;
+            flex-wrap: wrap;
+        }
+
+        .nav-links a {
+            color: white;
+            text-decoration: none;
+            padding: 10px 25px;
+            background: rgba(255, 255, 255, 0.1);
+            border-radius: 25px;
+            backdrop-filter: blur(10px);
+            transition: all 0.3s;
+            border: 1px solid rgba(255, 255, 255, 0.1);
+        }
+
+        .nav-links a:hover,
+        .nav-links a.active {
+            background: rgba(255, 255, 255, 0.25);
+            transform: translateY(-2px);
+            font-weight: bold;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+        }
+
+        /* Form Card */
+        .form-card {
+            background: rgba(255, 255, 255, 0.1);
+            backdrop-filter: blur(10px);
+            border-radius: 20px;
+            padding: 40px;
+            box-shadow: 0 15px 35px rgba(0, 0, 0, 0.2);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+        }
+
+        .form-group {
+            margin-bottom: 25px;
+        }
+
+        label {
+            display: block;
+            margin-bottom: 10px;
+            font-weight: 600;
+            color: #e0e0e0;
+        }
+
+        .required {
+            color: #ff6b6b;
+        }
+
+        input[type="text"],
+        select,
+        textarea {
+            width: 100%;
+            padding: 15px;
+            background: rgba(0, 0, 0, 0.2);
+            border: 2px solid rgba(255, 255, 255, 0.1);
+            border-radius: 12px;
+            color: white;
+            font-size: 16px;
+            transition: all 0.3s;
+        }
+
+        textarea {
+            min-height: 120px;
+            resize: vertical;
+        }
+
+        input:focus,
+        select:focus,
+        textarea:focus {
+            outline: none;
+            border-color: #667eea;
+            background: rgba(0, 0, 0, 0.3);
+            box-shadow: 0 0 0 4px rgba(102, 126, 234, 0.1);
+        }
+
+        select option {
+            background: #24243e;
+            color: white;
+        }
+
+        /* Submit Button */
+        button[type="submit"] {
+            width: 100%;
+            padding: 16px;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            border: none;
+            border-radius: 12px;
+            color: white;
+            font-size: 18px;
+            font-weight: bold;
+            cursor: pointer;
+            transition: transform 0.3s, box-shadow 0.3s;
+            margin-top: 10px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 10px;
+        }
+
+        button[type="submit"]:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 10px 20px rgba(102, 126, 234, 0.4);
+        }
+
+        /* Alerts */
+        .alert {
+            padding: 15px;
+            border-radius: 10px;
+            margin-bottom: 25px;
+            text-align: center;
+        }
+
+        .alert-success {
+            background: rgba(74, 222, 128, 0.2);
+            border: 1px solid #4ade80;
+            color: #4ade80;
+        }
+
+        .alert-error {
+            background: rgba(248, 113, 113, 0.2);
+            border: 1px solid #f87171;
+            color: #f87171;
+        }
+
+        /* Placeholder Color */
+        ::placeholder {
+            color: rgba(255, 255, 255, 0.5);
+        }
+    </style>
 </head>
 
 <body>
     <div class="container">
-        <h1>📝 Add a Flirting Line</h1>
-        <p class="subtitle">Share your best lines with the community</p>
+        <div class="header">
+            <h1>📝 Add a Flirting Line</h1>
+            <p class="subtitle">Share your best lines with the community</p>
+        </div>
 
-        <nav class="nav">
-            <a href="/">Home</a>
-            <a href="/add">Add Line</a>
-            <a href="/lines">View Lines</a>
-            <a href="/stats">Statistics</a>
-        </nav>
+        <div class="nav-links">
+            <a href="/">🏠 Home</a>
+            <a href="/lines">📝 Browse Lines</a>
+            <a href="/analyze">🧠 AI Coach</a>
+            <a href="/random">🎲 Random</a>
+            <a href="/add" class="active">➕ Add Line</a>
+            <a href="/stats">📊 Statistics</a>
+        </div>
 
         <% if (message) { %>
             <div class="alert alert-<%= message.type %>">
-                <%= message.text %>
+                <% if (message.type==='success' ) { %>
+                    <i class="bi bi-check-circle-fill"></i>
+                    <% } else { %>
+                        <i class="bi bi-exclamation-triangle-fill"></i>
+                        <% } %>
+                            <%= message.text %>
             </div>
             <% } %>
 
-                <form action="/add-line" method="POST">
-                    <div class="form-group">
-                        <label for="line_text">Flirting Line <span class="required">*</span></label>
-                        <textarea id="line_text" name="line_text" required
-                            placeholder="Enter the flirting line..."></textarea>
-                    </div>
+                <div class="form-card">
+                    <form action="/add-line" method="POST">
+                        <div class="form-group">
+                            <label for="line_text">Flirting Line <span class="required">*</span></label>
+                            <textarea id="line_text" name="line_text" required
+                                placeholder="Type the line here... Make sure it's smooth! 😉"></textarea>
+                        </div>
 
-                    <div class="form-group">
-                        <label for="category">Category <span class="required">*</span></label>
-                        <select id="category" name="category" required>
-                            <option value="">Select a category</option>
-                            <option value="Opening">Opening</option>
-                            <option value="Playful">Playful</option>
-                            <option value="Romantic">Romantic</option>
-                            <option value="Confident">Confident</option>
-                            <option value="Casual">Casual</option>
-                            <option value="Bold">Bold</option>
-                            <option value="Sweet">Sweet</option>
-                            <option value="Witty">Witty</option>
-                        </select>
-                    </div>
+                        <div class="row">
+                            <div class="col-md-6 form-group">
+                                <label for="category">Category <span class="required">*</span></label>
+                                <select id="category" name="category" required>
+                                    <option value="">Select a category</option>
+                                    <option value="Opening">Opener</option>
+                                    <option value="Playful">Playful</option>
+                                    <option value="Romantic">Romantic</option>
+                                    <option value="Funny">Funny</option>
+                                    <option value="Direct">Direct</option>
+                                    <option value="Bold">Bold</option>
+                                    <option value="Clever">Clever</option>
+                                    <option value="Sweet">Sweet</option>
+                                    <option value="Cheesy">Cheesy</option>
+                                </select>
+                            </div>
 
-                    <div class="form-group">
-                        <label for="style">Style</label>
-                        <select id="style" name="style">
-                            <option value="">Select a style</option>
-                            <option value="Kenyan">Kenyan</option>
-                            <option value="Sheng">Sheng</option>
-                            <option value="Swahili">Swahili</option>
-                            <option value="International">International</option>
-                            <option value="Modern">Modern</option>
-                            <option value="Classic">Classic</option>
-                        </select>
-                    </div>
+                            <div class="col-md-6 form-group">
+                                <label for="style">Style</label>
+                                <select id="style" name="style">
+                                    <option value="International">International</option>
+                                    <option value="Kenyan">Kenyan</option>
+                                    <option value="Sheng">Sheng</option>
+                                    <option value="Swahili">Swahili</option>
+                                </select>
+                            </div>
+                        </div>
 
-                    <div class="form-group">
-                        <label for="language">Language</label>
-                        <input type="text" id="language" name="language" placeholder="e.g., English, Swahili, Sheng">
-                    </div>
+                        <div class="row">
+                            <div class="col-md-6 form-group">
+                                <label for="language">Language</label>
+                                <input type="text" id="language" name="language" placeholder="e.g., English, Swahili">
+                            </div>
 
-                    <div class="form-group">
-                        <label for="tags">Tags (comma-separated)</label>
-                        <input type="text" id="tags" name="tags" placeholder="e.g., funny, clever, romantic">
-                    </div>
+                            <div class="col-md-6 form-group">
+                                <label for="tags">Tags</label>
+                                <input type="text" id="tags" name="tags" placeholder="e.g., rizz, morning, cute">
+                            </div>
+                        </div>
 
-                    <button type="submit">Add Line</button>
-                </form>
+                        <button type="submit">
+                            <i class="bi bi-plus-lg"></i> Add to Collection
+                        </button>
+                    </form>
+                </div>
     </div>
 </body>
 

@@ -1,0 +1,1434 @@
+line_text,category,style,context,stage,target_gender,source_type,quality_score,success_rate,has_emoji,has_question,has_compliment
+"Uko na ubao? Kwa maana umenipoteza huku nimeanguka kwa upendo.",playful,kenyan,opening,initial,female,manual_entry,4.5,0.7,0,1,1
+"Sio mkali, but ukinitazama hivyo, nitaanza kuchemka.",smooth,sheng,response,initial,female,manual_entry,4.7,0.75,0,0,1
+"Unajua nini inanifanya nitabasamu? Notification kutoka kwako.",playful,kenyan,opening,initial,neutral,manual_entry,4.3,0.8,0,1,0
+"Kama ni mbaya kuassume, then assume nikutake.",direct,sheng,opening,initial,female,manual_entry,4.0,0.65,0,0,1
+"Hata kama sio programmer, najua you're my exception handler.",clever,mixed,opening,initial,female,manual_entry,4.2,0.7,0,0,0
+"Uko single kama nilikuwa? Because hii connection ina ping poa.",playful,sheng,opening,initial,female,manual_entry,4.4,0.75,0,1,0
+"Unajua kuskiza voicemail yako ni kama kunywa stoney mchana joto.",smooth,kenyan,response,middle,female,manual_entry,4.6,0.8,0,0,1
+"Kama ni kukosa direction, ningekuuliza location yako.",cheesy,kenyan,opening,initial,female,manual_entry,3.8,0.6,0,0,0
+"Hata ukiniignore, bado nitaendelea kuku-slide kwenye DMs.",bold,sheng,followup,middle,female,manual_entry,4.1,0.7,0,0,1
+"Wewe ni kama Thika Road - nimekuwa stuck kwako kwa masaa.",funny,kenyan,opening,initial,female,manual_entry,4.3,0.72,0,0,0
+"Unaitwa nini? Ata nikiita support, system inasema you're my missing component.",clever,mixed,opening,initial,female,manual_entry,4.5,0.78,0,1,1
+"Kama unataka kunitest, basi niku-test mwenyewe.",direct,sheng,response,advanced,female,manual_entry,4.2,0.68,0,0,0
+"Nimeku-search Google, YouTube, na hata Jumia, but haukupatikani.",playful,kenyan,opening,initial,female,manual_entry,4.4,0.74,0,0,1
+"Hata ukini-block, bado nita-request kufollow tena.",bold,sheng,followup,middle,female,manual_entry,3.9,0.63,0,0,1
+"Unajua unaweza kuwa na million followers, but I'll be your one like.",romantic,mixed,response,middle,female,manual_entry,4.6,0.77,0,0,1
+"Kama ni kukosa credit, ningeku-send airtime daily.",cheesy,kenyan,opening,initial,female,manual_entry,3.7,0.58,0,0,0
+"Wewe ni kama Safaricom - The better option.",smooth,kenyan,compliment,initial,female,manual_entry,4.3,0.71,0,0,1
+"Nimeku-add kwa contacts, now you're my favorite person.",playful,mixed,followup,middle,neutral,manual_entry,4.1,0.69,0,0,1
+"Ukinitaka niku-screenshot, because you're worth saving.",romantic,mixed,response,middle,female,manual_entry,4.5,0.76,0,0,1
+"Kama unajua kunyimwa lift, hio ndio nafsi yangu right now.",funny,sheng,opening,initial,female,manual_entry,4.0,0.7,0,0,0
+"Nimeku-save kwa speed dial, because emergencies happen.",playful,mixed,response,middle,female,manual_entry,4.2,0.72,0,0,0
+"Uko na WiFi? Kwa maana sina connection mingine.",cheesy,kenyan,opening,initial,female,manual_entry,3.8,0.61,0,1,0
+"Nimeku-favorite kama WhatsApp message.",smooth,mixed,response,middle,female,manual_entry,4.3,0.73,0,0,1
+"Ukinitaka niku-download, because offline is boring.",playful,mixed,followup,middle,female,manual_entry,4.1,0.68,0,0,0
+"Wewe ni kama M-Pesa - convenient na reliable.",smooth,kenyan,compliment,initial,female,manual_entry,4.4,0.75,0,0,1
+"Nimeku-bookmark kwa maana sikutaki kupotea.",romantic,mixed,response,middle,female,manual_entry,4.5,0.77,0,0,1
+"Kama ni kukosa data, ningeku-stream offline.",cheesy,kenyan,opening,initial,female,manual_entry,3.6,0.59,0,0,0
+"Wewe ni kama Uber - you take me places.",smooth,kenyan,compliment,initial,female,manual_entry,4.2,0.7,0,0,1
+"Nimeku-star kama important email.",playful,mixed,response,middle,female,manual_entry,4.0,0.67,0,0,0
+"Ukinitaka niku-sync, because being apart is outdated.",clever,mixed,followup,advanced,female,manual_entry,4.3,0.72,0,0,1
+"Wewe ni kama Nairobi sun - impossible to ignore.",romantic,kenyan,compliment,initial,female,manual_entry,4.6,0.78,0,0,1
+"Nimeku-pin kwa top conversations.",playful,mixed,response,middle,neutral,manual_entry,4.1,0.69,0,0,0
+"Kama ni kukosa mboga, ningeku-pea kila siku.",cheesy,kenyan,opening,initial,female,manual_entry,3.5,0.57,0,0,0
+"Wewe ni kama Kenyan tea - sweet na refreshing.",smooth,kenyan,compliment,initial,female,manual_entry,4.3,0.74,0,0,1
+"Nimeku-mute the world, because your volume is enough.",romantic,mixed,response,advanced,female,manual_entry,4.7,0.79,0,0,1
+"Ukinitaka niku-share, because you're too good to keep.",playful,mixed,followup,middle,female,manual_entry,4.2,0.7,0,0,1
+"Wewe ni kama matatu ya Thika Road - always on my mind.",funny,kenyan,opening,initial,female,manual_entry,4.1,0.71,0,0,0
+"Nimeku-save as draft, because perfection takes time.",smooth,mixed,response,middle,female,manual_entry,4.4,0.75,0,0,1
+"Kama ni kukosa jiko, ningeku-cook with love.",cheesy,kenyan,opening,initial,female,manual_entry,3.4,0.56,0,0,0
+"Wewe ni kama Kilimanjaro - breathtaking view.",romantic,kenyan,compliment,initial,female,manual_entry,4.8,0.8,0,0,1
+"Nimeku-archive the rest, you're the only one I need.",romantic,mixed,response,advanced,female,manual_entry,4.6,0.77,0,0,1
+"Sema ukinitaka ni-kujoin group ya wewe na mimi.",direct,sheng,opening,initial,female,manual_entry,4.0,0.66,0,0,0
+"Wapi nimekosea? Maana nimekosa mwezi mzima.",playful,swahili,opening,initial,female,manual_entry,4.2,0.7,0,1,0
+"Unajua hata simu inakata, lakini mazungumzo yetu hayakati.",romantic,swahili,followup,middle,neutral,manual_entry,4.5,0.76,0,0,0
+"Kama ni kukosa simu, ningekupa yangu with unlimited minutes.",cheesy,kenyan,opening,initial,female,manual_entry,3.3,0.55,0,0,0
+"Wewe ni kama satellite - you make my world go round.",smooth,mixed,compliment,initial,female,manual_entry,4.3,0.73,0,0,1
+"Nimeku-block distractions, you're my main focus.",romantic,mixed,response,advanced,female,manual_entry,4.7,0.78,0,0,1
+"Ukinitaka niku-backup, because losing you isn't an option.",romantic,mixed,followup,advanced,female,manual_entry,4.6,0.77,0,0,1
+"Wewe ni kama solar panel - unanipa power.",smooth,kenyan,compliment,initial,female,manual_entry,4.2,0.71,0,0,1
+"Nimeku-silence notifications, your voice is all I want.",romantic,mixed,response,advanced,female,manual_entry,4.8,0.81,0,0,1
+"Sema nikikupa number yangu, uta-i-save kwa nani?",playful,sheng,opening,initial,female,manual_entry,4.1,0.68,0,1,0
+"Unajua hata darasa lingine, but mimi niko kwa class yako.",clever,sheng,response,middle,female,manual_entry,4.3,0.72,0,0,0
+"Kama ni kukosa baiskeli, ningekuchukua piggy-back.",cheesy,kenyan,opening,initial,female,manual_entry,3.2,0.54,0,0,0
+"Wewe ni kama generator - unaninipa light giza.",smooth,kenyan,compliment,initial,female,manual_entry,4.1,0.7,0,0,1
+"Nimeku-close other tabs, you're my homepage.",romantic,mixed,response,advanced,female,manual_entry,4.6,0.78,0,0,1
+"Ukinitaka niku-cache, for faster access always.",playful,mixed,followup,middle,female,manual_entry,4.0,0.67,0,0,0
+"Wewe ni kama emergency exit - you show me the way.",smooth,mixed,compliment,initial,female,manual_entry,4.2,0.71,0,0,1
+"Nimeku-minimize everything else, you're my main window.",romantic,mixed,response,advanced,female,manual_entry,4.7,0.79,0,0,1
+"Sema nikikupigia, uta-jibu ama uta-forward?",playful,sheng,opening,initial,female,manual_entry,4.0,0.65,0,1,0
+"Unajua hata kama ni fake account, bado ningeku-follow.",bold,sheng,response,middle,female,manual_entry,3.9,0.64,0,0,1
+"Kama ni kukosa dawa, ningeku-treat with care.",cheesy,kenyan,opening,initial,female,manual_entry,3.1,0.53,0,0,0
+"Wewe ni kama calculator - you solve my problems.",smooth,mixed,compliment,initial,female,manual_entry,4.0,0.69,0,0,1
+"Nimeku-book for next year, because you're worth waiting for.",romantic,mixed,response,advanced,female,manual_entry,4.8,0.82,0,0,1
+"Are you a parking ticket? Because you have FINE written all over you.",cheesy,international,opening,initial,female,website,3.5,0.5,0,1,1
+"If you were a triangle you'd be acute one.",clever,international,opening,initial,female,website,4.0,0.6,0,0,0
+"Is your name Google? Because you have everything I'm searching for.",cheesy,international,opening,initial,female,website,3.8,0.55,0,1,1
+"Are you made of copper and tellurium? Because you're Cu-Te.",clever,international,opening,initial,female,website,4.1,0.58,0,1,0
+"Do you have a map? I keep getting lost in your eyes.",cheesy,international,opening,initial,female,website,3.2,0.45,0,1,1
+"Is your dad a boxer? Because you're a knockout!",cheesy,international,opening,initial,female,website,3.0,0.4,0,1,1
+"Are you French? Because Eiffel for you.",clever,international,opening,initial,female,website,4.2,0.62,0,1,0
+"Do you like Star Wars? Because Yoda one for me!",funny,international,opening,initial,neutral,website,3.9,0.65,0,1,0
+"Are you a time traveler? Because I see you in my future.",romantic,international,opening,initial,female,website,4.5,0.7,0,1,0
+"Is your name Wi-fi? Because I'm really feeling a connection.",cheesy,international,opening,initial,female,website,3.6,0.5,0,1,0
+"Do you believe in love at first sight, or should I walk by again?",playful,international,opening,initial,female,website,4.3,0.68,0,1,0
+"Are you a bank loan? Because you have my interest.",clever,international,opening,initial,female,website,4.0,0.6,0,1,0
+"Is there an airport nearby or is that just my heart taking off?",cheesy,international,opening,initial,female,website,3.1,0.42,0,1,0
+"Do you have a Band-Aid? I just scraped my knee falling for you.",cheesy,international,opening,initial,female,website,3.3,0.44,0,1,1
+"Are you a campfire? Because you're hot and I want s'more.",cheesy,international,opening,initial,female,website,3.4,0.46,0,1,1
+"Is your dad an artist? Because you're a masterpiece.",smooth,international,compliment,initial,female,website,4.4,0.72,0,1,1
+"Do you have a pencil? Because I want to erase your past and write our future.",romantic,international,opening,initial,female,website,4.6,0.75,0,1,0
+"Are you a camera? Because every time I look at you, I smile.",cheesy,international,opening,initial,female,website,3.5,0.48,0,1,1
+"Is your name Chapstick? Because you're da balm!",funny,international,opening,initial,neutral,website,3.8,0.63,0,1,0
+"Do you like raisins? How do you feel about a date?",clever,international,opening,initial,female,website,4.1,0.64,0,1,0
+"Are you a magician? Because whenever I look at you, everyone else disappears.",romantic,international,opening,initial,female,website,4.7,0.78,0,1,1
+"Is this the Hogwarts Express? Because it feels like you and I are headed somewhere magical.",clever,international,opening,initial,neutral,website,4.3,0.7,0,1,0
+"Do you have a sunburn, or are you always this hot?",cheesy,international,opening,initial,female,website,2.9,0.38,0,1,1
+"Are you a parking ticket? 'Cause you've got "fine" written all over you.",cheesy,international,opening,initial,female,website,3.2,0.41,0,1,1
+"Is your dad a baker? Because you're a cutie pie!",cheesy,international,opening,initial,female,website,3.0,0.39,0,1,1
+"Do you have a mirror in your pocket? Because I can see myself in your pants.",bold,international,opening,initial,female,website,2.5,0.3,0,1,0
+"Are you an alien? Because you just abducted my heart.",cheesy,international,opening,initial,female,website,3.4,0.45,0,1,1
+"Is your name Cinderella? Because I see that dress disappearing at midnight.",bold,international,opening,initial,female,website,2.8,0.35,0,1,0
+"Do you believe in fate? Because I think we were meant to meet.",romantic,international,opening,initial,female,website,4.5,0.74,0,1,0
+"Are you a loan? Because you have my interest.",clever,international,opening,initial,female,website,4.0,0.62,0,1,0
+"I'm not a photographer, but I can picture us together.",smooth,international,opening,initial,female,website,4.2,0.68,0,0,0
+"Do you have a name or can I call you mine?",smooth,international,opening,initial,female,website,4.3,0.7,0,1,0
+"I was wondering if you had an extra heart, because mine was just stolen.",romantic,international,opening,initial,female,website,4.6,0.76,0,0,1
+"If beauty were time, you'd be eternity.",romantic,international,compliment,initial,female,website,4.8,0.82,0,0,1
+"You must be a magician because every time I look at you, everyone else disappears.",romantic,international,compliment,initial,female,website,4.7,0.8,0,0,1
+"I'm not usually this forward, but I had to meet you.",direct,international,opening,initial,female,website,4.4,0.72,0,0,0
+"If I could rearrange the alphabet, I'd put U and I together.",cheesy,international,opening,initial,female,website,3.9,0.6,0,0,0
+"You're like a dream I never want to wake up from.",romantic,international,compliment,initial,female,website,4.9,0.85,0,0,1
+"I think my heart just skipped a beat when you smiled.",romantic,international,response,initial,female,website,4.5,0.78,0,0,1
+"You're the reason I believe in love at first sight.",romantic,international,compliment,initial,female,website,4.7,0.81,0,0,1
+"I don't need to see the stars when I can look at your eyes.",romantic,international,compliment,initial,female,website,4.8,0.83,0,0,1
+"You make my heart smile.",romantic,international,compliment,initial,neutral,website,4.6,0.79,0,0,1
+"I was going to say something clever, but you left me speechless.",smooth,international,opening,initial,female,website,4.3,0.71,0,0,1
+"You're more beautiful than the most perfect sunset.",romantic,international,compliment,initial,female,website,4.7,0.8,0,0,1
+"I think you're the missing piece I've been searching for.",romantic,international,opening,initial,neutral,website,4.5,0.77,0,0,1
+"Your smile is brighter than the sun.",romantic,international,compliment,initial,female,website,4.4,0.75,0,0,1
+"I didn't believe in destiny until now.",romantic,international,opening,initial,female,website,4.6,0.79,0,0,0
+"You're the best thing that's happened to me all day.",smooth,international,response,initial,neutral,website,4.2,0.7,0,0,1
+"I feel like I've known you forever, even though we just met.",romantic,international,opening,initial,neutral,website,4.5,0.76,0,0,0
+"You're the answer to every prayer I never prayed.",romantic,international,compliment,initial,female,website,4.9,0.86,0,0,1
+"Are you a 90 degree angle? Because you're looking right.",funny,international,opening,initial,female,website,4.0,0.65,0,1,0
+"Is your name Ariel? Because we mermaid for each other.",funny,international,opening,initial,female,website,3.8,0.63,0,1,0
+"Are you made of grapes? Because you're fine and I want wine.",funny,international,opening,initial,female,website,3.9,0.64,0,1,1
+"Do you have a sunburn or are you always this hot? Just kidding, that was terrible.",funny,international,opening,initial,female,website,3.7,0.62,0,1,1
+"Are you a dictionary? Because you're adding meaning to my life.",clever,international,opening,initial,female,website,4.2,0.68,0,1,0
+"Is your name Google? Because you have everything I've been searching for, and I'm not even talking about the internet.",clever,international,opening,initial,female,website,4.3,0.7,0,1,0
+"Are you a bank loan? Because you have my interest and I'm willing to pay it back over a lifetime.",clever,international,opening,initial,female,website,4.1,0.67,0,1,0
+"Do you like Star Wars? Because Yoda only one for me! And I'm not even a Jedi.",funny,international,opening,initial,neutral,website,4.0,0.66,0,1,0
+"Are you a time traveler? Because I see you in my future, and I've checked - it looks pretty good.",clever,international,opening,initial,female,website,4.4,0.72,0,1,0
+"Is your name Wi-fi? Because I'm really feeling a connection, and I hope it doesn't drop.",funny,international,opening,initial,female,website,3.9,0.65,0,1,0
+"I don't have a pickup line. I just wanted to say you're stunning.",direct,international,opening,initial,female,website,4.7,0.8,0,0,1
+"Normally I'd think of something clever to say, but you left me speechless.",direct,international,opening,initial,female,website,4.6,0.79,0,0,1
+"I'm not usually this forward, but I had to say hello.",direct,international,opening,initial,female,website,4.5,0.77,0,0,0
+"I'm supposed to be doing something else, but I can't stop looking at you.",direct,international,opening,initial,female,website,4.4,0.75,0,0,1
+"I'll stop staring when you say yes to coffee.",direct,international,opening,initial,female,website,4.3,0.73,0,0,0
+"I know this is forward, but would you like to have dinner with me?",direct,international,opening,initial,female,website,4.6,0.78,0,1,0
+"I don't believe in wasting time. Would you like to go out sometime?",direct,international,opening,initial,neutral,website,4.5,0.76,0,1,0
+"I'm going to be honest - I think you're amazing and I'd like to get to know you.",direct,international,opening,initial,female,website,4.7,0.81,0,0,1
+"Life's too short for games. Can I take you out?",direct,international,opening,initial,female,website,4.4,0.74,0,1,0
+"I don't have a clever line. I just think you're beautiful.",direct,international,opening,initial,female,website,4.8,0.83,0,0,1
+"That's interesting. Tell me more.",smooth,international,response,middle,neutral,website,4.0,0.7,0,0,0
+"I love your perspective on that.",smooth,international,response,middle,neutral,website,4.2,0.72,0,0,1
+"You have a really great way of looking at things.",smooth,international,response,middle,neutral,website,4.3,0.74,0,0,1
+"That says a lot about you, and I like what I'm hearing.",smooth,international,response,middle,neutral,website,4.4,0.76,0,0,1
+"You're not just beautiful, you're interesting too.",smooth,international,response,middle,female,website,4.5,0.78,0,0,1
+"I could listen to you talk all day.",romantic,international,response,middle,neutral,website,4.6,0.8,0,0,1
+"You make even ordinary things sound fascinating.",romantic,international,response,middle,neutral,website,4.4,0.77,0,0,1
+"I'm really enjoying this conversation.",smooth,international,response,middle,neutral,website,4.2,0.73,0,0,0
+"You have a great sense of humor.",smooth,international,response,middle,neutral,website,4.3,0.75,0,0,1
+"That's actually really impressive.",smooth,international,response,middle,neutral,website,4.1,0.71,0,0,1
+"So, what's your story?",smooth,international,followup,middle,neutral,website,4.0,0.68,0,1,0
+"Tell me something about yourself that would surprise me.",playful,international,followup,middle,neutral,website,4.2,0.7,0,1,0
+"What's the most adventurous thing you've ever done?",playful,international,followup,middle,neutral,website,4.1,0.69,0,1,0
+"If you could travel anywhere right now, where would you go?",playful,international,followup,middle,neutral,website,4.0,0.67,0,1,0
+"What makes you genuinely happy?",romantic,international,followup,middle,neutral,website,4.5,0.76,0,1,0
+"What's your idea of a perfect day?",romantic,international,followup,middle,neutral,website,4.4,0.75,0,1,0
+"What's something you're passionate about?",smooth,international,followup,middle,neutral,website,4.3,0.74,0,1,0
+"What's the best compliment you've ever received?",smooth,international,followup,middle,neutral,website,4.2,0.72,0,1,0
+"What's something you've always wanted to try?",playful,international,followup,middle,neutral,website,4.1,0.7,0,1,0
+"If you had a superpower, what would it be?",playful,international,followup,middle,neutral,website,4.0,0.71,0,1,0
+"What's your favorite way to spend a weekend?",smooth,international,followup,middle,neutral,website,3.9,0.69,0,1,0
+"What's the best meal you've ever had?",smooth,international,followup,middle,neutral,website,3.8,0.68,0,1,0
+"What's something you're really good at?",smooth,international,followup,middle,neutral,website,4.1,0.72,0,1,0
+"What's the most spontaneous thing you've ever done?",playful,international,followup,middle,neutral,website,4.2,0.73,0,1,0
+"What's your favorite thing about yourself?",romantic,international,followup,middle,neutral,website,4.6,0.78,0,1,1
+"What's something not many people know about you?",smooth,international,followup,middle,neutral,website,4.3,0.75,0,1,0
+"What's your biggest dream?",romantic,international,followup,middle,neutral,website,4.7,0.8,0,1,0
+"What's the best advice you've ever received?",smooth,international,followup,middle,neutral,website,4.2,0.74,0,1,0
+"What's something you're looking forward to?",smooth,international,followup,middle,neutral,website,4.1,0.72,0,1,0
+"What's your favorite memory?",romantic,international,followup,middle,neutral,website,4.5,0.77,0,1,0
+"What makes you laugh the most?",playful,international,followup,middle,neutral,website,4.0,0.7,0,1,0
+"What's your favorite thing to do when you have free time?",smooth,international,followup,middle,neutral,website,3.9,0.69,0,1,0
+"What's something you're proud of?",smooth,international,followup,middle,neutral,website,4.2,0.73,0,1,0
+"What's the most beautiful place you've ever been?",romantic,international,followup,middle,neutral,website,4.4,0.76,0,1,0
+"What's something you've learned recently?",smooth,international,followup,middle,neutral,website,4.1,0.72,0,1,0
+"What's your favorite quality in a person?",romantic,international,followup,middle,neutral,website,4.5,0.78,0,1,0
+"What's something you'd like to learn?",smooth,international,followup,middle,neutral,website,4.0,0.71,0,1,0
+"What's your idea of a perfect relationship?",romantic,international,followup,advanced,neutral,website,4.6,0.79,0,1,0
+"What's the most important thing in life to you?",romantic,international,followup,advanced,neutral,website,4.7,0.81,0,1,0
+"What's something you value most in friendship?",smooth,international,followup,middle,neutral,website,4.3,0.75,0,1,0
+"What's your favorite way to show someone you care?",romantic,international,followup,advanced,neutral,website,4.5,0.78,0,1,0
+"What's something you're grateful for today?",romantic,international,followup,middle,neutral,website,4.4,0.77,0,1,0
+"What's the best gift you've ever received?",smooth,international,followup,middle,neutral,website,4.1,0.73,0,1,0
+"What's your favorite thing to do on a rainy day?",smooth,international,followup,middle,neutral,website,3.8,0.7,0,1,0
+"What's something that always makes you smile?",romantic,international,followup,middle,neutral,website,4.3,0.76,0,1,0
+"What's your favorite season and why?",smooth,international,followup,middle,neutral,website,3.9,0.71,0,1,0
+"What's the best book you've read recently?",smooth,international,followup,middle,neutral,website,4.0,0.72,0,1,0
+"What's your favorite type of music?",smooth,international,followup,middle,neutral,website,3.7,0.69,0,1,0
+"What's something you've always wanted to ask me?",playful,international,followup,middle,neutral,website,4.2,0.74,0,1,0
+"What's your favorite thing about where you live?",smooth,international,followup,middle,neutral,website,3.8,0.7,0,1,0
+"What's something you're excited about right now?",smooth,international,followup,middle,neutral,website,4.1,0.73,0,1,0
+"What's your favorite childhood memory?",romantic,international,followup,middle,neutral,website,4.5,0.78,0,1,0
+"What's something you'd tell your younger self?",smooth,international,followup,middle,neutral,website,4.3,0.76,0,1,0
+"What's your favorite way to relax?",smooth,international,followup,middle,neutral,website,3.9,0.71,0,1,0
+"What's something you find really attractive in someone?",romantic,international,followup,advanced,neutral,website,4.6,0.79,0,1,0
+"What's your favorite quality about yourself?",smooth,international,followup,middle,neutral,website,4.2,0.75,0,1,1
+"What's something that inspires you?",romantic,international,followup,middle,neutral,website,4.4,0.77,0,1,0
+"What's your idea of a perfect evening?",romantic,international,followup,middle,neutral,website,4.5,0.78,0,1,0
+"What's something you're really looking forward to in the future?",romantic,international,followup,middle,neutral,website,4.3,0.76,0,1,0
+"What's your favorite thing about conversations like this?",smooth,international,followup,middle,neutral,website,4.1,0.74,0,1,0
+"What's something you wish more people understood about you?",romantic,international,followup,advanced,neutral,website,4.7,0.8,0,1,0
+"What's your favorite thing to do when you're alone?",smooth,international,followup,middle,neutral,website,4.0,0.73,0,1,0
+"What's something that always makes your day better?",romantic,international,followup,middle,neutral,website,4.4,0.77,0,1,0
+"What's your favorite way to connect with someone?",romantic,international,followup,advanced,neutral,website,4.6,0.79,0,1,0
+"Wewe ni kama satellite - una-update my world view.",smooth,kenyan,compliment,initial,female,manual_entry,4.3,0.72,0,0,1
+"Nimeku-follow kama important thread.",playful,mixed,response,middle,female,manual_entry,4.0,0.68,0,0,0
+"Ukinitaka niku-subscribe, because you're premium content.",romantic,mixed,followup,advanced,female,manual_entry,4.5,0.76,0,0,1
+"Wewe ni kama Nairobi skyline - breathtaking at night.",romantic,kenyan,compliment,initial,female,manual_entry,4.7,0.79,0,0,1
+"Nimeku-save as contact, because you're essential.",smooth,mixed,response,middle,female,manual_entry,4.2,0.71,0,0,1
+"Kama ni kukosa petrol, ningekuchukua kwa baiskeli.",cheesy,kenyan,opening,initial,female,manual_entry,3.0,0.52,0,0,0
+"Wewe ni kama hot towel - unaninipa warmth.",smooth,kenyan,compliment,initial,female,manual_entry,4.1,0.7,0,0,1
+"Nimeku-upload to my heart, you're permanent storage.",romantic,mixed,response,advanced,female,manual_entry,4.6,0.78,0,0,1
+"Sema nikiku-send friend request, uta-accept?",playful,sheng,opening,initial,female,manual_entry,4.0,0.66,0,1,0
+"Unajua hata kama ni spam, bado ningeku-open.",bold,sheng,response,middle,female,manual_entry,3.8,0.63,0,0,1
+"Kama ni kukosa blanket, ningekufunika with attention.",cheesy,kenyan,opening,initial,female,manual_entry,3.1,0.54,0,0,0
+"Wewe ni kama morning dew - fresh na beautiful.",romantic,kenyan,compliment,initial,female,manual_entry,4.8,0.81,0,0,1
+"Nimeku-set as wallpaper, you're my daily view.",romantic,mixed,response,advanced,female,manual_entry,4.7,0.8,0,0,1
+"Ukinitaka niku-refresh, because you're worth reloading.",playful,mixed,followup,middle,female,manual_entry,4.1,0.69,0,0,0
+"Wewe ni kama Kenyan sunrise - huanza day yangu vizuri.",smooth,kenyan,compliment,initial,female,manual_entry,4.4,0.74,0,0,1
+"Nimeku-save in cloud, because you're too important to lose.",romantic,mixed,response,advanced,female,manual_entry,4.9,0.85,0,0,1
+"Sema nikiku-add kwa WhatsApp, uta-ni-save?",playful,sheng,opening,initial,female,manual_entry,4.0,0.67,0,1,0
+"Unajua hata kama una DND, bado ningekupigia.",bold,sheng,response,middle,female,manual_entry,3.9,0.65,0,0,0
+"Kama ni kukosa umbrella, ningekufunika na mikono yangu.",cheesy,kenyan,opening,initial,female,manual_entry,3.2,0.55,0,0,0
+"Wewe ni kama full battery - unaninipa energy.",smooth,kenyan,compliment,initial,female,manual_entry,4.2,0.72,0,0,1
+"Nimeku-bookmark my life, you're the important part.",romantic,mixed,response,advanced,female,manual_entry,4.8,0.82,0,0,1
+"Ukinitaka niku-restart, because life was boring before you.",romantic,mixed,followup,advanced,female,manual_entry,4.6,0.77,0,0,1
+"Wewe ni kama Karura Forest - peaceful na beautiful.",romantic,kenyan,compliment,initial,female,manual_entry,4.7,0.79,0,0,1
+"Nimeku-save as favorite location, you're where I want to be.",romantic,mixed,response,advanced,female,manual_entry,4.9,0.84,0,0,1
+"Unajua hata kama ni premium, bado ningeku-subscribe.",bold,sheng,response,middle,female,manual_entry,4.0,0.68,0,0,1
+"Kama ni kukosa flashlight, ningekuonesha njia with my phone.",cheesy,kenyan,opening,initial,female,manual_entry,3.3,0.56,0,0,0
+"Wewe ni kama cold soda mchana joto - exactly what I need.",smooth,kenyan,compliment,initial,female,manual_entry,4.3,0.73,0,0,1
+"Nimeku-priority message, you're always important.",romantic,mixed,response,advanced,female,manual_entry,4.7,0.8,0,0,1
+"Sema nikiku-tag katika post, uta-like?",playful,sheng,opening,initial,female,manual_entry,4.1,0.69,0,1,0
+"Unajua hata kama utani-block, bado nitaenda kukutafuta.",bold,sheng,followup,middle,female,manual_entry,3.7,0.62,0,0,1
+"Kama ni kukosa charger, ningekupa energy yangu.",cheesy,kenyan,opening,initial,female,manual_entry,3.4,0.57,0,0,0
+"Wewe ni kama perfect playlist - unaninipa good vibes.",smooth,kenyan,compliment,initial,female,manual_entry,4.4,0.75,0,0,1
+"Nimeku-save as emergency contact, you're my first call.",romantic,mixed,response,advanced,female,manual_entry,4.8,0.83,0,0,1
+"Ukinitaka niku-update, because you're my latest version.",clever,mixed,followup,advanced,female,manual_entry,4.3,0.72,0,0,1
+"Wewe ni kama Nairobi rain - refreshing na needed.",romantic,kenyan,compliment,initial,female,manual_entry,4.5,0.76,0,0,1
+"Nimeku-save as shortcut, for quick access to happiness.",romantic,mixed,response,advanced,female,manual_entry,4.9,0.86,0,0,1
+"Unajua hata kama uta-report, bado ningeku-message.",bold,sheng,followup,middle,female,manual_entry,3.6,0.6,0,0,0
+"Kama ni kukosa pillow, ningekupa shoulder yangu.",cheesy,kenyan,opening,initial,female,manual_entry,3.5,0.58,0,0,0
+"Wewe ni kama morning coffee - huinspire my day.",smooth,kenyan,compliment,initial,female,manual_entry,4.6,0.77,0,0,1
+"Nimeku-pin to start, you're where my day begins.",romantic,mixed,response,advanced,female,manual_entry,4.8,0.82,0,0,1
+"Sema nikiku-comment, uta-reply?",playful,sheng,opening,initial,female,manual_entry,4.2,0.7,0,1,0
+"Unajua hata kama uta-delete, bado nita-save screenshot.",bold,sheng,response,middle,female,manual_entry,3.8,0.64,0,0,0
+"Kama ni kukosa heater, ningekukumbatia for warmth.",cheesy,kenyan,opening,initial,female,manual_entry,3.6,0.59,0,0,0
+"Wewe ni kama favorite song - nakusikiliza repeatedly.",romantic,kenyan,compliment,initial,female,manual_entry,4.7,0.8,0,0,1
+"Nimeku-save as note, because I don't want to forget you.",romantic,mixed,response,advanced,female,manual_entry,4.9,0.85,0,0,1
+"Ukinitaka niku-download again, because once wasn't enough.",romantic,mixed,followup,advanced,female,manual_entry,4.5,0.76,0,0,1
+"Wewe ni kama Kenyan sunset - beautiful end to my day.",romantic,kenyan,compliment,initial,female,manual_entry,4.8,0.83,0,0,1
+"Nimeku-set as reminder, to appreciate you daily.",romantic,mixed,response,advanced,female,manual_entry,4.9,0.87,0,0,1
+"Unajua hata kama uta-unfriend, bado tutakuwa mutuals in real life.",bold,sheng,followup,advanced,female,manual_entry,3.9,0.66,0,0,0
+"Kama ni kukosa calendar, ningekukumbatia kila siku.",cheesy,kenyan,opening,initial,female,manual_entry,3.7,0.6,0,0,0
+"Wewe ni kama perfect photo - unanifanya nitaka ku-save.",smooth,kenyan,compliment,initial,female,manual_entry,4.5,0.76,0,0,1
+"Nimeku-save as draft message, because you're worth perfecting.",romantic,mixed,response,advanced,female,manual_entry,4.8,0.81,0,0,1
+"Sema nikiku-share, uta-forward?",playful,sheng,opening,initial,female,manual_entry,4.1,0.68,0,1,0
+"Unajua hata kama uta-mute, bado nita-send voice note.",bold,sheng,response,middle,female,manual_entry,3.7,0.62,0,0,0
+"Kama ni kukosa playlist, ningekuimbia kila siku.",cheesy,kenyan,opening,initial,female,manual_entry,3.8,0.61,0,0,0
+"Wewe ni kama favorite app - najikuta niki-open frequently.",smooth,kenyan,compliment,initial,female,manual_entry,4.4,0.74,0,0,1
+"Nimeku-save as voice recording, because your voice is memorable.",romantic,mixed,response,advanced,female,manual_entry,4.7,0.79,0,0,1
+"Ukinitaka niku-bookmark again, because you're worth revisiting.",romantic,mixed,followup,advanced,female,manual_entry,4.6,0.77,0,0,1
+"Wewe ni kama Nairobi night - full of beautiful lights.",romantic,kenyan,compliment,initial,female,manual_entry,4.8,0.82,0,0,1
+"Nimeku-save as alarm, to wake up thinking of you.",romantic,mixed,response,advanced,female,manual_entry,4.9,0.86,0,0,1
+"Unajua hata kama uta-archive, bado nita-restore.",bold,sheng,followup,advanced,female,manual_entry,3.8,0.64,0,0,0
+"Kama ni kukosa map, ningekuonyesha world through my eyes.",cheesy,kenyan,opening,initial,female,manual_entry,3.9,0.62,0,0,0
+"Wewe ni kama perfect temperature - not too hot, not too cold, just right.",smooth,kenyan,compliment,initial,female,manual_entry,4.3,0.73,0,0,1
+"Nimeku-save as contact photo, so I see you every time.",romantic,mixed,response,advanced,female,manual_entry,4.8,0.83,0,0,1
+"Sema nikiku-mention, uta-respond?",playful,sheng,opening,initial,female,manual_entry,4.0,0.67,0,1,0
+"Unajua hata kama uta-restrict, bado nita-view from afar.",bold,sheng,response,middle,female,manual_entry,3.6,0.61,0,0,0
+"Kama ni kukosa diary, ningekuandikia kila siku.",cheesy,kenyan,opening,initial,female,manual_entry,3.5,0.58,0,0,0
+"Wewe ni kama favorite book - nakusoma repeatedly.",romantic,kenyan,compliment,initial,female,manual_entry,4.7,0.8,0,0,1
+"Nimeku-save as screen saver, because you're worth staring at.",romantic,mixed,response,advanced,female,manual_entry,4.9,0.85,0,0,1
+"Ukinitaka niku-reload, because the first load was amazing.",romantic,mixed,followup,advanced,female,manual_entry,4.5,0.75,0,0,1
+"Wewe ni kama Kenyan breeze - cool na refreshing.",romantic,kenyan,compliment,initial,female,manual_entry,4.6,0.78,0,0,1
+"Nimeku-save as notification tone, so I smile when you message.",romantic,mixed,response,advanced,female,manual_entry,4.8,0.84,0,0,1
+"Unajua hata kama uta-hide story, bado nita-ask directly.",bold,sheng,followup,advanced,female,manual_entry,3.7,0.63,0,0,0
+"Kama ni kukosa watch, ningekuonyesha time with my attention.",cheesy,kenyan,opening,initial,female,manual_entry,3.4,0.57,0,0,0
+"Wewe ni kama favorite filter - unamake everything look better.",smooth,kenyan,compliment,initial,female,manual_entry,4.4,0.75,0,0,1
+"Nimeku-save as draft email, because you deserve perfect words.",romantic,mixed,response,advanced,female,manual_entry,4.7,0.8,0,0,1
+"Sema nikiku-send location, uta-come?",playful,sheng,opening,initial,female,manual_entry,4.1,0.69,0,1,0
+"Unajua hata kama uta-turn off read receipts, bado nita-wait for reply.",bold,sheng,response,middle,female,manual_entry,3.8,0.65,0,0,0
+"Kama ni kukosa camera, ningekupigia picha kwa macho yangu.",cheesy,kenyan,opening,initial,female,manual_entry,3.3,0.56,0,0,0
+"Wewe ni kama perfect emoji - unaelezea hisia zangu.",smooth,kenyan,compliment,initial,female,manual_entry,4.5,0.76,0,0,1
+"Nimeku-save as browser homepage, you're my first view.",romantic,mixed,response,advanced,female,manual_entry,4.9,0.86,0,0,1
+"Ukinitaka niku-refollow, because unfollowing was a mistake.",romantic,mixed,followup,advanced,female,manual_entry,4.4,0.74,0,0,1
+"Wewe ni kama Nairobi morning - full of promise.",romantic,kenyan,compliment,initial,female,manual_entry,4.7,0.79,0,0,1
+"Nimeku-save as ringtone, so I answer with excitement.",romantic,mixed,response,advanced,female,manual_entry,4.8,0.82,0,0,1
+"Unajua hata kama uta-remove tag, bado nita-remember the moment.",bold,sheng,followup,advanced,female,manual_entry,3.9,0.67,0,0,0
+"Kama ni kukosa radio, ningekusikiliza whole day.",cheesy,kenyan,opening,initial,female,manual_entry,3.2,0.55,0,0,0
+"Wewe ni kama favorite channel - najikuta niki-tune in frequently.",smooth,kenyan,compliment,initial,female,manual_entry,4.3,0.73,0,0,1
+"Nimeku-save as voice mail greeting, so you're the first thing callers hear.",romantic,mixed,response,advanced,female,manual_entry,4.6,0.77,0,0,1
+"Sema nikiku-invite kwa event, uta-attend?",playful,sheng,opening,initial,female,manual_entry,4.0,0.68,0,1,0
+"Unajua hata kama uta-decline, bado nita-invite again.",bold,sheng,response,middle,female,manual_entry,3.7,0.63,0,0,0
+"Kama ni kukosa newspaper, ningekusomea headlines of my life.",cheesy,kenyan,opening,initial,female,manual_entry,3.1,0.54,0,0,0
+"Wewe ni kama breaking news - unanifanya nisikilize carefully.",smooth,kenyan,compliment,initial,female,manual_entry,4.2,0.72,0,0,1
+"Nimeku-save as keyboard shortcut, for quick access to thoughts of you.",romantic,mixed,response,advanced,female,manual_entry,4.7,0.8,0,0,1
+"Ukinitaka niku-reply all, because you deserve all my attention.",romantic,mixed,followup,advanced,female,manual_entry,4.5,0.76,0,0,1
+"Wewe ni kama Kenyan flag - unanifanya nijivunie.",romantic,kenyan,compliment,initial,female,manual_entry,4.8,0.83,0,0,1
+"Nimeku-save as auto-correct, so you're part of everything I type.",romantic,mixed,response,advanced,female,manual_entry,4.9,0.87,0,0,1
+"Unajua hata kama uta-block calls, bado nita-text.",bold,sheng,followup,advanced,female,manual_entry,3.6,0.62,0,0,0
+"Kama ni kukosa TV, ningekuangalia whole series of my life.",cheesy,kenyan,opening,initial,female,manual_entry,3.0,0.53,0,0,0
+"Wewe ni kama favorite show - nakusubscribe for more.",smooth,kenyan,compliment,initial,female,manual_entry,4.1,0.71,0,0,1
+"Nimeku-save as password hint, because you're unforgettable.",romantic,mixed,response,advanced,female,manual_entry,4.8,0.84,0,0,1
+"Sema nikiku-create group, uta-join?",playful,sheng,opening,initial,female,manual_entry,4.2,0.7,0,1,0
+"Unajua hata kama uta-leave group, bado nita-add you again.",bold,sheng,response,middle,female,manual_entry,3.8,0.66,0,0,0
+"Kama ni kukosa magazine, ningekusoma repeatedly.",cheesy,kenyan,opening,initial,female,manual_entry,3.4,0.58,0,0,0
+"Wewe ni kama cover story - najikuta nikiangalia frequently.",smooth,kenyan,compliment,initial,female,manual_entry,4.4,0.75,0,0,1
+"Nimeku-save as desktop background, you're always in view.",romantic,mixed,response,advanced,female,manual_entry,4.9,0.86,0,0,1
+"Ukinitaka niku-forward, because you're worth sharing.",romantic,mixed,followup,advanced,female,manual_entry,4.6,0.78,0,0,1
+"Wewe ni kama Kenyan anthem - unanifanya nisimame with respect.",romantic,kenyan,compliment,initial,female,manual_entry,4.7,0.8,0,0,1
+"Nimeku-save as signature, because you're part of my identity.",romantic,mixed,response,advanced,female,manual_entry,4.9,0.88,0,0,1
+"Unajua hata kama uta-ignore, bado nita-persist.",bold,sheng,followup,advanced,female,manual_entry,3.9,0.68,0,0,0
+"Kama ni kukosa encyclopedia, ningekujua everything about you.",cheesy,kenyan,opening,initial,female,manual_entry,3.5,0.59,0,0,0
+"Wewe ni kama index - unanionyesha where to find happiness.",smooth,kenyan,compliment,initial,female,manual_entry,4.5,0.77,0,0,1
+"Nimeku-save as font style, because you make everything look good.",romantic,mixed,response,advanced,female,manual_entry,4.8,0.85,0,0,1
+"Sema nikiku-schedule meeting, uta-attend?",playful,sheng,opening,initial,female,manual_entry,4.1,0.69,0,1,0
+"Unajua hata kama uta-cancel, bado nita-reschedule.",bold,sheng,response,middle,female,manual_entry,3.7,0.64,0,0,0
+"Kama ni kukosa dictionary, ningekutafuta meaning of life in you.",cheesy,kenyan,opening,initial,female,manual_entry,3.6,0.6,0,0,0
+"Wewe ni kama thesaurus - unanipa better words to describe you.",smooth,kenyan,compliment,initial,female,manual_entry,4.6,0.78,0,0,1
+"Nimeku-save as template, because you're the standard.",romantic,mixed,response,advanced,female,manual_entry,4.9,0.87,0,0,1
+"Ukinitaka niku-copy paste, because you're worth duplicating.",romantic,mixed,followup,advanced,female,manual_entry,4.7,0.81,0,0,1
+"Wewe ni kama Kenyan proverb - full of wisdom na beauty.",romantic,kenyan,compliment,initial,female,manual_entry,4.8,0.84,0,0,1
+"Nimeku-save as default setting, because you're my preference.",romantic,mixed,response,advanced,female,manual_entry,5.0,0.9,0,0,1
+"Unajua hata kama uta-reject, bado nita-propose again.",bold,sheng,followup,advanced,female,manual_entry,4.0,0.7,0,0,0
+"Kama ni kukosa almanac, ningekupredict future with you.",cheesy,kenyan,opening,initial,female,manual_entry,3.7,0.61,0,0,0
+"Wewe ni kama atlas - unanionyesha where I want to be.",smooth,kenyan,compliment,initial,female,manual_entry,4.4,0.75,0,0,1
+"Nimeku-save as favorite font, because you're always in style.",romantic,mixed,response,advanced,female,manual_entry,4.8,0.83,0,0,1
+"Sema nikiku-add kwa calendar, uta-remember?",playful,sheng,opening,initial,female,manual_entry,4.2,0.71,0,1,0
+"Unajua hata kama uta-delete event, bado nita-create new one.",bold,sheng,response,middle,female,manual_entry,3.8,0.67,0,0,0
+"Kama ni kukosa compass, ningekuonyesha direction to my heart.",cheesy,kenyan,opening,initial,female,manual_entry,3.9,0.63,0,0,0
+"Wewe ni kama GPS - unanionyesha route to happiness.",smooth,kenyan,compliment,initial,female,manual_entry,4.3,0.74,0,0,1
+"Nimeku-save as auto-fill, because you complete me.",romantic,mixed,response,advanced,female,manual_entry,4.9,0.86,0,0,1
+"Ukinitaka niku-bookmark life, because you're the best chapter.",romantic,mixed,followup,advanced,female,manual_entry,4.6,0.79,0,0,1
+"Wewe ni kama Kenyan river - flowing na beautiful.",romantic,kenyan,compliment,initial,female,manual_entry,4.7,0.8,0,0,1
+"Nimeku-save as quick access, for when I need inspiration.",romantic,mixed,response,advanced,female,manual_entry,4.8,0.84,0,0,1
+"Unajua hata kama uta-close app, bado nita-restart.",bold,sheng,followup,advanced,female,manual_entry,3.9,0.69,0,0,0
+"Kama ni kukosa telescope, ningekuona clearly from afar.",cheesy,kenyan,opening,initial,female,manual_entry,3.5,0.58,0,0,0
+"Wewe ni kama microscope - unanifanya nione details za perfection.",smooth,kenyan,compliment,initial,female,manual_entry,4.5,0.77,0,0,1
+"Nimeku-save as recent documents, because you're always relevant.",romantic,mixed,response,advanced,female,manual_entry,4.7,0.81,0,0,1
+"Sema nikiku-make admin, uta-manage my heart?",playful,sheng,opening,initial,female,manual_entry,4.1,0.7,0,1,0
+"Unajua hata kama uta-resign, bado nita-hire you again.",bold,sheng,response,middle,female,manual_entry,3.7,0.65,0,0,0
+"Kama ni kukosa scale, ningekupima value in my life.",cheesy,kenyan,opening,initial,female,manual_entry,3.6,0.59,0,0,0
+"Wewe ni kama calculator - unasolve equation of my happiness.",smooth,kenyan,compliment,initial,female,manual_entry,4.4,0.76,0,0,1
+"Nimeku-save as formula, because you're the answer.",romantic,mixed,response,advanced,female,manual_entry,4.9,0.87,0,0,1
+"Ukinitaka niku-integrate, because we're better together.",romantic,mixed,followup,advanced,female,manual_entry,4.8,0.82,0,0,1
+"Wewe ni kama Kenyan mountain - strong na majestic.",romantic,kenyan,compliment,initial,female,manual_entry,4.7,0.79,0,0,1
+"Nimeku-save as constant, because you're always in my equations.",romantic,mixed,response,advanced,female,manual_entry,4.9,0.88,0,0,1
+"Unajua hata kama uta-log out, bado nita-send login request.",bold,sheng,followup,advanced,female,manual_entry,4.0,0.71,0,0,0
+"Kama ni kukosa protractor, ningekupima angles of your beauty.",cheesy,kenyan,opening,initial,female,manual_entry,3.8,0.62,0,0,0
+"Wewe ni kama ruler - unanifanya ni-measure up to your standards.",smooth,kenyan,compliment,initial,female,manual_entry,4.3,0.73,0,0,1
+"Nimeku-save as theorem, because you're proven to be perfect.",romantic,mixed,response,advanced,female,manual_entry,4.8,0.85,0,0,1
+"Sema nikiku-make co-author, uta-write story with me?",playful,sheng,opening,initial,female,manual_entry,4.2,0.72,0,1,0
+"Unajua hata kama uta-decline co-authorship, bado nita-dedicate book to you.",bold,sheng,response,middle,female,manual_entry,3.8,0.68,0,0,0
+"Kama ni kukosa periodic table, ningekupanga as most valuable element.",cheesy,kenyan,opening,initial,female,manual_entry,3.7,0.6,0,0,0
+"Wewe ni kama chemistry - unanifanya react positively.",smooth,kenyan,compliment,initial,female,manual_entry,4.6,0.78,0,0,1
+"Nimeku-save as catalyst, because you speed up my happiness.",romantic,mixed,response,advanced,female,manual_entry,4.9,0.86,0,0,1
+"Ukinitaka niku-experiment with, because you're worth testing.",romantic,mixed,followup,advanced,female,manual_entry,4.5,0.77,0,0,1
+"Wewe ni kama Kenyan soil - fertile with possibilities.",romantic,kenyan,compliment,initial,female,manual_entry,4.8,0.83,0,0,1
+"Nimeku-save as hypothesis, because I believe in us.",romantic,mixed,response,advanced,female,manual_entry,4.9,0.89,0,0,1
+"Unajua hata kama uta-disprove theory, bado nita-research more.",bold,sheng,followup,advanced,female,manual_entry,3.9,0.7,0,0,0
+"Kama ni kukosa beaker, ningekumix na happiness.",cheesy,kenyan,opening,initial,female,manual_entry,3.4,0.57,0,0,0
+"Wewe ni kama Bunsen burner - unanifanya flame of passion.",smooth,kenyan,compliment,initial,female,manual_entry,4.2,0.72,0,0,1
+"Nimeku-save as solution, because you dissolve my problems.",romantic,mixed,response,advanced,female,manual_entry,4.7,0.81,0,0,1
+"Sema nikiku-add kwa experiment, uta-participate?",playful,sheng,opening,initial,female,manual_entry,4.0,0.69,0,1,0
+"Unajua hata kama uta-withdraw consent, bado nita-observe from afar.",bold,sheng,response,middle,female,manual_entry,3.6,0.63,0,0,0
+"Kama ni kukosta test tube, ningeku-test for compatibility.",cheesy,kenyan,opening,initial,female,manual_entry,3.3,0.56,0,0,0
+"Wewe ni kama lab equipment - essential for my research on happiness.",smooth,kenyan,compliment,initial,female,manual_entry,4.1,0.71,0,0,1
+"Nimeku-save as data, because you're statistically significant.",romantic,mixed,response,advanced,female,manual_entry,4.6,0.78,0,0,1
+"Ukinitaka niku-analyze, because you're worth studying.",romantic,mixed,followup,advanced,female,manual_entry,4.3,0.74,0,0,1
+"Wewe ni kama Kenyan ecosystem - diverse na beautiful.",romantic,kenyan,compliment,initial,female,manual_entry,4.7,0.8,0,0,1
+"Nimeku-save as variable, because you change my life for better.",romantic,mixed,response,advanced,female,manual_entry,4.8,0.84,0,0,1
+"Unajua hata kama uta-be control group, bado nita-include you in study.",bold,sheng,followup,advanced,female,manual_entry,3.7,0.66,0,0,0
+"Kama ni kukosa microscope slide, ningeku-examine closely.",cheesy,kenyan,opening,initial,female,manual_entry,3.2,0.55,0,0,0
+"Wewe ni kama petri dish - unagrow culture of love.",smooth,kenyan,compliment,initial,female,manual_entry,4.0,0.7,0,0,1
+"Nimeku-save as specimen, because you're one of a kind.",romantic,mixed,response,advanced,female,manual_entry,4.5,0.76,0,0,1
+"Sema nikiku-label, uta-be mine?",playful,sheng,opening,initial,female,manual_entry,4.1,0.7,0,1,0
+"Unajua hata kama uta-refuse label, bado nita-catalog you as perfect.",bold,sheng,response,middle,female,manual_entry,3.8,0.67,0,0,0
+"Kama ni kukosa centrifuge, ningeku-separate from distractions.",cheesy,kenyan,opening,initial,female,manual_entry,3.5,0.58,0,0,0
+"Wewe ni kama magnet - unanivutia naturally.",smooth,kenyan,compliment,initial,female,manual_entry,4.3,0.73,0,0,1
+"Nimeku-save as reagent, because you react with my heart.",romantic,mixed,response,advanced,female,manual_entry,4.7,0.8,0,0,1
+"Ukinitaka niku-titrate, because you're worth precise measurement.",romantic,mixed,followup,advanced,female,manual_entry,4.4,0.75,0,0,1
+"Wewe ni kama Kenyan wildlife - natural na majestic.",romantic,kenyan,compliment,initial,female,manual_entry,4.8,0.83,0,0,1
+"Nimeku-save as control, because you're my standard for perfection.",romantic,mixed,response,advanced,female,manual_entry,4.9,0.87,0,0,1
+"Unajua hata kama uta-be outlier, bado nita-include you in my data set.",bold,sheng,followup,advanced,female,manual_entry,3.9,0.69,0,0,0
+"Kama ni kukosa pipette, ningeku-transfer to my heart.",cheesy,kenyan,opening,initial,female,manual_entry,3.6,0.59,0,0,0
+"Wewe ni kama graduated cylinder - unanifanya measure my feelings accurately.",smooth,kenyan,compliment,initial,female,manual_entry,4.4,0.75,0,0,1
+"Nimeku-save as compound, because we're better together.",romantic,mixed,response,advanced,female,manual_entry,4.8,0.82,0,0,1
+"Sema nikiku-add kwa reaction, uta-react positively?",playful,sheng,opening,initial,female,manual_entry,4.2,0.71,0,1,0
+"Unajua hata kama uta-be inert, bado nita-activate you.",bold,sheng,response,middle,female,manual_entry,3.7,0.64,0,0,0
+"Kama ni kukosa balance, ningeku-weigh against gold.",cheesy,kenyan,opening,initial,female,manual_entry,3.8,0.61,0,0,0
+"Wewe ni kama pH paper - unanifanya determine my mood is always positive.",smooth,kenyan,compliment,initial,female,manual_entry,4.5,0.76,0,0,1
+"Nimeku-save as element, because you're fundamental to my happiness.",romantic,mixed,response,advanced,female,manual_entry,4.9,0.86,0,0,1
+"Ukinitaka niku-purify, because you're already pure gold.",romantic,mixed,followup,advanced,female,manual_entry,4.6,0.79,0,0,1
+"Wewe ni kama Kenyan gem - rare na valuable.",romantic,kenyan,compliment,initial,female,manual_entry,4.7,0.8,0,0,1
+"Nimeku-save as mixture, because you blend perfectly with my life.",romantic,mixed,response,advanced,female,manual_entry,4.8,0.84,0,0,1
+"Unajua hata kama uta-separate, bado nita-find way to combine.",bold,sheng,followup,advanced,female,manual_entry,4.0,0.72,0,0,0
+"Kama ni kukosa filter, ningeku-filter out all bad vibes.",cheesy,kenyan,opening,initial,female,manual_entry,3.9,0.62,0,0,0
+"Wewe ni kama distillation - unanifanya focus on pure you.",smooth,kenyan,compliment,initial,female,manual_entry,4.1,0.71,0,0,1
+"Nimeku-save as precipitate, because you stand out in my life.",romantic,mixed,response,advanced,female,manual_entry,4.6,0.78,0,0,1
+"Sema nikiku-use as reference, uta-be my standard?",playful,sheng,opening,initial,female,manual_entry,4.3,0.73,0,1,0
+"Unajua hata kama uta-be unstable, bado nita-stabilize you.",bold,sheng,response,middle,female,manual_entry,3.8,0.66,0,0,0
+"Kama ni kukosa chromatography paper, ningeku-separate from others clearly.",cheesy,kenyan,opening,initial,female,manual_entry,3.7,0.6,0,0,0
+"Wewe ni kama indicator - unanifanya know when I'm in love.",smooth,kenyan,compliment,initial,female,manual_entry,4.2,0.72,0,0,1
+"Nimeku-save as solvent, because you dissolve my worries.",romantic,mixed,response,advanced,female,manual_entry,4.7,0.81,0,0,1
+"Ukinitaka niku-dilute, but why dilute perfection?",romantic,mixed,followup,advanced,female,manual_entry,4.4,0.76,0,0,1
+"Wewe ni kama Kenyan artifact - precious na historical.",romantic,kenyan,compliment,initial,female,manual_entry,4.8,0.83,0,0,1
+"Nimeku-save as concentration, because you're always on my mind.",romantic,mixed,response,advanced,female,manual_entry,4.9,0.88,0,0,1
+"Unajua hata kama uta-be dilute, bado nita-concentrate on you.",bold,sheng,followup,advanced,female,manual_entry,3.9,0.7,0,0,0
+"Kama ni kukosa spectrometer, ningeku-analyze spectrum of your beauty.",cheesy,kenyan,opening,initial,female,manual_entry,3.5,0.58,0,0,0
+"Wewe ni kama catalyst - unanifanya everything happen faster.",smooth,kenyan,compliment,initial,female,manual_entry,4.0,0.7,0,0,1
+"Nimeku-save as equation, because you balance my life.",romantic,mixed,response,advanced,female,manual_entry,4.5,0.77,0,0,1
+"Sema nikiku-add kwa formula, uta-complete me?",playful,sheng,opening,initial,female,manual_entry,4.1,0.71,0,1,0
+"Unajua hata kama uta-be variable, bado nita-solve for you.",bold,sheng,response,middle,female,manual_entry,3.6,0.64,0,0,0
+"Kama ni kukosta calorimeter, ningeku-measure heat of my feelings.",cheesy,kenyan,opening,initial,female,manual_entry,3.4,0.57,0,0,0
+"Wewe ni kama energy - unanifanya move towards you.",smooth,kenyan,compliment,initial,female,manual_entry,4.3,0.74,0,0,1
+"Nimeku-save as force, because you attract me naturally.",romantic,mixed,response,advanced,female,manual_entry,4.8,0.82,0,0,1
+"Ukinitaka niku-accelerate, because you're worth moving fast for.",romantic,mixed,followup,advanced,female,manual_entry,4.6,0.79,0,0,1
+"Wewe ni kama Kenyan landscape - diverse na beautiful.",romantic,kenyan,compliment,initial,female,manual_entry,4.7,0.8,0,0,1
+"Nimeku-save as momentum, because you keep me going.",romantic,mixed,response,advanced,female,manual_entry,4.9,0.87,0,0,1
+"Unajua hata kama uta-be friction, bado nita-overcome for you.",bold,sheng,followup,advanced,female,manual_entry,4.0,0.73,0,0,0
+"Kama ni kukosa thermometer, ningeku-measure temperature of my affection.",cheesy,kenyan,opening,initial,female,manual_entry,3.8,0.61,0,0,0
+"Wewe ni kama velocity - unanifanya move in your direction.",smooth,kenyan,compliment,initial,female,manual_entry,4.4,0.75,0,0,1
+"Nimeku-save as acceleration, because you speed up my heart.",romantic,mixed,response,advanced,female,manual_entry,4.7,0.81,0,0,1
+"Sema nikiku-calculate, uta-be my constant?",playful,sheng,opening,initial,female,manual_entry,4.2,0.72,0,1,0
+"Unajua hata kama uta-be derivative, bado nita-integrate you into my life.",bold,sheng,response,middle,female,manual_entry,3.7,0.65,0,0,0
+"Kama ni kukosta barometer, ningeku-measure pressure of my love.",cheesy,kenyan,opening,initial,female,manual_entry,3.9,0.63,0,0,0
+"Wewe ni kama gravity - unanivutia constantly.",smooth,kenyan,compliment,initial,female,manual_entry,4.5,0.76,0,0,1
+"Nimeku-save as mass, because you have substance in my life.",romantic,mixed,response,advanced,female,manual_entry,4.8,0.83,0,0,1
+"Ukinitaka niku-project, because I see you in my future.",romantic,mixed,followup,advanced,female,manual_entry,4.3,0.75,0,0,1
+"Wewe ni kama Kenyan constellation - shining bright in my sky.",romantic,kenyan,compliment,initial,female,manual_entry,4.9,0.85,0,0,1
+"Nimeku-save as vector, because you have direction in my life.",romantic,mixed,response,advanced,female,manual_entry,4.9,0.89,0,0,1
+"Unajua hata kama uta-be scalar, bado nita-give you direction.",bold,sheng,followup,advanced,female,manual_entry,4.1,0.74,0,0,0
+"Kama ni kukosta anemometer, ningeku-measure wind of your influence.",cheesy,kenyan,opening,initial,female,manual_entry,3.6,0.59,0,0,0
+"Wewe ni kama inertia - unanifanya resist change from you.",smooth,kenyan,compliment,initial,female,manual_entry,4.2,0.73,0,0,1
+"Nimeku-save as work, because you're worth the effort.",romantic,mixed,response,advanced,female,manual_entry,4.6,0.78,0,0,1
+"Sema nikiku-power, uta-light up my life?",playful,sheng,opening,initial,female,manual_entry,4.0,0.7,0,1,0
+"Unajua hata kama uta-be resistance, bado nita-current flow to you.",bold,sheng,response,middle,female,manual_entry,3.8,0.67,0,0,0
+"Kama ni kukosta voltmeter, ningeku-measure voltage of my attraction.",cheesy,kenyan,opening,initial,female,manual_entry,3.7,0.6,0,0,0
+"Wewe ni kama circuit - unanifanya complete my life.",smooth,kenyan,compliment,initial,female,manual_entry,4.3,0.74,0,0,1
+"Nimeku-save as energy, because you power my days.",romantic,mixed,response,advanced,female,manual_entry,4.7,0.8,0,0,1
+"Ukinitaka niku-conduct, because you're excellent conductor of love.",romantic,mixed,followup,advanced,female,manual_entry,4.4,0.76,0,0,1
+"Wewe ni kama Kenyan electricity - essential na powerful.",romantic,kenyan,compliment,initial,female,manual_entry,4.8,0.84,0,0,1
+"Nimeku-save as charge, because you're positively attractive.",romantic,mixed,response,advanced,female,manual_entry,4.9,0.88,0,0,1
+"Unajua hata kama uta-be insulator, bado nita-find way to connect.",bold,sheng,followup,advanced,female,manual_entry,4.2,0.75,0,0,0
+"Kama ni kukosta oscilloscope, ningeku-measure frequency of my thoughts about you.",cheesy,kenyan,opening,initial,female,manual_entry,3.8,0.62,0,0,0
+"Wewe ni kama magnet - unanivutia pole to pole.",smooth,kenyan,compliment,initial,female,manual_entry,4.1,0.71,0,0,1
+"Nimeku-save as field, because you influence my space.",romantic,mixed,response,advanced,female,manual_entry,4.5,0.77,0,0,1
+"Sema nikiku-transform, uta-change my life?",playful,sheng,opening,initial,female,manual_entry,4.3,0.73,0,1,0
+"Unajua hata kama uta-be transformer, bado nita-adapt to you.",bold,sheng,response,middle,female,manual_entry,3.9,0.68,0,0,0
+"Kama ni kukosta generator, ningeku-generate happiness with you.",cheesy,kenyan,opening,initial,female,manual_entry,3.5,0.58,0,0,0
+"Wewe ni kama motor - unanifanya move forward.",smooth,kenyan,compliment,initial,female,manual_entry,4.0,0.7,0,0,1
+"Nimeku-save as current, because you flow through my thoughts.",romantic,mixed,response,advanced,female,manual_entry,4.6,0.79,0,0,1
+"Ukinitaka niku-amplify, because you deserve to be heard.",romantic,mixed,followup,advanced,female,manual_entry,4.7,0.81,0,0,1
+"Wewe ni kama Kenyan power grid - connecting everything important.",romantic,kenyan,compliment,initial,female,manual_entry,4.8,0.85,0,0,1
+"Nimeku-save as signal, because you're clear in my life.",romantic,mixed,response,advanced,female,manual_entry,4.9,0.9,0,0,1
+"Unajua hata kama uta-be noise, bado nita-filter for your frequency.",bold,sheng,followup,advanced,female,manual_entry,4.3,0.76,0,0,0
+"Kama ni kukosta transistor, ningeku-amplify in my heart.",cheesy,kenyan,opening,initial,female,manual_entry,3.9,0.64,0,0,0
+"Wewe ni kama diode - unanifanya flow in one direction: towards you.",smooth,kenyan,compliment,initial,female,manual_entry,4.4,0.75,0,0,1
+"Nimeku-save as capacitor, because you store my affection.",romantic,mixed,response,advanced,female,manual_entry,4.8,0.83,0,0,1
+"Sema nikiku-resonate, uta-vibrate with me?",playful,sheng,opening,initial,female,manual_entry,4.2,0.72,0,1,0
+"Unajua hata kama uta-be inductor, bado nita-store energy for you.",bold,sheng,response,middle,female,manual_entry,4.0,0.71,0,0,0
+"Kama ni kukosta relay, ningeku-switch to priority.",cheesy,kenyan,opening,initial,female,manual_entry,3.7,0.61,0,0,0
+"Wewe ni kama fuse - unanifanya protect my heart.",smooth,kenyan,compliment,initial,female,manual_entry,4.2,0.73,0,0,1
+"Nimeku-save as battery, because you recharge me.",romantic,mixed,response,advanced,female,manual_entry,4.7,0.82,0,0,1
+"Ukinitaka niku-connect in series, so we're always together.",romantic,mixed,followup,advanced,female,manual_entry,4.5,0.78,0,0,1
+"Wewe ni kama Kenyan circuit board - complex na beautiful.",romantic,kenyan,compliment,initial,female,manual_entry,4.9,0.86,0,0,1
+"Nimeku-save as semiconductor, because you conduct my love.",romantic,mixed,response,advanced,female,manual_entry,4.9,0.91,0,0,1
+"Unajua hata kama uta-be resistor, bado nita-overcome resistance for you.",bold,sheng,followup,advanced,female,manual_entry,4.4,0.77,0,0,0
+"Kama ni kukosta multimeter, ningeku-measure all aspects of my love.",cheesy,kenyan,opening,initial,female,manual_entry,3.8,0.63,0,0,0
+"Wewe ni kama antenna - unanifanya receive signals of affection.",smooth,kenyan,compliment,initial,female,manual_entry,4.3,0.74,0,0,1
+"Nimeku-save as transmitter, because I want to send love to you.",romantic,mixed,response,advanced,female,manual_entry,4.6,0.8,0,0,1
+"Sema nikiku-tune, uta-be on my frequency?",playful,sheng,opening,initial,female,manual_entry,4.1,0.71,0,1,0
+"Unajua hata kama uta-be receiver, bado nita-transmit to you.",bold,sheng,response,middle,female,manual_entry,4.2,0.74,0,0,0
+"Kama ni kukosta modulator, ningeku-modulate with my feelings.",cheesy,kenyan,opening,initial,female,manual_entry,3.6,0.6,0,0,0
+"Wewe ni kama demodulator - unanifanya extract meaning from life.",smooth,kenyan,compliment,initial,female,manual_entry,4.0,0.71,0,0,1
+"Nimeku-save as amplifier, because you make everything better.",romantic,mixed,response,advanced,female,manual_entry,4.5,0.77,0,0,1
+"Ukinitaka niku-attenuate, but why reduce perfection?",romantic,mixed,followup,advanced,female,manual_entry,4.7,0.82,0,0,1
+"Wewe ni kama Kenyan broadcast - reaching everywhere important.",romantic,kenyan,compliment,initial,female,manual_entry,4.8,0.85,0,0,1
+"Nimeku-save as channel, because you're my preferred frequency.",romantic,mixed,response,advanced,female,manual_entry,4.9,0.92,0,0,1
+"Unajua hata kama uta-be bandwidth, bado nita-allocate all to you.",bold,sheng,followup,advanced,female,manual_entry,4.5,0.78,0,0,0
+"Kama ni kukosta spectrum analyzer, ningeku-analyze range of your beauty.",cheesy,kenyan,opening,initial,female,manual_entry,3.9,0.65,0,0,0
+"Wewe ni kama filter - unanifanya focus on what matters.",smooth,kenyan,compliment,initial,female,manual_entry,4.1,0.72,0,0,1
+"Nimeku-save as oscillator, because you create rhythm in my life.",romantic,mixed,response,advanced,female,manual_entry,4.4,0.76,0,0,1
+"Sema nikiku-mix, uta-blend with my life?",playful,sheng,opening,initial,female,manual_entry,4.3,0.74,0,1,0
+"Unajua hata kama uta-be mixer, bado nita-combine with you.",bold,sheng,response,middle,female,manual_entry,4.1,0.73,0,0,0
+"Kama ni kukosta synthesizer, ningeku-synthesize perfect relationship.",cheesy,kenyan,opening,initial,female,manual_entry,3.7,0.62,0,0,0
+"Wewe ni kama equalizer - unanifanya balance my emotions.",smooth,kenyan,compliment,initial,female,manual_entry,4.2,0.73,0,0,1
+"Nimeku-save as decoder, because you understand me.",romantic,mixed,response,advanced,female,manual_entry,4.6,0.79,0,0,1
+"Ukinitaka niku-encode, because you're worth protecting.",romantic,mixed,followup,advanced,female,manual_entry,4.8,0.84,0,0,1
+"Wewe ni kama Kenyan frequency - unique na special.",romantic,kenyan,compliment,initial,female,manual_entry,4.9,0.87,0,0,1
+"Nimeku-save as protocol, because you're my standard for communication.",romantic,mixed,response,advanced,female,manual_entry,5.0,0.93,0,0,1
+"Unajua hata kama uta-be packet, bado nita-route to my heart.",bold,sheng,followup,advanced,female,manual_entry,4.6,0.79,0,0,0
+"Kama ni kukosta router, ningeku-route all attention to you.",cheesy,kenyan,opening,initial,female,manual_entry,3.8,0.64,0,0,0
+"Wewe ni kama switch - unanifanya connect to happiness.",smooth,kenyan,compliment,initial,female,manual_entry,4.0,0.72,0,0,1
+"Nimeku-save as hub, because you're central to my network.",romantic,mixed,response,advanced,female,manual_entry,4.3,0.75,0,0,1
+"Sema nikiku-ping, uta-respond?",playful,sheng,opening,initial,female,manual_entry,4.2,0.73,0,1,0
+"Unajua hata kama uta-be firewall, bado nita-find port to your heart.",bold,sheng,response,middle,female,manual_entry,4.3,0.76,0,0,0
+"Kama ni kukosta server, ningeku-host my feelings.",cheesy,kenyan,opening,initial,female,manual_entry,3.9,0.66,0,0,0
+"Wewe ni kama client - unanifanya request my attention.",smooth,kenyan,compliment,initial,female,manual_entry,4.1,0.73,0,0,1
+"Nimeku-save as domain, because you're where I want to be.",romantic,mixed,response,advanced,female,manual_entry,4.5,0.78,0,0,1
+"Ukinitaka niku-dns resolve, because I want to find you always.",romantic,mixed,followup,advanced,female,manual_entry,4.7,0.83,0,0,1
+"Wewe ni kama Kenyan internet - connecting me to happiness.",romantic,kenyan,compliment,initial,female,manual_entry,4.8,0.86,0,0,1
+"Nimeku-save as ip address, because you're unique in my network.",romantic,mixed,response,advanced,female,manual_entry,4.9,0.94,0,0,1
+"Unajua hata kama uta-be subnet, bado nita-be in same network.",bold,sheng,followup,advanced,female,manual_entry,4.7,0.8,0,0,0
+"Kama ni kukosta gateway, ningeku-gateway to my heart.",cheesy,kenyan,opening,initial,female,manual_entry,3.7,0.63,0,0,0
+"Wewe ni kama protocol - unanifanya communicate effectively.",smooth,kenyan,compliment,initial,female,manual_entry,4.2,0.74,0,0,1
+"Nimeku-save as port, because you're where I connect.",romantic,mixed,response,advanced,female,manual_entry,4.4,0.77,0,0,1
+"Sema nikiku-socket connect, uta-accept connection?",playful,sheng,opening,initial,female,manual_entry,4.1,0.72,0,1,0
+"Unajua hata kama uta-be socket, bado nita-plug into you.",bold,sheng,response,middle,female,manual_entry,4.4,0.77,0,0,0
+"Kama ni kukosta bandwidth, ningeku-allocate all my attention.",cheesy,kenyan,opening,initial,female,manual_entry,3.8,0.65,0,0,0
+"Wewe ni kama latency - unanifanya wait eagerly for you.",smooth,kenyan,compliment,initial,female,manual_entry,4.0,0.73,0,0,1
+"Nimeku-save as throughput, because you handle my affection well.",romantic,mixed,response,advanced,female,manual_entry,4.3,0.76,0,0,1
+"Ukinitaka niku-queue, because I'll wait for you.",romantic,mixed,followup,advanced,female,manual_entry,4.6,0.81,0,0,1
+"Wewe ni kama Kenyan data center - storing my memories of you.",romantic,kenyan,compliment,initial,female,manual_entry,4.9,0.88,0,0,1
+"Nimeku-save as cache, because you're frequently accessed in my thoughts.",romantic,mixed,response,advanced,female,manual_entry,5.0,0.95,0,0,1
+"Unajua hata kama uta-be buffer, bado nita-fill you with love.",bold,sheng,followup,advanced,female,manual_entry,4.8,0.82,0,0,0
+"Kama ni kukosta registry, ningeku-register in my heart.",cheesy,kenyan,opening,initial,female,manual_entry,3.9,0.67,0,0,0
+"Wewe ni kama database - unanifanya store important information.",smooth,kenyan,compliment,initial,female,manual_entry,4.1,0.74,0,0,1
+"Nimeku-save as table, because you're structured in my life.",romantic,mixed,response,advanced,female,manual_entry,4.2,0.75,0,0,1
+"Sema nikiku-query, uta-return positive results?",playful,sheng,opening,initial,female,manual_entry,4.3,0.75,0,1,0
+"Unajua hata kama uta-be record, bado nita-insert you into my life.",bold,sheng,response,middle,female,manual_entry,4.5,0.78,0,0,0
+"Kama ni kukosta index, ningeku-index for quick access.",cheesy,kenyan,opening,initial,female,manual_entry,3.6,0.62,0,0,0
+"Wewe ni kama key - unanifanya unlock my happiness.",smooth,kenyan,compliment,initial,female,manual_entry,4.4,0.76,0,0,1
+"Nimeku-save as schema, because you define my structure.",romantic,mixed,response,advanced,female,manual_entry,4.6,0.8,0,0,1
+"Ukinitaka niku-normalize, but you're already perfect form.",romantic,mixed,followup,advanced,female,manual_entry,4.8,0.85,0,0,1
+"Wewe ni kama Kenyan algorithm - efficient na effective.",romantic,kenyan,compliment,initial,female,manual_entry,4.9,0.89,0,0,1
+"Nimeku-save as transaction, because you're worth committing to.",romantic,mixed,response,advanced,female,manual_entry,5.0,0.96,0,0,1
+"Unajua hata kama uta-be rollback, bado nita-commit to you.",bold,sheng,followup,advanced,female,manual_entry,4.9,0.83,0,0,0
+"Kama ni kukosta join, ningeku-join with my life.",cheesy,kenyan,opening,initial,female,manual_entry,3.7,0.64,0,0,0
+"Wewe ni kama view - unanifanya see life beautifully.",smooth,kenyan,compliment,initial,female,manual_entry,4.2,0.75,0,0,1
+"Nimeku-save as trigger, because you activate my feelings.",romantic,mixed,response,advanced,female,manual_entry,4.5,0.79,0,0,1
+"Sema nikiku-procedure call, uta-execute with me?",playful,sheng,opening,initial,female,manual_entry,4.4,0.76,0,1,0
+"Unajua hata kama uta-be function, bado nita-pass parameters of love.",bold,sheng,response,middle,female,manual_entry,4.6,0.79,0,0,0
+"Kama ni kukosta cursor, ningeku-point to my heart.",cheesy,kenyan,opening,initial,female,manual_entry,3.8,0.66,0,0,0
+"Wewe ni kama pointer - unanifanya reference happiness.",smooth,kenyan,compliment,initial,female,manual_entry,4.3,0.77,0,0,1
+"Nimeku-save as array, because you're collection of perfection.",romantic,mixed,response,advanced,female,manual_entry,4.7,0.82,0,0,1
+"Ukinitaka niku-sort, but you're already first in my list.",romantic,mixed,followup,advanced,female,manual_entry,4.9,0.86,0,0,1
+"Wewe ni kama Kenyan data structure - organized na efficient.",romantic,kenyan,compliment,initial,female,manual_entry,5.0,0.9,0,0,1
+"Nimeku-save as stack, because you're last in, first in my thoughts.",romantic,mixed,response,advanced,female,manual_entry,5.0,0.97,0,0,1
+"Unajua hata kama uta-be queue, bado nita-wait in line for you.",bold,sheng,followup,advanced,female,manual_entry,5.0,0.84,0,0,0
+"Kama ni kukosta linked list, ningeku-link to my life.",cheesy,kenyan,opening,initial,female,manual_entry,3.9,0.68,0,0,0
+"Wewe ni kama tree - unanifanya branch into happiness.",smooth,kenyan,compliment,initial,female,manual_entry,4.5,0.78,0,0,1
+"Nimeku-save as graph, because you plot my happiness.",romantic,mixed,response,advanced,female,manual_entry,4.8,0.83,0,0,1
+"Sema nikiku-traverse, uta-allow me to explore you?",playful,sheng,opening,initial,female,manual_entry,4.6,0.77,0,1,0
+"Unajua hata kama uta-be hash table, bado nita-find you quickly.",bold,sheng,response,middle,female,manual_entry,4.7,0.8,0,0,0
+"Kama ni kukosta heap, ningeku-prioritize in my life.",cheesy,kenyan,opening,initial,female,manual_entry,4.0,0.69,0,0,0
+"Wewe ni kama set - unanifanya eliminate duplicates of happiness.",smooth,kenyan,compliment,initial,female,manual_entry,4.4,0.79,0,0,1
+"Nimeku-save as map, because you guide me to joy.",romantic,mixed,response,advanced,female,manual_entry,4.9,0.84,0,0,1
+"Ukinitaka niku-iterate, because each time is better.",romantic,mixed,followup,advanced,female,manual_entry,5.0,0.87,0,0,1
+"Wewe ni kama Kenyan binary tree - balanced na perfect.",romantic,kenyan,compliment,initial,female,manual_entry,5.0,0.91,0,0,1
+"Nimeku-save as recursion, because you call to me repeatedly.",romantic,mixed,response,advanced,female,manual_entry,5.0,0.98,0,0,1
+"Unajua hata kama uta-be base case, bado nita-recurse for you.",bold,sheng,followup,advanced,female,manual_entry,5.0,0.85,0,0,0
+"Kama ni kukosta algorithm, ningeku-solve for happiness.",cheesy,kenyan,opening,initial,female,manual_entry,4.1,0.7,0,0,0
+"Wewe ni kama complexity - unanifanya analyze deeply.",smooth,kenyan,compliment,initial,female,manual_entry,4.6,0.8,0,0,1
+"Nimeku-save as optimization, because you're my best solution.",romantic,mixed,response,advanced,female,manual_entry,5.0,0.85,0,0,1
+"Sema nikiku-compile, uta-run with me?",playful,sheng,opening,initial,female,manual_entry,4.7,0.78,0,1,0
+"Unajua hata kama uta-be syntax error, bado nita-debug for you.",bold,sheng,response,middle,female,manual_entry,4.8,0.81,0,0,0
+"Kama ni kukosta compiler, ningeku-compile into my life.",cheesy,kenyan,opening,initial,female,manual_entry,4.2,0.71,0,0,0
+"Wewe ni kama interpreter - unanifanya understand my code of love.",smooth,kenyan,compliment,initial,female,manual_entry,4.7,0.81,0,0,1
+"Nimeku-save as variable, because you change my life positively.",romantic,mixed,response,advanced,female,manual_entry,5.0,0.86,0,0,1
+"Ukinitaka niku-initialize, because you're starting point of my happiness.",romantic,mixed,followup,advanced,female,manual_entry,5.0,0.88,0,0,1
+"Wewe ni kama Kenyan software - reliable na user-friendly.",romantic,kenyan,compliment,initial,female,manual_entry,5.0,0.92,0,0,1
+"Nimeku-save as constant, because you're unchanging in my life.",romantic,mixed,response,advanced,female,manual_entry,5.0,0.99,0,0,1
+"Unajua hata kama uta-be null, bado nita-assign value to you.",bold,sheng,followup,advanced,female,manual_entry,5.0,0.86,0,0,0
+"Kama ni kukosta loop, ningeku-loop in my thoughts.",cheesy,kenyan,opening,initial,female,manual_entry,4.3,0.72,0,0,0
+"Wewe ni kama condition - unanifanya decide my happiness.",smooth,kenyan,compliment,initial,female,manual_entry,4.8,0.82,0,0,1
+"Nimeku-save as function, because you return love.",romantic,mixed,response,advanced,female,manual_entry,5.0,0.87,0,0,1
+"Sema nikiku-call, uta-respond with affection?",playful,sheng,opening,initial,female,manual_entry,4.9,0.79,0,1,0
+"Unajua hata kama uta-be parameter, bado nita-pass my love to you.",bold,sheng,response,middle,female,manual_entry,5.0,0.82,0,0,0
+"Kama ni kukosta return statement, ningeku-return my heart.",cheesy,kenyan,opening,initial,female,manual_entry,4.4,0.73,0,0,0
+"Wewe ni kama class - unanifanya objectify perfection.",smooth,kenyan,compliment,initial,female,manual_entry,5.0,0.83,0,0,1
+"Nimeku-save as object, because you're instance of beauty.",romantic,mixed,response,advanced,female,manual_entry,5.0,0.88,0,0,1
+"Ukinitaka niku-inherit, because you have qualities I admire.",romantic,mixed,followup,advanced,female,manual_entry,5.0,0.89,0,0,1
+"Wewe ni kama Kenyan framework - supporting my happiness.",romantic,kenyan,compliment,initial,female,manual_entry,5.0,0.93,0,0,1
+"Nimeku-save as library, because you're collection of wonderful traits.",romantic,mixed,response,advanced,female,manual_entry,5.0,1.0,0,0,1
+"Unajua hata kama uta-be dependency, bado nita-include you always.",bold,sheng,followup,advanced,female,manual_entry,5.0,0.87,0,0,0
+"Kama ni kukosta module, ningeku-import into my life.",cheesy,kenyan,opening,initial,female,manual_entry,4.5,0.74,0,0,0
+"Wewe ni kama package - unanifanya contain everything good.",smooth,kenyan,compliment,initial,female,manual_entry,5.0,0.84,0,0,1
+"Nimeku-save as namespace, because you're unique in my world.",romantic,mixed,response,advanced,female,manual_entry,5.0,0.89,0,0,1
+"Sema nikiku-require, uta-be essential in my life?",playful,sheng,opening,initial,female,manual_entry,5.0,0.8,0,1,0
+"Unajua hata kama uta-be import error, bado nita-find way to include you.",bold,sheng,response,middle,female,manual_entry,5.0,0.83,0,0,0
+"Kama ni kukosta export, ningeku-export my love to you.",cheesy,kenyan,opening,initial,female,manual_entry,4.6,0.75,0,0,0
+"Wewe ni kama interface - unanifanya interact beautifully.",smooth,kenyan,compliment,initial,female,manual_entry,5.0,0.85,0,0,1
+"Nimeku-save as implementation, because you realize my dreams.",romantic,mixed,response,advanced,female,manual_entry,5.0,0.9,0,0,1
+"Ukinitaka niku-abstract, but you're already perfect concept.",romantic,mixed,followup,advanced,female,manual_entry,5.0,0.9,0,0,1
+"Wewe ni kama Kenyan SDK - giving me tools for happiness.",romantic,kenyan,compliment,initial,female,manual_entry,5.0,0.94,0,0,1
+"Nimeku-save as API, because you're how I access joy.",romantic,mixed,response,advanced,female,manual_entry,5.0,1.0,0,0,1
+"Unajua hata kama uta-be endpoint, bado nita-send requests to you.",bold,sheng,followup,advanced,female,manual_entry,5.0,0.88,0,0,0
+"Kama ni kukosta request, ningeku-request your attention.",cheesy,kenyan,opening,initial,female,manual_entry,4.7,0.76,0,0,0
+"Wewe ni kama response - unanifanya answer my prayers.",smooth,kenyan,compliment,initial,female,manual_entry,5.0,0.86,0,0,1
+"Nimeku-save as status code, because you're 200 OK in my life.",romantic,mixed,response,advanced,female,manual_entry,5.0,0.91,0,0,1
+"Sema nikiku-headers set, uta-accept my love?",playful,sheng,opening,initial,female,manual_entry,5.0,0.81,0,1,0
+"Unajua hata kama uta-be 404, bado nita-search for you.",bold,sheng,response,middle,female,manual_entry,5.0,0.84,0,0,0
+"Kama ni kukosta 500 error, ningeku-debug my feelings.",cheesy,kenyan,opening,initial,female,manual_entry,4.8,0.77,0,0,0
+"Wewe ni kama 200 - unanifanya everything work perfectly.",smooth,kenyan,compliment,initial,female,manual_entry,5.0,0.87,0,0,1
+"Nimeku-save as cookie, because you're sweet memory.",romantic,mixed,response,advanced,female,manual_entry,5.0,0.92,0,0,1
+"Ukinitaka niku-session store, because I want you temporarily permanent.",romantic,mixed,followup,advanced,female,manual_entry,5.0,0.91,0,0,1
+"Wewe ni kama Kenyan web service - always available for me.",romantic,kenyan,compliment,initial,female,manual_entry,5.0,0.95,0,0,1
+"Nimeku-save as REST endpoint, because you're my resource for happiness.",romantic,mixed,response,advanced,female,manual_entry,5.0,1.0,0,0,1
+"Unajua hata kama uta-be SOAP, bado nita-wrap my love for you.",bold,sheng,followup,advanced,female,manual_entry,5.0,0.89,0,0,0
+"Kama ni kukosta GraphQL, ningeku-query exactly what I need: you.",cheesy,kenyan,opening,initial,female,manual_entry,4.9,0.78,0,0,0
+"Wewe ni kama WebSocket - unanifanya real-time connection.",smooth,kenyan,compliment,initial,female,manual_entry,5.0,0.88,0,0,1
+"Nimeku-save as middleware, because you process my feelings.",romantic,mixed,response,advanced,female,manual_entry,5.0,0.93,0,0,1
+"Sema nikiku-authenticate, uta-verify my love?",playful,sheng,opening,initial,female,manual_entry,5.0,0.82,0,1,0
+"Unajua hata kama uta-be authorization, bado nita-have credentials of affection.",bold,sheng,response,middle,female,manual_entry,5.0,0.85,0,0,0
+"Kama ni kukosta encryption, ningeku-encrypt in my heart.",cheesy,kenyan,opening,initial,female,manual_entry,5.0,0.79,0,0,0
+"Wewe ni kama decryption key - unanifanya understand my coded feelings.",smooth,kenyan,compliment,initial,female,manual_entry,5.0,0.89,0,0,1
+"Nimeku-save as hash, because you're unique in my database of affections.",romantic,mixed,response,advanced,female,manual_entry,5.0,0.94,0,0,1
+"Ukinitaka niku-salute, because you deserve respect and love.",romantic,mixed,followup,advanced,female,manual_entry,5.0,0.92,0,0,1
+"Wewe ni kama Kenyan security - protecting my heart.",romantic,kenyan,compliment,initial,female,manual_entry,5.0,0.96,0,0,1
+"Nimeku-save as firewall rule, allowing only your love through.",romantic,mixed,response,advanced,female,manual_entry,5.0,1.0,0,0,1
+"Unajua hata kama uta-be vulnerability, bado nita-patch with love.",bold,sheng,followup,advanced,female,manual_entry,5.0,0.9,0,0,0
+"Kama ni kukosta backup, ningeku-backup in my memories.",cheesy,kenyan,opening,initial,female,manual_entry,5.0,0.8,0,0,0
+"Wewe ni kama restore point - unanifanya recover my happiness.",smooth,kenyan,compliment,initial,female,manual_entry,5.0,0.9,0,0,1
+"Nimeku-save as snapshot, capturing you perfectly.",romantic,mixed,response,advanced,female,manual_entry,5.0,0.95,0,0,1
+"Sema nikiku-clone, uta-be duplicate of perfection?",playful,sheng,opening,initial,female,manual_entry,5.0,0.83,0,1,0
+"Unajua hata kama uta-be fork, bado nita-merge with you.",bold,sheng,response,middle,female,manual_entry,5.0,0.86,0,0,0
+"Kama ni kukosta repository, ningeku-commit to you daily.",cheesy,kenyan,opening,initial,female,manual_entry,5.0,0.81,0,0,0
+"Wewe ni kama version control - unanifanya track changes in my heart.",smooth,kenyan,compliment,initial,female,manual_entry,5.0,0.91,0,0,1
+"Nimeku-save as branch, because you're alternative path to happiness.",romantic,mixed,response,advanced,female,manual_entry,5.0,0.96,0,0,1
+"Ukinitaka niku-merge, because we're better together.",romantic,mixed,followup,advanced,female,manual_entry,5.0,0.93,0,0,1
+"Wewe ni kama Kenyan Git - keeping history of my affections.",romantic,kenyan,compliment,initial,female,manual_entry,5.0,0.97,0,0,1
+"Nimeku-save as push, because I want to send my love to you.",romantic,mixed,response,advanced,female,manual_entry,5.0,1.0,0,0,1
+"Unajua hata kama uta-be pull request, bado nita-review with love.",bold,sheng,followup,advanced,female,manual_entry,5.0,0.91,0,0,0
+"Kama ni kukosta conflict, ningeku-resolve with compromise.",cheesy,kenyan,opening,initial,female,manual_entry,5.0,0.82,0,0,0
+"Wewe ni kama merge tool - unanifanya combine perfectly.",smooth,kenyan,compliment,initial,female,manual_entry,5.0,0.92,0,0,1
+"Nimeku-save as stash, temporarily keeping thoughts of you.",romantic,mixed,response,advanced,female,manual_entry,5.0,0.97,0,0,1
+"Sema nikiku-tag release, uta-be version 1.0 of perfection?",playful,sheng,opening,initial,female,manual_entry,5.0,0.84,0,1,0
+"Unajua hata kama uta-be hotfix, bado nita-apply immediately.",bold,sheng,response,middle,female,manual_entry,5.0,0.87,0,0,0
+"Kama ni kukosta deployment, ningeku-deploy to my heart.",cheesy,kenyan,opening,initial,female,manual_entry,5.0,0.83,0,0,0
+"Wewe ni kama production - unanifanya live perfectly.",smooth,kenyan,compliment,initial,female,manual_entry,5.0,0.93,0,0,1
+"Nimeku-save as environment, because you're where I thrive.",romantic,mixed,response,advanced,female,manual_entry,5.0,0.98,0,0,1
+"Ukinitaka niku-containerize, because you contain everything I need.",romantic,mixed,followup,advanced,female,manual_entry,5.0,0.94,0,0,1
+"Wewe ni kama Kenyan Docker - packaging perfection.",romantic,kenyan,compliment,initial,female,manual_entry,5.0,0.98,0,0,1
+"Nimeku-save as image, because you're picture of beauty.",romantic,mixed,response,advanced,female,manual_entry,5.0,1.0,0,0,1
+"Unajua hata kama uta-be volume, bado nita-mount you in my life.",bold,sheng,followup,advanced,female,manual_entry,5.0,0.92,0,0,0
+"Kama ni kukosta orchestration, ningeku-orchestrate perfect relationship.",cheesy,kenyan,opening,initial,female,manual_entry,5.0,0.84,0,0,0
+"Wewe ni kama Kubernetes - unanifanya scale my happiness.",smooth,kenyan,compliment,initial,female,manual_entry,5.0,0.94,0,0,1
+"Nimeku-save as pod, because you're group of wonderful qualities.",romantic,mixed,response,advanced,female,manual_entry,5.0,0.99,0,0,1
+"Sema nikiku-service discover, uta-be found by my heart?",playful,sheng,opening,initial,female,manual_entry,5.0,0.85,0,1,0
+"Unajua hata kama uta-be ingress, bado nita-route to you.",bold,sheng,response,middle,female,manual_entry,5.0,0.88,0,0,0
+"Kama ni kukosta load balancer, ningeku-balance my attention.",cheesy,kenyan,opening,initial,female,manual_entry,5.0,0.85,0,0,0
+"Wewe ni kama auto-scaling - unanifanya adjust to my needs.",smooth,kenyan,compliment,initial,female,manual_entry,5.0,0.95,0,0,1
+"Nimeku-save as config map, because you configure my happiness.",romantic,mixed,response,advanced,female,manual_entry,5.0,1.0,0,0,1
+"Ukinitaka niku-secret store, because you're my precious secret.",romantic,mixed,followup,advanced,female,manual_entry,5.0,0.95,0,0,1
+"Wewe ni kama Kenyan cloud - covering my life with joy.",romantic,kenyan,compliment,initial,female,manual_entry,5.0,0.99,0,0,1
+"Nimeku-save as instance, because you're running in my heart.",romantic,mixed,response,advanced,female,manual_entry,5.0,1.0,0,0,1
+"Unajua hata kama uta-be spot instance, bado nita-bid highest for you.",bold,sheng,followup,advanced,female,manual_entry,5.0,0.93,0,0,0
+"Kama ni kukosta elastic IP, ningeku-assign to my heart permanently.",cheesy,kenyan,opening,initial,female,manual_entry,5.0,0.86,0,0,0
+"Wewe ni kama VPC - unanifanya network my affections.",smooth,kenyan,compliment,initial,female,manual_entry,5.0,0.96,0,0,1
+"Nimeku-save as subnet, because you're part of my network of love.",romantic,mixed,response,advanced,female,manual_entry,5.0,1.0,0,0,1
+"Sema nikiku-route table add, uta-direct my love to you?",playful,sheng,opening,initial,female,manual_entry,5.0,0.86,0,1,0
+"Unajua hata kama uta-be NACL, bado nita-allow your love through.",bold,sheng,response,middle,female,manual_entry,5.0,0.89,0,0,0
+"Kama ni kukosta security group, ningeku-allow all ports of affection.",cheesy,kenyan,opening,initial,female,manual_entry,5.0,0.87,0,0,0
+"Wewe ni kama IAM role - unanifanya access my heart securely.",smooth,kenyan,compliment,initial,female,manual_entry,5.0,0.97,0,0,1
+"Nimeku-save as policy, because you're rule for my happiness.",romantic,mixed,response,advanced,female,manual_entry,5.0,1.0,0,0,1
+"Ukinitaka niku-tag resources, because you're resource I value most.",romantic,mixed,followup,advanced,female,manual_entry,5.0,0.96,0,0,1
+"Wewe ni kama Kenyan S3 - storing memories of you.",romantic,kenyan,compliment,initial,female,manual_entry,5.0,1.0,0,0,1
+"Nimeku-save as bucket, because you contain my affection.",romantic,mixed,response,advanced,female,manual_entry,5.0,1.0,0,0,1
+"Unajua hata kama uta-be glacier, bado nita-wait for you to thaw.",bold,sheng,followup,advanced,female,manual_entry,5.0,0.94,0,0,0
+"Kama ni kukosta RDS, ningeku-store relationship data securely.",cheesy,kenyan,opening,initial,female,manual_entry,5.0,0.88,0,0,0
+"Wewe ni kama DynamoDB - unanifanya query my affections quickly.",smooth,kenyan,compliment,initial,female,manual_entry,5.0,0.98,0,0,1
+"Nimeku-save as table item, because you're entry in my heart.",romantic,mixed,response,advanced,female,manual_entry,5.0,1.0,0,0,1
+"Sema nikiku-CDN configure, uta-distribute love globally?",playful,sheng,opening,initial,female,manual_entry,5.0,0.87,0,1,0
+"Unajua hata kama uta-be edge location, bado nita-cache you nearby.",bold,sheng,response,middle,female,manual_entry,5.0,0.9,0,0,0
+"Kama ni kukosta Lambda, ningeku-execute functions of love.",cheesy,kenyan,opening,initial,female,manual_entry,5.0,0.89,0,0,0
+"Wewe ni kama Step Function - unanifanya workflow my affections.",smooth,kenyan,compliment,initial,female,manual_entry,5.0,0.99,0,0,1
+"Nimeku-save as event, because you trigger my happiness.",romantic,mixed,response,advanced,female,manual_entry,5.0,1.0,0,0,1
+"Ukinitaka niku-monitor, because I want to watch over you.",romantic,mixed,followup,advanced,female,manual_entry,5.0,0.97,0,0,1
+"Wewe ni kama Kenyan CloudWatch - alerting me to your beauty.",romantic,kenyan,compliment,initial,female,manual_entry,5.0,1.0,0,0,1
+"Nimeku-save as metric, because you measure up perfectly.",romantic,mixed,response,advanced,female,manual_entry,5.0,1.0,0,0,1
+"Unajua hata kama uta-be alarm, bado nita-respond immediately.",bold,sheng,followup,advanced,female,manual_entry,5.0,0.95,0,0,0
+"Kama ni kukosta dashboard, ningeku-display prominently.",cheesy,kenyan,opening,initial,female,manual_entry,5.0,0.9,0,0,0
+"Wewe ni kama log - unanifanya record my feelings.",smooth,kenyan,compliment,initial,female,manual_entry,5.0,1.0,0,0,1
+"Nimeku-save as trace, because I want to follow you.",romantic,mixed,response,advanced,female,manual_entry,5.0,1.0,0,0,1
+"Sema nikiku-profile, uta-analyze my affection?",playful,sheng,opening,initial,female,manual_entry,5.0,0.88,0,1,0
+"Unajua hata kama uta-be debug, bado nita-step through with you.",bold,sheng,response,middle,female,manual_entry,5.0,0.91,0,0,0
+"Kama ni kukosta performance test, ningeku-test endurance of my love.",cheesy,kenyan,opening,initial,female,manual_entry,5.0,0.91,0,0,0
+"Wewe ni kama benchmark - unanifanya set standards for happiness.",smooth,kenyan,compliment,initial,female,manual_entry,5.0,1.0,0,0,1
+"Nimeku-save as optimization target, because you're goal of my life.",romantic,mixed,response,advanced,female,manual_entry,5.0,1.0,0,0,1
+"Ukinitaka niku-refactor, but you're already perfect code.",romantic,mixed,followup,advanced,female,manual_entry,5.0,0.98,0,0,1
+"Wewe ni kama Kenyan architecture - well-designed na beautiful.",romantic,kenyan,compliment,initial,female,manual_entry,5.0,1.0,0,0,1
+"Nimeku-save as design pattern, because you're template for perfection.",romantic,mixed,response,advanced,female,manual_entry,5.0,1.0,0,0,1
+"Unajua hata kama uta-be anti-pattern, bado nita-love you anyway.",bold,sheng,followup,advanced,female,manual_entry,5.0,0.96,0,0,0
+"Kama ni kukosta framework, ningeku-build my life around you.",cheesy,kenyan,opening,initial,female,manual_entry,5.0,0.92,0,0,0
+"Wewe ni kama library - unanifanya reuse my affection.",smooth,kenyan,compliment,initial,female,manual_entry,5.0,1.0,0,0,1
+"Nimeku-save as dependency, because I depend on you for happiness.",romantic,mixed,response,advanced,female,manual_entry,5.0,1.0,0,0,1
+"Sema nikiku-package, uta-be included in my life?",playful,sheng,opening,initial,female,manual_entry,5.0,0.89,0,1,0
+"Unajua hata kama uta-be module, bado nita-import you always.",bold,sheng,response,middle,female,manual_entry,5.0,0.92,0,0,0
+"Kama ni kukosta plugin, ningeku-extend my capabilities for love.",cheesy,kenyan,opening,initial,female,manual_entry,5.0,0.93,0,0,0
+"Wewe ni kama extension - unanifanya enhance my life.",smooth,kenyan,compliment,initial,female,manual_entry,5.0,1.0,0,0,1
+"Nimeku-save as add-on, because you add value to my existence.",romantic,mixed,response,advanced,female,manual_entry,5.0,1.0,0,0,1
+"Ukinitaka niku-integrate, because we complete each other.",romantic,mixed,followup,advanced,female,manual_entry,5.0,0.99,0,0,1
+"Wewe ni kama Kenyan ecosystem - thriving with beauty.",romantic,kenyan,compliment,initial,female,manual_entry,5.0,1.0,0,0,1
+"Nimeku-save as environment variable, because you're essential to my configuration.",romantic,mixed,response,advanced,female,manual_entry,5.0,1.0,0,0,1
+"Unajua hata kama uta-be constant, bado nita-reference you always.",bold,sheng,followup,advanced,female,manual_entry,5.0,0.97,0,0,0
+"Kama ni kukosta flag, ningeku-set for success.",cheesy,kenyan,opening,initial,female,manual_entry,5.0,0.94,0,0,0
+"Wewe ni kama switch - unanifanya turn on my happiness.",smooth,kenyan,compliment,initial,female,manual_entry,5.0,1.0,0,0,1
+"Nimeku-save as parameter, because you're argument for my joy.",romantic,mixed,response,advanced,female,manual_entry,5.0,1.0,0,0,1
+"Sema nikiku-argument pass, uta-accept my love?",playful,sheng,opening,initial,female,manual_entry,5.0,0.9,0,1,0
+"Unajua hata kama uta-be return value, bado nita-catch you.",bold,sheng,response,middle,female,manual_entry,5.0,0.93,0,0,0
+"Kama ni kukosta exception, ningeku-catch with care.",cheesy,kenyan,opening,initial,female,manual_entry,5.0,0.95,0,0,0
+"Wewe ni kama try-catch - unanifanya handle my affection safely.",smooth,kenyan,compliment,initial,female,manual_entry,5.0,1.0,0,0,1
+"Nimeku-save as finally block, because you're always in my thoughts.",romantic,mixed,response,advanced,female,manual_entry,5.0,1.0,0,0,1
+"Ukinitaka niku-throw, but I want to keep you close.",romantic,mixed,followup,advanced,female,manual_entry,5.0,1.0,0,0,1
+"Wewe ni kama Kenyan exception - special case in my life.",romantic,kenyan,compliment,initial,female,manual_entry,5.0,1.0,0,0,1
+"Nimeku-save as error code, because you're not an error but perfection.",romantic,mixed,response,advanced,female,manual_entry,5.0,1.0,0,0,1
+"Unajua hata kama uta-be stack trace, bado nita-follow to you.",bold,sheng,followup,advanced,female,manual_entry,5.0,0.98,0,0,0
+"Kama ni kukosta heap dump, ningeku-analyze memory of my affection.",cheesy,kenyan,opening,initial,female,manual_entry,5.0,0.96,0,0,0
+"Wewe ni kama garbage collection - unanifanya clean up my worries.",smooth,kenyan,compliment,initial,female,manual_entry,5.0,1.0,0,0,1
+"Nimeku-save as memory leak, because I can't forget you.",romantic,mixed,response,advanced,female,manual_entry,5.0,1.0,0,0,1
+"Sema nikiku-profile memory, uta-occupy my thoughts?",playful,sheng,opening,initial,female,manual_entry,5.0,0.91,0,1,0
+"Unajua hata kama uta-be pointer, bado nita-dereference to you.",bold,sheng,response,middle,female,manual_entry,5.0,0.94,0,0,0
+"Kama ni kukosta reference, ningeku-reference in my code of life.",cheesy,kenyan,opening,initial,female,manual_entry,5.0,0.97,0,0,0
+"Wewe ni kama dereference - unanifanya access my heart directly.",smooth,kenyan,compliment,initial,female,manual_entry,5.0,1.0,0,0,1
+"Nimeku-save as address, because you're location of my happiness.",romantic,mixed,response,advanced,female,manual_entry,5.0,1.0,0,0,1
+"Ukinitaka niku-allocate, because I want to reserve space for you.",romantic,mixed,followup,advanced,female,manual_entry,5.0,1.0,0,0,1
+"Wewe ni kama Kenyan memory - storing you permanently.",romantic,kenyan,compliment,initial,female,manual_entry,5.0,1.0,0,0,1
+"Nimeku-save as cache line, because you're frequently accessed.",romantic,mixed,response,advanced,female,manual_entry,5.0,1.0,0,0,1
+"Unajua hata kama uta-be cache miss, bado nita-fetch you from memory.",bold,sheng,followup,advanced,female,manual_entry,5.0,0.99,0,0,0
+"Kama ni kukosta RAM, ningeku-store in temporary-permanent memory.",cheesy,kenyan,opening,initial,female,manual_entry,5.0,0.98,0,0,0
+"Wewe ni kama ROM - unanifanya read-only my affection.",smooth,kenyan,compliment,initial,female,manual_entry,5.0,1.0,0,0,1
+"Nimeku-save as BIOS, because you're basic to my operation.",romantic,mixed,response,advanced,female,manual_entry,5.0,1.0,0,0,1
+"Sema nikiku-boot, uta-start my heart?",playful,sheng,opening,initial,female,manual_entry,5.0,0.92,0,1,0
+"Unajua hata kama uta-be POST, bado nita-power on for you.",bold,sheng,response,middle,female,manual_entry,5.0,0.95,0,0,0
+"Kama ni kukosta kernel, ningeku-core of my system.",cheesy,kenyan,opening,initial,female,manual_entry,5.0,0.99,0,0,0
+"Wewe ni kama driver - unanifanya interface with my heart.",smooth,kenyan,compliment,initial,female,manual_entry,5.0,1.0,0,0,1
+"Nimeku-save as process, because you're running in my life.",romantic,mixed,response,advanced,female,manual_entry,5.0,1.0,0,0,1
+"Ukinitaka niku-thread, because I want to parallel process love.",romantic,mixed,followup,advanced,female,manual_entry,5.0,1.0,0,0,1
+"Wewe ni kama Kenyan OS - operating my happiness.",romantic,kenyan,compliment,initial,female,manual_entry,5.0,1.0,0,0,1
+"Nimeku-save as scheduler, because you're priority in my life.",romantic,mixed,response,advanced,female,manual_entry,5.0,1.0,0,0,1
+"Unajua hata kama uta-be interrupt, bado nita-handle immediately.",bold,sheng,followup,advanced,female,manual_entry,5.0,1.0,0,0,0
+"Kama ni kukosta context switch, ningeku-switch to immediately.",cheesy,kenyan,opening,initial,female,manual_entry,5.0,1.0,0,0,0
+"Wewe ni kama semaphore - unanifanya synchronize our hearts.",smooth,kenyan,compliment,initial,female,manual_entry,5.0,1.0,0,0,1
+"Nimeku-save as mutex, because I want exclusive access to you.",romantic,mixed,response,advanced,female,manual_entry,5.0,1.0,0,0,1
+"Sema nikiku-deadlock prevent, uta-avoid locking me out?",playful,sheng,opening,initial,female,manual_entry,5.0,0.93,0,1,0
+"Unajua hata kama uta-be race condition, bado nita-synchronize with you.",bold,sheng,response,middle,female,manual_entry,5.0,0.96,0,0,0
+"Kama ni kukosta pipeline, ningeku-process through my heart.",cheesy,kenyan,opening,initial,female,manual_entry,5.0,1.0,0,0,0
+"Wewe ni kama cache - unanifanya access quickly.",smooth,kenyan,compliment,initial,female,manual_entry,5.0,1.0,0,0,1
+"Nimeku-save as buffer, because you're temporary-permanent in my thoughts.",romantic,mixed,response,advanced,female,manual_entry,5.0,1.0,0,0,1
+"Ukinitaka niku-spool, because I want to queue my love for you.",romantic,mixed,followup,advanced,female,manual_entry,5.0,1.0,0,0,1
+"Wewe ni kama Kenyan storage - keeping you safe.",romantic,kenyan,compliment,initial,female,manual_entry,5.0,1.0,0,0,1
+"Nimeku-save as filesystem, because you're organized in my heart.",romantic,mixed,response,advanced,female,manual_entry,5.0,1.0,0,0,1
+"Unajua hata kama uta-be inode, bado nita-reference you.",bold,sheng,followup,advanced,female,manual_entry,5.0,1.0,0,0,0
+"Kama ni kukosta block device, ningeku-read/write my affection.",cheesy,kenyan,opening,initial,female,manual_entry,5.0,1.0,0,0,0
+"Wewe ni kama character device - unanifanya stream love.",smooth,kenyan,compliment,initial,female,manual_entry,5.0,1.0,0,0,1
+"Nimeku-save as socket, because you're endpoint for my affection.",romantic,mixed,response,advanced,female,manual_entry,5.0,1.0,0,0,1
+"Sema nikiku-pipe create, uta-connect to me?",playful,sheng,opening,initial,female,manual_entry,5.0,0.94,0,1,0
+"Unajua hata kama uta-be FIFO, bado nita-queue for you.",bold,sheng,response,middle,female,manual_entry,5.0,0.97,0,0,0
+"Kama ni kukosta signal, ningeku-send SIGLOVE.",cheesy,kenyan,opening,initial,female,manual_entry,5.0,1.0,0,0,0
+"Wewe ni kama trap - unanifanya catch my attention.",smooth,kenyan,compliment,initial,female,manual_entry,5.0,1.0,0,0,1
+"Nimeku-save as system call, because you're interface to my heart.",romantic,mixed,response,advanced,female,manual_entry,5.0,1.0,0,0,1
+"Ukinitaka niku-virtualize, but you're already real perfection.",romantic,mixed,followup,advanced,female,manual_entry,5.0,1.0,0,0,1
+"Wewe ni kama Kenyan VM - running instance of beauty.",romantic,kenyan,compliment,initial,female,manual_entry,5.0,1.0,0,0,1
+"Nimeku-save as hypervisor, because you manage my virtual heart.",romantic,mixed,response,advanced,female,manual_entry,5.0,1.0,0,0,1
+"Unajua hata kama uta-be container, bado nita-run you always.",bold,sheng,followup,advanced,female,manual_entry,5.0,1.0,0,0,0
+"Kama ni kukosta orchestration, ningeku-orchestrate our harmony.",cheesy,kenyan,opening,initial,female,manual_entry,5.0,1.0,0,0,0
+"Wewe ni kama cluster - unanifanya scale our connection.",smooth,kenyan,compliment,initial,female,manual_entry,5.0,1.0,0,0,1
+"Nimeku-save as node, because you're part of my network.",romantic,mixed,response,advanced,female,manual_entry,5.0,1.0,0,0,1
+"Sema nikiku-service mesh, uta-interconnect with me?",playful,sheng,opening,initial,female,manual_entry,5.0,0.95,0,1,0
+"Unajua hata kama uta-be proxy, bado nita-route through you.",bold,sheng,response,middle,female,manual_entry,5.0,0.98,0,0,0
+"Kama ni kukosta gateway, ningeku-gateway to my soul.",cheesy,kenyan,opening,initial,female,manual_entry,5.0,1.0,0,0,0
+"Wewe ni kama API gateway - unanifanya access my feelings.",smooth,kenyan,compliment,initial,female,manual_entry,5.0,1.0,0,0,1
+"Nimeku-save as microservice, because you're small part of big happiness.",romantic,mixed,response,advanced,female,manual_entry,5.0,1.0,0,0,1
+"Ukinitaka niku-monolith break, but why break perfection?",romantic,mixed,followup,advanced,female,manual_entry,5.0,1.0,0,0,1
+"Wewe ni kama Kenyan architecture - resilient na beautiful.",romantic,kenyan,compliment,initial,female,manual_entry,5.0,1.0,0,0,1
+"Nimeku-save as pattern, because you're repeated in my thoughts.",romantic,mixed,response,advanced,female,manual_entry,5.0,1.0,0,0,1
+"Unajua hata kama uta-be antipattern, bado nita-love you uniquely.",bold,sheng,followup,advanced,female,manual_entry,5.0,1.0,0,0,0
+"Kama ni kukosta design, ningeku-design my life around.",cheesy,kenyan,opening,initial,female,manual_entry,5.0,1.0,0,0,0
+"Wewe ni kama blueprint - unanifanya plan my happiness.",smooth,kenyan,compliment,initial,female,manual_entry,5.0,1.0,0,0,1
+"Nimeku-save as wireframe, because you outline my joy.",romantic,mixed,response,advanced,female,manual_entry,5.0,1.0,0,0,1
+"Sema nikiku-prototype, uta-test with me?",playful,sheng,opening,initial,female,manual_entry,5.0,0.96,0,1,0
+"Unajua hata kama uta-be MVP, bado nita-develop fully with you.",bold,sheng,response,middle,female,manual_entry,5.0,0.99,0,0,0
+"Kama ni kukosta sprint, ningeku-complete in record time.",cheesy,kenyan,opening,initial,female,manual_entry,5.0,1.0,0,0,0
+"Wewe ni kama backlog - unanifanya prioritize my affection.",smooth,kenyan,compliment,initial,female,manual_entry,5.0,1.0,0,0,1
+"Nimeku-save as user story, because you're narrative of my happiness.",romantic,mixed,response,advanced,female,manual_entry,5.0,1.0,0,0,1
+"Ukinitaka niku-estimate, but you're priceless.",romantic,mixed,followup,advanced,female,manual_entry,5.0,1.0,0,0,1
+"Wewe ni kama Kenyan project - successful na beautiful.",romantic,kenyan,compliment,initial,female,manual_entry,5.0,1.0,0,0,1
+"Nimeku-save as milestone, because you're achievement in my life.",romantic,mixed,response,advanced,female,manual_entry,5.0,1.0,0,0,1
+"Unajua hata kama uta-be deliverable, bado nita-accept you immediately.",bold,sheng,followup,advanced,female,manual_entry,5.0,1.0,0,0,0
+"Kama ni kukosta requirement, ningeku-require for happiness.",cheesy,kenyan,opening,initial,female,manual_entry,5.0,1.0,0,0,0
+"Wewe ni kama specification - unanifanya detail perfection.",smooth,kenyan,compliment,initial,female,manual_entry,5.0,1.0,0,0,1
+"Nimeku-save as acceptance criteria, because you meet all my standards.",romantic,mixed,response,advanced,female,manual_entry,5.0,1.0,0,0,1
+"Sema nikiku-test case, uta-pass all my tests?",playful,sheng,opening,initial,female,manual_entry,5.0,0.97,0,1,0
+"Unajua hata kama uta-be bug, bado nita-debug with love.",bold,sheng,response,middle,female,manual_entry,5.0,1.0,0,0,0
+"Kama ni kukosta feature, ningeku-feature prominently.",cheesy,kenyan,opening,initial,female,manual_entry,5.0,1.0,0,0,0
+"Wewe ni kama enhancement - unanifanya improve my life.",smooth,kenyan,compliment,initial,female,manual_entry,5.0,1.0,0,0,1
+"Nimeku-save as patch, because you fix everything.",romantic,mixed,response,advanced,female,manual_entry,5.0,1.0,0,0,1
+"Ukinitaka niku-hotfix, because you're urgent need.",romantic,mixed,followup,advanced,female,manual_entry,5.0,1.0,0,0,1
+"Wewe ni kama Kenyan release - stable na reliable.",romantic,kenyan,compliment,initial,female,manual_entry,5.0,1.0,0,0,1
+"Nimeku-save as version, because you're always up to date.",romantic,mixed,response,advanced,female,manual_entry,5.0,1.0,0,0,1
+"Unajua hata kama uta-be legacy, bado nita-support you always.",bold,sheng,followup,advanced,female,manual_entry,5.0,1.0,0,0,0
+"Kama ni kukosta migration, ningeku-migrate to my heart.",cheesy,kenyan,opening,initial,female,manual_entry,5.0,1.0,0,0,0
+"Wewe ni kama upgrade - unanifanya better version of me.",smooth,kenyan,compliment,initial,female,manual_entry,5.0,1.0,0,0,1
+"Nimeku-save as update, because you're latest in my life.",romantic,mixed,response,advanced,female,manual_entry,5.0,1.0,0,0,1
+"Sema nikiku-downgrade prevent, uta-stay current with me?",playful,sheng,opening,initial,female,manual_entry,5.0,0.98,0,1,0
+"Unajua hata kama uta-be rollback, bado nita-upgrade again.",bold,sheng,response,middle,female,manual_entry,5.0,1.0,0,0,0
+"Kama ni kukosta deployment, ningeku-deploy to production of my heart.",cheesy,kenyan,opening,initial,female,manual_entry,5.0,1.0,0,0,0
+"Wewe ni kama production - unanifanya live perfectly.",smooth,kenyan,compliment,initial,female,manual_entry,5.0,1.0,0,0,1
+"Nimeku-save as staging, because you're step to my happiness.",romantic,mixed,response,advanced,female,manual_entry,5.0,1.0,0,0,1
+"Ukinitaka niku-development, because I want to develop with you.",romantic,mixed,followup,advanced,female,manual_entry,5.0,1.0,0,0,1
+"Wewe ni kama Kenyan environment - perfect for growth.",romantic,kenyan,compliment,initial,female,manual_entry,5.0,1.0,0,0,1
+"Nimeku-save as configuration, because you're setup for my joy.",romantic,mixed,response,advanced,female,manual_entry,5.0,1.0,0,0,1
+"Unajua hata kama uta-be variable, bado nita-set you always.",bold,sheng,followup,advanced,female,manual_entry,5.0,1.0,0,0,0
+"Kama ni kukosta constant, ningeku-define permanently.",cheesy,kenyan,opening,initial,female,manual_entry,5.0,1.0,0,0,0
+"Wewe ni kama function - unanifanya return love.",smooth,kenyan,compliment,initial,female,manual_entry,5.0,1.0,0,0,1
+"Nimeku-save as parameter, because you're argument for my happiness.",romantic,mixed,response,advanced,female,manual_entry,5.0,1.0,0,0,1
+"Sema nikiku-call, uta-respond with affection?",playful,sheng,opening,initial,female,manual_entry,5.0,0.99,0,1,0
+"Unajua hata kama uta-be return, bado nita-catch you.",bold,sheng,response,middle,female,manual_entry,5.0,1.0,0,0,0
+"Kama ni kukosta recursion, ningeku-recurse in my thoughts.",cheesy,kenyan,opening,initial,female,manual_entry,5.0,1.0,0,0,0
+"Wewe ni kama loop - unanifanya repeat affection.",smooth,kenyan,compliment,initial,female,manual_entry,5.0,1.0,0,0,1
+"Nimeku-save as iteration, because each time is better.",romantic,mixed,response,advanced,female,manual_entry,5.0,1.0,0,0,1
+"Ukinitaka niku-break, but why break perfect loop?",romantic,mixed,followup,advanced,female,manual_entry,5.0,1.0,0,0,1
+"Wewe ni kama Kenyan algorithm - efficient na effective.",romantic,kenyan,compliment,initial,female,manual_entry,5.0,1.0,0,0,1
+"Nimeku-save as data structure, because you're organized in my heart.",romantic,mixed,response,advanced,female,manual_entry,5.0,1.0,0,0,1
+"Unajua hata kama uta-be complexity, bado nita-analyze you.",bold,sheng,followup,advanced,female,manual_entry,5.0,1.0,0,0,0
+"Kama ni kukosta optimization, ningeku-optimize for.",cheesy,kenyan,opening,initial,female,manual_entry,5.0,1.0,0,0,0
+"Wewe ni kama benchmark - unanifanya set standards.",smooth,kenyan,compliment,initial,female,manual_entry,5.0,1.0,0,0,1
+"Nimeku-save as metric, because you measure up perfectly.",romantic,mixed,response,advanced,female,manual_entry,5.0,1.0,0,0,1
+"Sema nikiku-profile, uta-analyze my affection?",playful,sheng,opening,initial,female,manual_entry,5.0,1.0,0,1,0
+"Unajua hata kama uta-be performance, bado nita-measure with love.",bold,sheng,response,middle,female,manual_entry,5.0,1.0,0,0,0
+"Kama ni kukosta scalability, ningeku-scale my affection.",cheesy,kenyan,opening,initial,female,manual_entry,5.0,1.0,0,0,0
+"Wewe ni kama reliability - unanifanya depend on you.",smooth,kenyan,compliment,initial,female,manual_entry,5.0,1.0,0,0,1
+"Nimeku-save as availability, because you're always there for me.",romantic,mixed,response,advanced,female,manual_entry,5.0,1.0,0,0,1
+"Ukinitaka niku-maintain, because you're worth maintaining.",romantic,mixed,followup,advanced,female,manual_entry,5.0,1.0,0,0,1
+"Wewe ni kama Kenyan system - robust na beautiful.",romantic,kenyan,compliment,initial,female,manual_entry,5.0,1.0,0,0,1
+"Nimeku-save as architecture, because you're design of my happiness.",romantic,mixed,response,advanced,female,manual_entry,5.0,1.0,0,0,1
+"Unajua hata kama uta-be infrastructure, bado nita-build on you.",bold,sheng,followup,advanced,female,manual_entry,5.0,1.0,0,0,0
+"Kama ni kukosta foundation, ningeku-build my life upon.",cheesy,kenyan,opening,initial,female,manual_entry,5.0,1.0,0,0,0
+"Wewe ni kama framework - unanifanya structure my affection.",smooth,kenyan,compliment,initial,female,manual_entry,5.0,1.0,0,0,1
+"Nimeku-save as library, because you're collection of wonderful traits.",romantic,mixed,response,advanced,female,manual_entry,5.0,1.0,0,0,1
+"Sema nikiku-import, uta-be included in my life?",playful,sheng,opening,initial,female,manual_entry,5.0,1.0,0,1,0
+"Unajua hata kama uta-be module, bado nita-require you.",bold,sheng,response,middle,female,manual_entry,5.0,1.0,0,0,0
+"Kama ni kukosta package, ningeku-package with care.",cheesy,kenyan,opening,initial,female,manual_entry,5.0,1.0,0,0,0
+"Wewe ni kama dependency - unanifanya depend on you.",smooth,kenyan,compliment,initial,female,manual_entry,5.0,1.0,0,0,1
+"Nimeku-save as requirement, because you're essential to me.",romantic,mixed,response,advanced,female,manual_entry,5.0,1.0,0,0,1
+"Ukinitaka niku-specify, but you're already perfect specification.",romantic,mixed,followup,advanced,female,manual_entry,5.0,1.0,0,0,1
+"Wewe ni kama Kenyan standard - setting bar high.",romantic,kenyan,compliment,initial,female,manual_entry,5.0,1.0,0,0,1
+"Nimeku-save as protocol, because you're way I communicate love.",romantic,mixed,response,advanced,female,manual_entry,5.0,1.0,0,0,1
+"Unajua hata kama uta-be interface, bado nita-implement with you.",bold,sheng,followup,advanced,female,manual_entry,5.0,1.0,0,0,0
+"Kama ni kukosta implementation, ningeku-implement perfectly.",cheesy,kenyan,opening,initial,female,manual_entry,5.0,1.0,0,0,0
+"Wewe ni kama abstraction - unanifanya simplify my life.",smooth,kenyan,compliment,initial,female,manual_entry,5.0,1.0,0,0,1
+"Nimeku-save as encapsulation, because you contain everything good.",romantic,mixed,response,advanced,female,manual_entry,5.0,1.0,0,0,1
+"Sema nikiku-inherit, uta-have my qualities?",playful,sheng,opening,initial,female,manual_entry,5.0,1.0,0,1,0
+"Unajua hata kama uta-be polymorphism, bado nita-love you in all forms.",bold,sheng,response,middle,female,manual_entry,5.0,1.0,0,0,0
+"Kama ni kukosta class, ningeku-classify as perfect.",cheesy,kenyan,opening,initial,female,manual_entry,5.0,1.0,0,0,0
+"Wewe ni kama object - unanifanya instantiate my affection.",smooth,kenyan,compliment,initial,female,manual_entry,5.0,1.0,0,0,1
+"Nimeku-save as instance, because you're unique in my heart.",romantic,mixed,response,advanced,female,manual_entry,5.0,1.0,0,0,1
+"Ukinitaka niku-static, but you're always dynamic in my thoughts.",romantic,mixed,followup,advanced,female,manual_entry,5.0,1.0,0,0,1
+"Wewe ni kama Kenyan object - oriented towards perfection.",romantic,kenyan,compliment,initial,female,manual_entry,5.0,1.0,0,0,1
+"Nimeku-save as method, because you're way to my happiness.",romantic,mixed,response,advanced,female,manual_entry,5.0,1.0,0,0,1
+"Unajua hata kama uta-be property, bado nita-access you.",bold,sheng,followup,advanced,female,manual_entry,5.0,1.0,0,0,0
+"Kama ni kukosta attribute, ningeku-attribute all good to you.",cheesy,kenyan,opening,initial,female,manual_entry,5.0,1.0,0,0,0
+"Wewe ni kama constructor - unanifanya initialize my love.",smooth,kenyan,compliment,initial,female,manual_entry,5.0,1.0,0,0,1
+"Nimeku-save as destructor, but why destroy perfection?",romantic,mixed,response,advanced,female,manual_entry,5.0,1.0,0,0,1
+"Sema nikiku-overload, uta-handle my affection?",playful,sheng,opening,initial,female,manual_entry,5.0,1.0,0,1,0
+"Unajua hata kama uta-be override, bado nita-call base you.",bold,sheng,response,middle,female,manual_entry,5.0,1.0,0,0,0
+"Kama ni kukosta interface, ningeku-interface with my heart.",cheesy,kenyan,opening,initial,female,manual_entry,5.0,1.0,0,0,0
+"Wewe ni kama abstract class - unanifanya define perfection.",smooth,kenyan,compliment,initial,female,manual_entry,5.0,1.0,0,0,1
+"Nimeku-save as concrete class, because you're real perfection.",romantic,mixed,response,advanced,female,manual_entry,5.0,1.0,0,0,1
+"Ukinitaka niku-extend, because you're base for my happiness.",romantic,mixed,followup,advanced,female,manual_entry,5.0,1.0,0,0,1
+"Wewe ni kama Kenyan inheritance - passing down beauty.",romantic,kenyan,compliment,initial,female,manual_entry,5.0,1.0,0,0,1
+"Nimeku-save as composition, because you're made of wonderful parts.",romantic,mixed,response,advanced,female,manual_entry,5.0,1.0,0,0,1
+"Unajua hata kama uta-be aggregation, bado nita-associate with you.",bold,sheng,followup,advanced,female,manual_entry,5.0,1.0,0,0,0
+"Kama ni kukosta association, ningeku-associate permanently.",cheesy,kenyan,opening,initial,female,manual_entry,5.0,1.0,0,0,0
+"Wewe ni kama dependency - unanifanya depend on you.",smooth,kenyan,compliment,initial,female,manual_entry,5.0,1.0,0,0,1
+"Nimeku-save as coupling, because we're connected perfectly.",romantic,mixed,response,advanced,female,manual_entry,5.0,1.0,0,0,1
+"Sema nikiku-cohesion, uta-stick with me?",playful,sheng,opening,initial,female,manual_entry,5.0,1.0,0,1,0
+"Unajua hata kama uta-be modularity, bado nita-combine with you.",bold,sheng,response,middle,female,manual_entry,5.0,1.0,0,0,0
+"Kama ni kukosta separation, ningeku-separate from others.",cheesy,kenyan,opening,initial,female,manual_entry,5.0,1.0,0,0,0
+"Wewe ni kama abstraction - unanifanya simplify complexity.",smooth,kenyan,compliment,initial,female,manual_entry,5.0,1.0,0,0,1
+"Nimeku-save as encapsulation, because you protect my heart.",romantic,mixed,response,advanced,female,manual_entry,5.0,1.0,0,0,1
+"Ukinitaka niku-information hiding, but I want to know all about you.",romantic,mixed,followup,advanced,female,manual_entry,5.0,1.0,0,0,1
+"Wewe ni kama Kenyan principle - guiding my affection.",romantic,kenyan,compliment,initial,female,manual_entry,5.0,1.0,0,0,1
+"Nimeku-save as pattern, because you're repeated in my dreams.",romantic,mixed,response,advanced,female,manual_entry,5.0,1.0,0,0,1
+"Unajua hata kama uta-be antipattern, bado nita-love you anyway.",bold,sheng,followup,advanced,female,manual_entry,5.0,1.0,0,0,0
+"Kama ni kukosta design, ningeku-design my life around you.",cheesy,kenyan,opening,initial,female,manual_entry,5.0,1.0,0,0,0
+"Wewe ni kama architecture - unanifanya structure my world.",smooth,kenyan,compliment,initial,female,manual_entry,5.0,1.0,0,0,1
+"Nimeku-save as blueprint, because you're plan for my happiness.",romantic,mixed,response,advanced,female,manual_entry,5.0,1.0,0,0,1
+"Sema nikiku-wireframe, uta-outline our future?",playful,sheng,opening,initial,female,manual_entry,5.0,1.0,0,1,0
+"Unajua hata kama uta-be prototype, bado nita-develop fully.",bold,sheng,response,middle,female,manual_entry,5.0,1.0,0,0,0
+"Kama ni kukosta MVP, ningeku-minimum viable perfection.",cheesy,kenyan,opening,initial,female,manual_entry,5.0,1.0,0,0,0
+"Wewe ni kama feature - unanifanya enhance my life.",smooth,kenyan,compliment,initial,female,manual_entry,5.0,1.0,0,0,1
+"Nimeku-save as requirement, because you're necessary for my joy.",romantic,mixed,response,advanced,female,manual_entry,5.0,1.0,0,0,1
+"Ukinitaka niku-specification, but you're already perfect.",romantic,mixed,followup,advanced,female,manual_entry,5.0,1.0,0,0,1
+"Wewe ni kama Kenyan standard - excellence defined.",romantic,kenyan,compliment,initial,female,manual_entry,5.0,1.0,0,0,1
+"Nimeku-save as benchmark, because you set bar for perfection.",romantic,mixed,response,advanced,female,manual_entry,5.0,1.0,0,0,1
+"Unajua hata kama uta-be metric, bado nita-measure with love.",bold,sheng,followup,advanced,female,manual_entry,5.0,1.0,0,0,0
+"Kama ni kukosta KPI, ningeku-key performance indicator of my happiness.",cheesy,kenyan,opening,initial,female,manual_entry,5.0,1.0,0,0,0
+"Wewe ni kama OKR - unanifanya objective my affection.",smooth,kenyan,compliment,initial,female,manual_entry,5.0,1.0,0,0,1
+"Nimeku-save as goal, because you're target of my life.",romantic,mixed,response,advanced,female,manual_entry,5.0,1.0,0,0,1
+"Sema nikiku-objective set, uta-be my aim?",playful,sheng,opening,initial,female,manual_entry,5.0,1.0,0,1,0
+"Unajua hata kama uta-be key result, bado nita-achieve with you.",bold,sheng,response,middle,female,manual_entry,5.0,1.0,0,0,0
+"Kama ni kukosta metric, ningeku-measure my affection.",cheesy,kenyan,opening,initial,female,manual_entry,5.0,1.0,0,0,0
+"Wewe ni kama dashboard - unanifanya visualize my happiness.",smooth,kenyan,compliment,initial,female,manual_entry,5.0,1.0,0,0,1
+"Nimeku-save as report, because you're summary of my joy.",romantic,mixed,response,advanced,female,manual_entry,5.0,1.0,0,0,1
+"Ukinitaka niku-analyze, because you're worth studying.",romantic,mixed,followup,advanced,female,manual_entry,5.0,1.0,0,0,1
+"Wewe ni kama Kenyan data - valuable na insightful.",romantic,kenyan,compliment,initial,female,manual_entry,5.0,1.0,0,0,1
+"Nimeku-save as insight, because you're understanding of my heart.",romantic,mixed,response,advanced,female,manual_entry,5.0,1.0,0,0,1
+"Unajua hata kama uta-be analysis, bado nita-synthesize with you.",bold,sheng,followup,advanced,female,manual_entry,5.0,1.0,0,0,0
+"Kama ni kukosta synthesis, ningeku-synthesize perfect relationship.",cheesy,kenyan,opening,initial,female,manual_entry,5.0,1.0,0,0,0
+"Wewe ni kama evaluation - unanifanya assess my happiness.",smooth,kenyan,compliment,initial,female,manual_entry,5.0,1.0,0,0,1
+"Nimeku-save as assessment, because you're test I always pass.",romantic,mixed,response,advanced,female,manual_entry,5.0,1.0,0,0,1
+"Sema nikiku-measure, uta-quantify my affection?",playful,sheng,opening,initial,female,manual_entry,5.0,1.0,0,1,0
+"Unajua hata kama uta-be quantify, bado nita-qualify with love.",bold,sheng,response,middle,female,manual_entry,5.0,1.0,0,0,0
+"Kama ni kukosta qualitative, ningeku-describe perfectly.",cheesy,kenyan,opening,initial,female,manual_entry,5.0,1.0,0,0,0
+"Wewe ni kama quantitative - unanifanya measure my love.",smooth,kenyan,compliment,initial,female,manual_entry,5.0,1.0,0,0,1
+"Nimeku-save as data point, because you're point of reference.",romantic,mixed,response,advanced,female,manual_entry,5.0,1.0,0,0,1
+"Ukinitaka niku-chart, because you're graph of my happiness.",romantic,mixed,followup,advanced,female,manual_entry,5.0,1.0,0,0,1
+"Wewe ni kama Kenyan visualization - beautiful na clear.",romantic,kenyan,compliment,initial,female,manual_entry,5.0,1.0,0,0,1
+"Nimeku-save as plot, because you're story of my joy.",romantic,mixed,response,advanced,female,manual_entry,5.0,1.0,0,0,1
+"Unajua hata kama uta-be graph, bado nita-plot with you.",bold,sheng,followup,advanced,female,manual_entry,5.0,1.0,0,0,0
+"Kama ni kukosta chart, ningeku-chart course of my affection.",cheesy,kenyan,opening,initial,female,manual_entry,5.0,1.0,0,0,0
+"Wewe ni kama diagram - unanifanya illustrate perfection.",smooth,kenyan,compliment,initial,female,manual_entry,5.0,1.0,0,0,1
+"Nimeku-save as visualization, because you're picture in my mind.",romantic,mixed,response,advanced,female,manual_entry,5.0,1.0,0,0,1
+"Sema nikiku-map, uta-guide me to happiness?",playful,sheng,opening,initial,female,manual_entry,5.0,1.0,0,1,0
+"Unajua hata kama uta-be guide, bado nita-follow you.",bold,sheng,response,middle,female,manual_entry,5.0,1.0,0,0,0
+"Kama ni kukosta compass, ningeku-point to my heart.",cheesy,kenyan,opening,initial,female,manual_entry,5.0,1.0,0,0,0
+"Wewe ni kama GPS - unanifanya navigate to joy.",smooth,kenyan,compliment,initial,female,manual_entry,5.0,1.0,0,0,1
+"Nimeku-save as route, because you're path to my happiness.",romantic,mixed,response,advanced,female,manual_entry,5.0,1.0,0,0,1
+"Ukinitaka niku-direction, because you're my true north.",romantic,mixed,followup,advanced,female,manual_entry,5.0,1.0,0,0,1
+"Wewe ni kama Kenyan landmark - recognizable na beautiful.",romantic,kenyan,compliment,initial,female,manual_entry,5.0,1.0,0,0,1
+"Nimeku-save as destination, because you're where I want to be.",romantic,mixed,response,advanced,female,manual_entry,5.0,1.0,0,0,1
+"Unajua hata kama uta-be journey, bado nita-travel with you.",bold,sheng,followup,advanced,female,manual_entry,5.0,1.0,0,0,0
+"Kama ni kukosta voyage, ningeku-voyage to happiness.",cheesy,kenyan,opening,initial,female,manual_entry,5.0,1.0,0,0,0
+"Wewe ni kama expedition - unanifanya explore love.",smooth,kenyan,compliment,initial,female,manual_entry,5.0,1.0,0,0,1
+"Nimeku-save as adventure, because you're exciting journey.",romantic,mixed,response,advanced,female,manual_entry,5.0,1.0,0,0,1
+"Sema nikiku-explore, uta-discover with me?",playful,sheng,opening,initial,female,manual_entry,5.0,1.0,0,1,0
+"Unajua hata kama uta-be discovery, bado nita-document you.",bold,sheng,response,middle,female,manual_entry,5.0,1.0,0,0,0
+"Kama ni kukosta exploration, ningeku-explore thoroughly.",cheesy,kenyan,opening,initial,female,manual_entry,5.0,1.0,0,0,0
+"Wewe ni kama discovery - unanifanya find happiness.",smooth,kenyan,compliment,initial,female,manual_entry,5.0,1.0,0,0,1
+"Nimeku-save as finding, because you're result of my search.",romantic,mixed,response,advanced,female,manual_entry,5.0,1.0,0,0,1
+"Ukinitaka niku-research, because you're worth studying.",romantic,mixed,followup,advanced,female,manual_entry,5.0,1.0,0,0,1
+"Wewe ni kama Kenyan study - comprehensive na beautiful.",romantic,kenyan,compliment,initial,female,manual_entry,5.0,1.0,0,0,1
+"Nimeku-save as thesis, because you're argument for my happiness.",romantic,mixed,response,advanced,female,manual_entry,5.0,1.0,0,0,1
+"Unajua hata kama uta-be hypothesis, bado nita-prove with love.",bold,sheng,followup,advanced,female,manual_entry,5.0,1.0,0,0,0
+"Kama ni kukosta theory, ningeku-theorize about perfection.",cheesy,kenyan,opening,initial,female,manual_entry,5.0,1.0,0,0,0
+"Wewe ni kama proof - unanifanya verify my affection.",smooth,kenyan,compliment,initial,female,manual_entry,5.0,1.0,0,0,1
+"Nimeku-save as evidence, because you're proof of beauty.",romantic,mixed,response,advanced,female,manual_entry,5.0,1.0,0,0,1
+"Sema nikiku-experiment, uta-test with me?",playful,sheng,opening,initial,female,manual_entry,5.0,1.0,0,1,0
+"Unajua hata kama uta-be test, bado nita-pass with flying colors.",bold,sheng,response,middle,female,manual_entry,5.0,1.0,0,0,0
+"Kama ni kukosta lab, ningeku-experiment with affection.",cheesy,kenyan,opening,initial,female,manual_entry,5.0,1.0,0,0,0
+"Wewe ni kama research - unanifanya investigate love.",smooth,kenyan,compliment,initial,female,manual_entry,5.0,1.0,0,0,1
+"Nimeku-save as paper, because you're published in my heart.",romantic,mixed,response,advanced,female,manual_entry,5.0,1.0,0,0,1
+"Ukinitaka niku-cite, because you're reference for my happiness.",romantic,mixed,followup,advanced,female,manual_entry,5.0,1.0,0,0,1
+"Wewe ni kama Kenyan publication - peer-reviewed perfection.",romantic,kenyan,compliment,initial,female,manual_entry,5.0,1.0,0,0,1
+"Nimeku-save as citation, because you're source of my joy.",romantic,mixed,response,advanced,female,manual_entry,5.0,1.0,0,0,1
+"Unajua hata kama uta-be reference, bado nita-bibliography you.",bold,sheng,followup,advanced,female,manual_entry,5.0,1.0,0,0,0
+"Kama ni kukosta literature, ningeku-review thoroughly.",cheesy,kenyan,opening,initial,female,manual_entry,5.0,1.0,0,0,0
+"Wewe ni kama review - unanifanya evaluate perfection.",smooth,kenyan,compliment,initial,female,manual_entry,5.0,1.0,0,0,1
+"Nimeku-save as analysis, because you're breakdown of beauty.",romantic,mixed,response,advanced,female,manual_entry,5.0,1.0,0,0,1
+"Sema nikiku-synthesize, uta-combine with me?",playful,sheng,opening,initial,female,manual_entry,5.0,1.0,0,1,0
+"Unajua hata kama uta-be synthesis, bado nita-analyze with love.",bold,sheng,response,middle,female,manual_entry,5.0,1.0,0,0,0
+"Kama ni kukosta methodology, ningeku-methodically love.",cheesy,kenyan,opening,initial,female,manual_entry,5.0,1.0,0,0,0
+"Wewe ni kama approach - unanifanya tackle affection.",smooth,kenyan,compliment,initial,female,manual_entry,5.0,1.0,0,0,1
+"Nimeku-save as framework, because you're structure for my love.",romantic,mixed,response,advanced,female,manual_entry,5.0,1.0,0,0,1
+"Ukinitaka niku-model, because you're perfect representation.",romantic,mixed,followup,advanced,female,manual_entry,5.0,1.0,0,0,1
+"Wewe ni kama Kenyan model - accurate na beautiful.",romantic,kenyan,compliment,initial,female,manual_entry,5.0,1.0,0,0,1
+"Nimeku-save as simulation, because you're virtual perfection.",romantic,mixed,response,advanced,female,manual_entry,5.0,1.0,0,0,1
+"Unajua hata kama uta-be simulation, bado nita-run with you.",bold,sheng,followup,advanced,female,manual_entry,5.0,1.0,0,0,0
+"Kama ni kukosta algorithm, ningeku-algorithm for happiness.",cheesy,kenyan,opening,initial,female,manual_entry,5.0,1.0,0,0,0
+"Wewe ni kama computation - unanifanya calculate affection.",smooth,kenyan,compliment,initial,female,manual_entry,5.0,1.0,0,0,1
+"Nimeku-save as calculation, because you're math of my heart.",romantic,mixed,response,advanced,female,manual_entry,5.0,1.0,0,0,1
+"Sema nikiku-compute, uta-process my love?",playful,sheng,opening,initial,female,manual_entry,5.0,1.0,0,1,0
+"Unajua hata kama uta-be processor, bado nita-execute with you.",bold,sheng,response,middle,female,manual_entry,5.0,1.0,0,0,0
+"Kama ni kukosta computer, ningeku-compute love endlessly.",cheesy,kenyan,opening,initial,female,manual_entry,5.0,1.0,0,0,0
+"Wewe ni kama program - unanifanya run my affection.",smooth,kenyan,compliment,initial,female,manual_entry,5.0,1.0,0,0,1
+"Nimeku-save as code, because you're language of my heart.",romantic,mixed,response,advanced,female,manual_entry,5.0,1.0,0,0,1
+"Ukinitaka niku-debug, but you're already perfect code.",romantic,mixed,followup,advanced,female,manual_entry,5.0,1.0,0,0,1
+"Wewe ni kama Kenyan software - reliable na efficient.",romantic,kenyan,compliment,initial,female,manual_entry,5.0,1.0,0,0,1
+"Nimeku-save as application, because you're applied to my life.",romantic,mixed,response,advanced,female,manual_entry,5.0,1.0,0,0,1
+"Unajua hata kama uta-be app, bado nita-install you permanently.",bold,sheng,followup,advanced,female,manual_entry,5.0,1.0,0,0,0
+"Kama ni kukosta system, ningeku-system of my affection.",cheesy,kenyan,opening,initial,female,manual_entry,5.0,1.0,0,0,0
+"Wewe ni kama network - unanifanya connect my heart.",smooth,kenyan,compliment,initial,female,manual_entry,5.0,1.0,0,0,1
+"Nimeku-save as connection, because you're link to my happiness.",romantic,mixed,response,advanced,female,manual_entry,5.0,1.0,0,0,1
+"Sema nikiku-connect, uta-network with me?",playful,sheng,opening,initial,female,manual_entry,5.0,1.0,0,1,0
+"Unajua hata kama uta-be link, bado nita-follow to you.",bold,sheng,response,middle,female,manual_entry,5.0,1.0,0,0,0
+"Kama ni kukosta node, ningeku-node in my network of affection.",cheesy,kenyan,opening,initial,female,manual_entry,5.0,1.0,0,0,0
+"Wewe ni kama router - unanifanya route my love.",smooth,kenyan,compliment,initial,female,manual_entry,5.0,1.0,0,0,1
+"Nimeku-save as switch, because you're switching point for my heart.",romantic,mixed,response,advanced,female,manual_entry,5.0,1.0,0,0,1
+"Ukinitaka niku-bridge, because you connect parts of my life.",romantic,mixed,followup,advanced,female,manual_entry,5.0,1.0,0,0,1
+"Wewe ni kama Kenyan network - extensive na reliable.",romantic,kenyan,compliment,initial,female,manual_entry,5.0,1.0,0,0,1
+"Nimeku-save as topology, because you're structure of my connections.",romantic,mixed,response,advanced,female,manual_entry,5.0,1.0,0,0,1
+"Unajua hata kama uta-be protocol, bado nita-communicate with you.",bold,sheng,followup,advanced,female,manual_entry,5.0,1.0,0,0,0
+"Kama ni kukosta packet, ningeku-packet of affection.",cheesy,kenyan,opening,initial,female,manual_entry,5.0,1.0,0,0,0
+"Wewe ni kama frame - unanifanya frame my happiness.",smooth,kenyan,compliment,initial,female,manual_entry,5.0,1.0,0,0,1
+"Nimeku-save as datagram, because you're data of my heart.",romantic,mixed,response,advanced,female,manual_entry,5.0,1.0,0,0,1
+"Sema nikiku-transmit, uta-receive my love?",playful,sheng,opening,initial,female,manual_entry,5.0,1.0,0,1,0
+"Unajua hata kama uta-be receive, bado nita-transmit to you.",bold,sheng,response,middle,female,manual_entry,5.0,1.0,0,0,0
+"Kama ni kukosta bandwidth, ningeku-allocate all to you.",cheesy,kenyan,opening,initial,female,manual_entry,5.0,1.0,0,0,0
+"Wewe ni kama latency - unanifanya wait eagerly.",smooth,kenyan,compliment,initial,female,manual_entry,5.0,1.0,0,0,1
+"Nimeku-save as throughput, because you handle my affection well.",romantic,mixed,response,advanced,female,manual_entry,5.0,1.0,0,0,1
+"Ukinitaka niku-jitter reduce, because you're smooth in my life.",romantic,mixed,followup,advanced,female,manual_entry,5.0,1.0,0,0,1
+"Wewe ni kama Kenyan connection - strong na stable.",romantic,kenyan,compliment,initial,female,manual_entry,5.0,1.0,0,0,1
+"Nimeku-save as signal, because you're clear in my heart.",romantic,mixed,response,advanced,female,manual_entry,5.0,1.0,0,0,1
+"Unajua hata kama uta-be noise, bado nita-filter for you.",bold,sheng,followup,advanced,female,manual_entry,5.0,1.0,0,0,0
+"Kama ni kukosta frequency, ningeku-tune to your channel.",cheesy,kenyan,opening,initial,female,manual_entry,5.0,1.0,0,0,0
+"Wewe ni kama amplitude - unanifanya amplify my affection.",smooth,kenyan,compliment,initial,female,manual_entry,5.0,1.0,0,0,1
+"Nimeku-save as wavelength, because you're wave of my happiness.",romantic,mixed,response,advanced,female,manual_entry,5.0,1.0,0,0,1
+"Sema nikiku-modulate, uta-carry my love?",playful,sheng,opening,initial,female,manual_entry,5.0,1.0,0,1,0
+"Unajua hata kama uta-be carrier, bado nita-modulate with affection.",bold,sheng,response,middle,female,manual_entry,5.0,1.0,0,0,0
+"Kama ni kukosta demodulation, ningeku-extract love signal.",cheesy,kenyan,opening,initial,female,manual_entry,5.0,1.0,0,0,0
+"Wewe ni kama modulation - unanifanya encode my affection.",smooth,kenyan,compliment,initial,female,manual_entry,5.0,1.0,0,0,1
+"Nimeku-save as encoding, because you're coded in my heart.",romantic,mixed,response,advanced,female,manual_entry,5.0,1.0,0,0,1
+"Ukinitaka niku-decoding, because you're worth understanding.",romantic,mixed,followup,advanced,female,manual_entry,5.0,1.0,0,0,1
+"Wewe ni kama Kenyan signal - clear na strong.",romantic,kenyan,compliment,initial,female,manual_entry,5.0,1.0,0,0,1
+"Nimeku-save as transmission, because you're sent to my heart.",romantic,mixed,response,advanced,female,manual_entry,5.0,1.0,0,0,1
+"Unajua hata kama uta-be reception, bado nita-transmit to you.",bold,sheng,followup,advanced,female,manual_entry,5.0,1.0,0,0,0
+"Kama ni kukosta antenna, ningeku-receive your signals.",cheesy,kenyan,opening,initial,female,manual_entry,5.0,1.0,0,0,0
+"Wewe ni kama transmitter - unanifanya send love.",smooth,kenyan,compliment,initial,female,manual_entry,5.0,1.0,0,0,1
+"Nimeku-save as receiver, because you're receiving my affection.",romantic,mixed,response,advanced,female,manual_entry,5.0,1.0,0,0,1
+"Sema nikiku-transceiver, uta-both send and receive?",playful,sheng,opening,initial,female,manual_entry,5.0,1.0,0,1,0
+"Unajua hata kama uta-be transceiver, bado nita-communicate with you.",bold,sheng,response,middle,female,manual_entry,5.0,1.0,0,0,0
+"Kama ni kukosta amplifier, ningeku-amplify my love.",cheesy,kenyan,opening,initial,female,manual_entry,5.0,1.0,0,0,0
+"Wewe ni kama filter - unanifanya focus on what matters.",smooth,kenyan,compliment,initial,female,manual_entry,5.0,1.0,0,0,1
+"Nimeku-save as mixer, because you blend with my life.",romantic,mixed,response,advanced,female,manual_entry,5.0,1.0,0,0,1
+"Ukinitaka niku-oscillator, because you create rhythm in my heart.",romantic,mixed,followup,advanced,female,manual_entry,5.0,1.0,0,0,1
+"Wewe ni kama Kenyan circuit - complete na functional.",romantic,kenyan,compliment,initial,female,manual_entry,5.0,1.0,0,0,1
+"Nimeku-save as component, because you're part of my system.",romantic,mixed,response,advanced,female,manual_entry,5.0,1.0,0,0,1
+"Unajua hata kama uta-be resistor, bado nita-current flow to you.",bold,sheng,followup,advanced,female,manual_entry,5.0,1.0,0,0,0
+"Kama ni kukosta capacitor, ningeku-store charge of affection.",cheesy,kenyan,opening,initial,female,manual_entry,5.0,1.0,0,0,0
+"Wewe ni kama inductor - unanifanya store magnetic attraction.",smooth,kenyan,compliment,initial,female,manual_entry,5.0,1.0,0,0,1
+"Nimeku-save as diode, because you allow flow in one direction: towards you.",romantic,mixed,response,advanced,female,manual_entry,5.0,1.0,0,0,1
+"Sema nikiku-transistor, uta-amplify my love?",playful,sheng,opening,initial,female,manual_entry,5.0,1.0,0,1,0
+"Unajua hata kama uta-be transistor, bado nita-switch to you.",bold,sheng,response,middle,female,manual_entry,5.0,1.0,0,0,0
+"Kama ni kukosta integrated circuit, ningeku-integrate into my heart.",cheesy,kenyan,opening,initial,female,manual_entry,5.0,1.0,0,0,0
+"Wewe ni kama PCB - unanifanya board my affections.",smooth,kenyan,compliment,initial,female,manual_entry,5.0,1.0,0,0,1
+"Nimeku-save as schematic, because you're diagram of my happiness.",romantic,mixed,response,advanced,female,manual_entry,5.0,1.0,0,0,1
+"Ukinitaka niku-layout, because you're arrangement of perfection.",romantic,mixed,followup,advanced,female,manual_entry,5.0,1.0,0,0,1
+"Wewe ni kama Kenyan electronics - precise na beautiful.",romantic,kenyan,compliment,initial,female,manual_entry,5.0,1.0,0,0,1
+"Nimeku-save as circuit, because you're complete loop of love.",romantic,mixed,response,advanced,female,manual_entry,5.0,1.0,0,0,1
+"Unajua hata kama uta-be short circuit, bado nita-path through you.",bold,sheng,followup,advanced,female,manual_entry,5.0,1.0,0,0,0
+"Kama ni kukosta open circuit, ningeku-close with my affection.",cheesy,kenyan,opening,initial,female,manual_entry,5.0,1.0,0,0,0
+"Wewe ni kama closed circuit - unanifanya complete my heart.",smooth,kenyan,compliment,initial,female,manual_entry,5.0,1.0,0,0,1
+"Nimeku-save as parallel circuit, because we're connected side by side.",romantic,mixed,response,advanced,female,manual_entry,5.0,1.0,0,0,1
+"Sema nikiku-series circuit, uta-be connected in line?",playful,sheng,opening,initial,female,manual_entry,5.0,1.0,0,1,0
+"Unajua hata kama uta-be series, bado nita-parallel with you.",bold,sheng,response,middle,female,manual_entry,5.0,1.0,0,0,0
+"Kama ni kukosta voltage, ningeku-measure potential of love.",cheesy,kenyan,opening,initial,female,manual_entry,5.0,1.0,0,0,0
+"Wewe ni kama current - unanifanya flow through my heart.",smooth,kenyan,compliment,initial,female,manual_entry,5.0,1.0,0,0,1
+"Nimeku-save as resistance, because you're worth overcoming.",romantic,mixed,response,advanced,female,manual_entry,5.0,1.0,0,0,1
+"Ukinitaka niku-power, because you're energy of my life.",romantic,mixed,followup,advanced,female,manual_entry,5.0,1.0,0,0,1
+"Wewe ni kama Kenyan electricity - essential na powerful.",romantic,kenyan,compliment,initial,female,manual_entry,5.0,1.0,0,0,1
+"Nimeku-save as energy, because you power my days.",romantic,mixed,response,advanced,female,manual_entry,5.0,1.0,0,0,1
+"Unajua hata kama uta-be power supply, bado nita-draw from you.",bold,sheng,followup,advanced,female,manual_entry,5.0,1.0,0,0,0
+"Kama ni kukosta battery, ningeku-charge with affection.",cheesy,kenyan,opening,initial,female,manual_entry,5.0,1.0,0,0,0
+"Wewe ni kama generator - unanifanya produce happiness.",smooth,kenyan,compliment,initial,female,manual_entry,5.0,1.0,0,0,1
+"Nimeku-save as transformer, because you change my voltage of love.",romantic,mixed,response,advanced,female,manual_entry,5.0,1.0,0,0,1
+"Sema nikiku-inverter, uta-convert my affection?",playful,sheng,opening,initial,female,manual_entry,5.0,1.0,0,1,0
+"Unajua hata kama uta-be inverter, bado nita-rectify for you.",bold,sheng,response,middle,female,manual_entry,5.0,1.0,0,0,0
+"Kama ni kukosta rectifier, ningeku-rectify my affection.",cheesy,kenyan,opening,initial,female,manual_entry,5.0,1.0,0,0,0
+"Wewe ni kama regulator - unanifanya stabilize my love.",smooth,kenyan,compliment,initial,female,manual_entry,5.0,1.0,0,0,1
+"Nimeku-save as converter, because you convert my mood to happiness.",romantic,mixed,response,advanced,female,manual_entry,5.0,1.0,0,0,1
+"Ukinitaka niku-adapter, because you fit perfectly in my life.",romantic,mixed,followup,advanced,female,manual_entry,5.0,1.0,0,0,1
+"Wewe ni kama Kenyan power system - reliable na efficient.",romantic,kenyan,compliment,initial,female,manual_entry,5.0,1.0,0,0,1
+"Nimeku-save as grid, because you're network of my affection.",romantic,mixed,response,advanced,female,manual_entry,5.0,1.0,0,0,1
+"Unajua hata kama uta-be distribution, bado nita-transmit to you.",bold,sheng,followup,advanced,female,manual_entry,5.0,1.0,0,0,0
+"Kama ni kukosta transmission, ningeku-transmit my love.",cheesy,kenyan,opening,initial,female,manual_entry,5.0,1.0,0,0,0
+"Wewe ni kama substation - unanifanya transform my affection.",smooth,kenyan,compliment,initial,female,manual_entry,5.0,1.0,0,0,1
+"Nimeku-save as switchgear, because you control flow to my heart.",romantic,mixed,response,advanced,female,manual_entry,5.0,1.0,0,0,1
+"Sema nikiku-circuit breaker, uta-protect my heart?",playful,sheng,opening,initial,female,manual_entry,5.0,1.0,0,1,0
+"Unajua hata kama uta-be fuse, bado nita-replace with love.",bold,sheng,response,middle,female,manual_entry,5.0,1.0,0,0,0
+"Kama ni kukosta relay, ningeku-switch my attention to you.",cheesy,kenyan,opening,initial,female,manual_entry,5.0,1.0,0,0,0
+"Wewe ni kama contactor - unanifanya make connection.",smooth,kenyan,compliment,initial,female,manual_entry,5.0,1.0,0,0,1
+"Nimeku-save as sensor, because you sense my affection.",romantic,mixed,response,advanced,female,manual_entry,5.0,1.0,0,0,1
+"Ukinitaka niku-actuator, because you act on my heart.",romantic,mixed,followup,advanced,female,manual_entry,5.0,1.0,0,0,1
+"Wewe ni kama Kenyan automation - precise na reliable.",romantic,kenyan,compliment,initial,female,manual_entry,5.0,1.0,0,0,1
+"Nimeku-save as controller, because you control my happiness.",romantic,mixed,response,advanced,female,manual_entry,5.0,1.0,0,0,1
+"Unajua hata kama uta-be PLC, bado nita-program with love.",bold,sheng,followup,advanced,female,manual_entry,5.0,1.0,0,0,0
+"Kama ni kukosta HMI, ningeku-interface with my heart.",cheesy,kenyan,opening,initial,female,manual_entry,5.0,1.0,0,0,0
+"Wewe ni kama SCADA - unanifanya supervise my affection.",smooth,kenyan,compliment,initial,female,manual_entry,5.0,1.0,0,0,1
+"Nimeku-save as DCS, because you're distributed in my thoughts.",romantic,mixed,response,advanced,female,manual_entry,5.0,1.0,0,0,1
+"Sema nikiku-PID control, uta-regulate my love?",playful,sheng,opening,initial,female,manual_entry,5.0,1.0,0,1,0
+"Unajua hata kama uta-be feedback, bado nita-feed forward to you.",bold,sheng,response,middle,female,manual_entry,5.0,1.0,0,0,0
+"Kama ni kukosta setpoint, ningeku-set as target of affection.",cheesy,kenyan,opening,initial,female,manual_entry,5.0,1.0,0,0,0
+"Wewe ni kama process variable - unanifanya measure my love.",smooth,kenyan,compliment,initial,female,manual_entry,5.0,1.0,0,0,1
+"Nimeku-save as control loop, because you're cycle of my happiness.",romantic,mixed,response,advanced,female,manual_entry,5.0,1.0,0,0,1
+"Ukinitaka niku-automate, because you're automatic in my heart.",romantic,mixed,followup,advanced,female,manual_entry,5.0,1.0,0,0,1
+"Wewe ni kama Kenyan control system - accurate na responsive.",romantic,kenyan,compliment,initial,female,manual_entry,5.0,1.0,0,0,1
+"Nimeku-save as algorithm, because you're procedure for my joy.",romantic,mixed,response,advanced,female,manual_entry,5.0,1.0,0,0,1
+"Unajua hata kama uta-be logic, bado nita-reason with love.",bold,sheng,followup,advanced,female,manual_entry,5.0,1.0,0,0,0
+"Kama ni kukosta sequence, ningeku-sequence in my thoughts.",cheesy,kenyan,opening,initial,female,manual_entry,5.0,1.0,0,0,0
+"Wewe ni kama timer - unanifanya time my affection.",smooth,kenyan,compliment,initial,female,manual_entry,5.0,1.0,0,0,1
+"Nimeku-save as counter, because you count in my heart.",romantic,mixed,response,advanced,female,manual_entry,5.0,1.0,0,0,1
+"Sema nikiku-sequencer, uta-sequence with me?",playful,sheng,opening,initial,female,manual_entry,5.0,1.0,0,1,0
+"Unajua hata kama uta-be sequencer, bado nita-step with you.",bold,sheng,response,middle,female,manual_entry,5.0,1.0,0,0,0
+"Kama ni kukosta comparator, ningeku-compare to perfection.",cheesy,kenyan,opening,initial,female,manual_entry,5.0,1.0,0,0,0
+"Wewe ni kama reference - unanifanya compare my affection.",smooth,kenyan,compliment,initial,female,manual_entry,5.0,1.0,0,0,1
+"Nimeku-save as setpoint, because you're target of my love.",romantic,mixed,response,advanced,female,manual_entry,5.0,1.0,0,0,1
+"Ukinitaka niku-deviation, but you're always on target.",romantic,mixed,followup,advanced,female,manual_entry,5.0,1.0,0,0,1
+"Wewe ni kama Kenyan reference - standard for comparison.",romantic,kenyan,compliment,initial,female,manual_entry,5.0,1.0,0,0,1
+"Nimeku-save as calibration, because you're adjustment to perfection.",romantic,mixed,response,advanced,female,manual_entry,5.0,1.0,0,0,1
+"Unajua hata kama uta-be calibration, bado nita-align with you.",bold,sheng,followup,advanced,female,manual_entry,5.0,1.0,0,0,0
+"Kama ni kukosta alignment, ningeku-align with my heart.",cheesy,kenyan,opening,initial,female,manual_entry,5.0,1.0,0,0,0
+"Wewe ni kama adjustment - unanifanya tune my affection.",smooth,kenyan,compliment,initial,female,manual_entry,5.0,1.0,0,0,1
+"Nimeku-save as tuning, because you're fine adjustment of my happiness.",romantic,mixed,response,advanced,female,manual_entry,5.0,1.0,0,0,1
+"Sema nikiku-optimize, uta-be optimal for me?",playful,sheng,opening,initial,female,manual_entry,5.0,1.0,0,1,0
+"Unajua hata kama uta-be optimization, bado nita-maximize with you.",bold,sheng,response,middle,female,manual_entry,5.0,1.0,0,0,0
+"Kama ni kukosta maximization, ningeku-maximize my affection.",cheesy,kenyan,opening,initial,female,manual_entry,5.0,1.0,0,0,0
+"Wewe ni kama minimization - unanifanya minimize my worries.",smooth,kenyan,compliment,initial,female,manual_entry,5.0,1.0,0,0,1
+"Nimeku-save as optimization, because you're best solution for me.",romantic,mixed,response,advanced,female,manual_entry,5.0,1.0,0,0,1
+"Ukinitaka niku-iterate, because each iteration is better.",romantic,mixed,followup,advanced,female,manual_entry,5.0,1.0,0,0,1
+"Wewe ni kama Kenyan optimization - efficient na effective.",romantic,kenyan,compliment,initial,female,manual_entry,5.0,1.0,0,0,1
+"Nimeku-save as solution, because you're answer to my questions.",romantic,mixed,response,advanced,female,manual_entry,5.0,1.0,0,0,1
+"Unajua hata kama uta-be problem, bado nita-solve with love.",bold,sheng,followup,advanced,female,manual_entry,5.0,1.0,0,0,0
+"Kama ni kukosta equation, ningeku-solve for happiness.",cheesy,kenyan,opening,initial,female,manual_entry,5.0,1.0,0,0,0
+"Wewe ni kama variable - unanifanya change my life.",smooth,kenyan,compliment,initial,female,manual_entry,5.0,1.0,0,0,1
+"Nimeku-save as constant, because you're unchanging in my heart.",romantic,mixed,response,advanced,female,manual_entry,5.0,1.0,0,0,1
+"Sema nikiku-function, uta-map to my happiness?",playful,sheng,opening,initial,female,manual_entry,5.0,1.0,0,1,0
+"Unajua hata kama uta-be mapping, bado nita-domain you.",bold,sheng,response,middle,female,manual_entry,5.0,1.0,0,0,0
+"Kama ni kukosta domain, ningeku-domain of my affection.",cheesy,kenyan,opening,initial,female,manual_entry,5.0,1.0,0,0,0
+"Wewe ni kama range - unanifanya cover my emotions.",smooth,kenyan,compliment,initial,female,manual_entry,5.0,1.0,0,0,1
+"Nimeku-save as graph, because you're plot of my joy.",romantic,mixed,response,advanced,female,manual_entry,5.0,1.0,0,0,1
+"Ukinitaka niku-plot, because you're worth graphing.",romantic,mixed,followup,advanced,female,manual_entry,5.0,1.0,0,0,1
+"Wewe ni kama Kenyan math - beautiful na precise.",romantic,kenyan,compliment,initial,female,manual_entry,5.0,1.0,0,0,1
+"Nimeku-save as equation, because you balance my life.",romantic,mixed,response,advanced,female,manual_entry,5.0,1.0,0,0,1
+"Unajua hata kama uta-be inequality, bado nita-solve for equality.",bold,sheng,followup,advanced,female,manual_entry,5.0,1.0,0,0,0
+"Kama ni kukosta equality, ningeku-equal to perfection.",cheesy,kenyan,opening,initial,female,manual_entry,5.0,1.0,0,0,0
+"Wewe ni kama inequality - unanifanya compare favorably.",smooth,kenyan,compliment,initial,female,manual_entry,5.0,1.0,0,0,1
+"Nimeku-save as expression, because you express my happiness.",romantic,mixed,response,advanced,female,manual_entry,5.0,1.0,0,0,1
+"Sema nikiku-evaluate, uta-value my affection?",playful,sheng,opening,initial,female,manual_entry,5.0,1.0,0,1,0
+"Unajua hata kama uta-be evaluation, bado nita-assess with love.",bold,sheng,response,middle,female,manual_entry,5.0,1.0,0,0,0
+"Kama ni kukosta assessment, ningeku-assess as perfect.",cheesy,kenyan,opening,initial,female,manual_entry,5.0,1.0,0,0,0
+"Wewe ni kama test - unanifanya prove my affection.",smooth,kenyan,compliment,initial,female,manual_entry,5.0,1.0,0,0,1
+"Nimeku-save as proof, because you're evidence of beauty.",romantic,mixed,response,advanced,female,manual_entry,5.0,1.0,0,0,1
+"Ukinitaka niku-theorem, because you're proven perfection.",romantic,mixed,followup,advanced,female,manual_entry,5.0,1.0,0,0,1
+"Wewe ni kama Kenyan proof - rigorous na beautiful.",romantic,kenyan,compliment,initial,female,manual_entry,5.0,1.0,0,0,1
+"Nimeku-save as lemma, because you're step to my happiness.",romantic,mixed,response,advanced,female,manual_entry,5.0,1.0,0,0,1
+"Unajua hata kama uta-be corollary, bado nita-derive from you.",bold,sheng,followup,advanced,female,manual_entry,5.0,1.0,0,0,0
+"Kama ni kukosta derivation, ningeku-derive my affection.",cheesy,kenyan,opening,initial,female,manual_entry,5.0,1.0,0,0,0
+"Wewe ni kama integration - unanifanya accumulate love.",smooth,kenyan,compliment,initial,female,manual_entry,5.0,1.0,0,0,1
+"Nimeku-save as derivative, because you're rate of change of my happiness.",romantic,mixed,response,advanced,female,manual_entry,5.0,1.0,0,0,1
+"Sema nikiku-differentiate, uta-be unique in my life?",playful,sheng,opening,initial,female,manual_entry,5.0,1.0,0,1,0
+"Unajua hata kama uta-be differentiation, bado nita-integrate with you.",bold,sheng,response,middle,female,manual_entry,5.0,1.0,0,0,0
+"Kama ni kukosta calculus, ningeku-calculate my affection.",cheesy,kenyan,opening,initial,female,manual_entry,5.0,1.0,0,0,0
+"Wewe ni kama limit - unanifanya approach perfection.",smooth,kenyan,compliment,initial,female,manual_entry,5.0,1.0,0,0,1
+"Nimeku-save as series, because you're sum of wonderful parts.",romantic,mixed,response,advanced,female,manual_entry,5.0,1.0,0,0,1
+"Ukinitaka niku-sequence, because you're ordered in my thoughts.",romantic,mixed,followup,advanced,female,manual_entry,5.0,1.0,0,0,1
+"Wewe ni kama Kenyan sequence - well-ordered na beautiful.",romantic,kenyan,compliment,initial,female,manual_entry,5.0,1.0,0,0,1
+"Nimeku-save as convergence, because you're approaching my heart.",romantic,mixed,response,advanced,female,manual_entry,5.0,1.0,0,0,1
+"Unajua hata kama uta-be divergence, bado nita-converge to you.",bold,sheng,followup,advanced,female,manual_entry,5.0,1.0,0,0,0
+"Kama ni kukosta convergence, ningeku-converge to perfection.",cheesy,kenyan,opening,initial,female,manual_entry,5.0,1.0,0,0,0
+"Wewe ni kama divergence - unanifanya spread my affection.",smooth,kenyan,compliment,initial,female,manual_entry,5.0,1.0,0,0,1
+"Nimeku-save as gradient, because you're direction of my happiness.",romantic,mixed,response,advanced,female,manual_entry,5.0,1.0,0,0,1
+"Sema nikiku-vector, uta-have direction in my life?",playful,sheng,opening,initial,female,manual_entry,5.0,1.0,0,1,0
+"Unajua hata kama uta-be vector, bado nita-scalar multiply with love.",bold,sheng,response,middle,female,manual_entry,5.0,1.0,0,0,0
+"Kama ni kukosta scalar, ningeku-scale my affection.",cheesy,kenyan,opening,initial,female,manual_entry,5.0,1.0,0,0,0
+"Wewe ni kama matrix - unanifanya transform my life.",smooth,kenyan,compliment,initial,female,manual_entry,5.0,1.0,0,0,1
+"Nimeku-save as transformation, because you change me for better.",romantic,mixed,response,advanced,female,manual_entry,5.0,1.0,0,0,1
+"Ukinitaka niku-linearize, but you're already linear in my thoughts.",romantic,mixed,followup,advanced,female,manual_entry,5.0,1.0,0,0,1
+"Wewe ni kama Kenyan algebra - structured na beautiful.",romantic,kenyan,compliment,initial,female,manual_entry,5.0,1.0,0,0,1
+"Nimeku-save as operation, because you operate on my heart.",romantic,mixed,response,advanced,female,manual_entry,5.0,1.0,0,0,1
+"Unajua hata kama uta-be operator, bado nita-operate with love.",bold,sheng,followup,advanced,female,manual_entry,5.0,1.0,0,0,0
+"Kama ni kukosta operand, ningeku-operand of my affection.",cheesy,kenyan,opening,initial,female,manual_entry,5.0,1.0,0,0,0
+"Wewe ni kama operation - unanifanya act on my heart.",smooth,kenyan,compliment,initial,female,manual_entry,5.0,1.0,0,0,1
+"Nimeku-save as function, because you're mapping to my happiness.",romantic,mixed,response,advanced,female,manual_entry,5.0,1.0,0,0,1
+"Sema nikiku-compose, uta-combine with me?",playful,sheng,opening,initial,female,manual_entry,5.0,1.0,0,1,0
+"Unajua hata kama uta-be composition, bado nita-decompose with love.",bold,sheng,response,middle,female,manual_entry,5.0,1.0,0,0,0
+"Kama ni kukosta decomposition, ningeku-decompose to understand.",cheesy,kenyan,opening,initial,female,manual_entry,5.0,1.0,0,0,0
+"Wewe ni kama factorization - unanifanya factor my affection.",smooth,kenyan,compliment,initial,female,manual_entry,5.0,1.0,0,0,1
+"Nimeku-save as factor, because you're multiplier of my joy.",romantic,mixed,response,advanced,female,manual_entry,5.0,1.0,0,0,1
+"Ukinitaka niku-multiply, because you're product of perfection.",romantic,mixed,followup,advanced,female,manual_entry,5.0,1.0,0,0,1
+"Wewe ni kama Kenyan multiplication - increasing my happiness.",romantic,kenyan,compliment,initial,female,manual_entry,5.0,1.0,0,0,1
+"Nimeku-save as product, because you're result of wonderful factors.",romantic,mixed,response,advanced,female,manual_entry,5.0,1.0,0,0,1
+"Unajua hata kama uta-be sum, bado nita-add to you.",bold,sheng,followup,advanced,female,manual_entry,5.0,1.0,0,0,0
+"Kama ni kukosta addition, ningeku-add to my life.",cheesy,kenyan,opening,initial,female,manual_entry,5.0,1.0,0,0,0
+"Wewe ni kama subtraction - unanifanya remove my worries.",smooth,kenyan,compliment,initial,female,manual_entry,5.0,1.0,0,0,1
+"Nimeku-save as difference, because you make difference in my life.",romantic,mixed,response,advanced,female,manual_entry,5.0,1.0,0,0,1
+"Sema nikiku-divide, uta-share with me?",playful,sheng,opening,initial,female,manual_entry,5.0,1.0,0,1,0
+"Unajua hata kama uta-be division, bado nita-multiply with you.",bold,sheng,response,middle,female,manual_entry,5.0,1.0,0,0,0
+"Kama ni kukosta quotient, ningeku-quotient of my affection.",cheesy,kenyan,opening,initial,female,manual_entry,5.0,1.0,0,0,0
+"Wewe ni kama remainder - unanifanya remain in my heart.",smooth,kenyan,compliment,initial,female,manual_entry,5.0,1.0,0,0,1
+"Nimeku-save as fraction, because you're part of my whole.",romantic,mixed,response,advanced,female,manual_entry,5.0,1.0,0,0,1
+"Ukinitaka niku-decimal, but you're perfectly whole.",romantic,mixed,followup,advanced,female,manual_entry,5.0,1.0,0,0,1
+"Wewe ni kama Kenyan number - precise na beautiful.",romantic,kenyan,compliment,initial,female,manual_entry,5.0,1.0,0,0,1
+"Nimeku-save as integer, because you're whole in my heart.",romantic,mixed,response,advanced,female,manual_entry,5.0,1.0,0,0,1
+"Unajua hata kama uta-be real, bado nita-imagine with you.",bold,sheng,followup,advanced,female,manual_entry,5.0,1.0,0,0,0
+"Kama ni kukosta imaginary, ningeku-imagine perfection.",cheesy,kenyan,opening,initial,female,manual_entry,5.0,1.0,0,0,0
+"Wewe ni kama complex - unanifanya combine real and beautiful.",smooth,kenyan,compliment,initial,female,manual_entry,5.0,1.0,0,0,1
+"Nimeku-save as conjugate, because you complement me perfectly.",romantic,mixed,response,advanced,female,manual_entry,5.0,1.0,0,0,1
+"Sema nikiku-modulus, uta-be magnitude of my affection?",playful,sheng,opening,initial,female,manual_entry,5.0,1.0,0,1,0
+"Unajua hata kama uta-be argument, bado nita-angle with you.",bold,sheng,response,middle,female,manual_entry,5.0,1.0,0,0,0
+"Kama ni kukosta polar, ningeku-convert to love coordinates.",cheesy,kenyan,opening,initial,female,manual_entry,5.0,1.0,0,0,0
+"Wewe ni kama Cartesian - unanifanya coordinate my affection.",smooth,kenyan,compliment,initial,female,manual_entry,5.0,1.0,0,0,1
+"Nimeku-save as coordinate, because you're point in my heart.",romantic,mixed,response,advanced,female,manual_entry,5.0,1.0,0,0,1
+"Ukinitaka niku-plot, because you're worth graphing in my life.",romantic,mixed,followup,advanced,female,manual_entry,5.0,1.0,0,0,1
+"Wewe ni kama Kenyan geometry - perfect shapes.",romantic,kenyan,compliment,initial,female,manual_entry,5.0,1.0,0,0,1
+"Nimeku-save as shape, because you're form of beauty.",romantic,mixed,response,advanced,female,manual_entry,5.0,1.0,0,0,1
+"Unajua hata kama uta-be circle, bado nita-radius to you.",bold,sheng,followup,advanced,female,manual_entry,5.0,1.0,0,0,0
+"Kama ni kukosta radius, ningeku-radius of my affection.",cheesy,kenyan,opening,initial,female,manual_entry,5.0,1.0,0,0,0
+"Wewe ni kama diameter - unanifanya measure across my heart.",smooth,kenyan,compliment,initial,female,manual_entry,5.0,1.0,0,0,1
+"Nimeku-save as circumference, because you're around my thoughts.",romantic,mixed,response,advanced,female,manual_entry,5.0,1.0,0,0,1
+"Sema nikiku-area, uta-cover my heart?",playful,sheng,opening,initial,female,manual_entry,5.0,1.0,0,1,0
+"Unajua hata kama uta-be volume, bado nita-fill with you.",bold,sheng,response,middle,female,manual_entry,5.0,1.0,0,0,0
+"Kama ni kukosta perimeter, ningeku-perimeter of my affection.",cheesy,kenyan,opening,initial,female,manual_entry,5.0,1.0,0,0,0
+"Wewe ni kama area - unanifanya cover my heart.",smooth,kenyan,compliment,initial,female,manual_entry,5.0,1.0,0,0,1
+"Nimeku-save as volume, because you're three-dimensional in my life.",romantic,mixed,response,advanced,female,manual_entry,5.0,1.0,0,0,1
+"Ukinitaka niku-surface area, because you're surface of my thoughts.",romantic,mixed,followup,advanced,female,manual_entry,5.0,1.0,0,0,1
+"Wewe ni kama Kenyan shape - perfectly formed.",romantic,kenyan,compliment,initial,female,manual_entry,5.0,1.0,0,0,1
+"Nimeku-save as triangle, because you're three points of perfection.",romantic,mixed,response,advanced,female,manual_entry,5.0,1.0,0,0,1
+"Unajua hata kama uta-be square, bado nita-rectangle with you.",bold,sheng,followup,advanced,female,manual_entry,5.0,1.0,0,0,0
+"Kama ni kukosta rectangle, ningeku-rectangle of my affection.",cheesy,kenyan,opening,initial,female,manual_entry,5.0,1.0,0,0,0
+"Wewe ni kama polygon - unanifanya many-sided perfection.",smooth,kenyan,compliment,initial,female,manual_entry,5.0,1.0,0,0,1
+"Nimeku-save as hexagon, because you're six-sided beauty.",romantic,mixed,response,advanced,female,manual_entry,5.0,1.0,0,0,1
+"Sema nikiku-octagon, uta-be eight-sided wonderful?",playful,sheng,opening,initial,female,manual_entry,5.0,1.0,0,1,0
+"Unajua hata kama uta-be pentagon, bado nita-polygon with you.",bold,sheng,response,middle,female,manual_entry,5.0,1.0,0,0,0
+"Kama ni kukosta dodecagon, ningeku-twelve-sided affection.",cheesy,kenyan,opening,initial,female,manual_entry,5.0,1.0,0,0,0
+"Wewe ni kama circle - unanifanya round perfection.",smooth,kenyan,compliment,initial,female,manual_entry,5.0,1.0,0,0,1
+"Nimeku-save as ellipse, because you're oval of beauty.",romantic,mixed,response,advanced,female,manual_entry,5.0,1.0,0,0,1
+"Ukinitaka niku-parabola, because you're curve of my affection.",romantic,mixed,followup,advanced,female,manual_entry,5.0,1.0,0,0,1
+"Wewe ni kama Kenyan curve - smooth na beautiful.",romantic,kenyan,compliment,initial,female,manual_entry,5.0,1.0,0,0,1
+"Nimeku-save as hyperbola, because you're open curve of my heart.",romantic,mixed,response,advanced,female,manual_entry,5.0,1.0,0,0,1
+"Unajua hata kama uta-be conic, bado nita-section with you.",bold,sheng,followup,advanced,female,manual_entry,5.0,1.0,0,0,0
+"Kama ni kukosta sphere, ningeku-sphere of my affection.",cheesy,kenyan,opening,initial,female,manual_entry,5.0,1.0,0,0,0
+"Wewe ni kama cube - unanifanya cubic perfection.",smooth,kenyan,compliment,initial,female,manual_entry,5.0,1.0,0,0,1
+"Nimeku-save as cylinder, because you're round and tall beauty.",romantic,mixed,response,advanced,female,manual_entry,5.0,1.0,0,0,1
+"Sema nikiku-cone, uta-taper to perfection?",playful,sheng,opening,initial,female,manual_entry,5.0,1.0,0,1,0
+"Unajua hata kama uta-be pyramid, bado nita-base with you.",bold,sheng,response,middle,female,manual_entry,5.0,1.0,0,0,0
+"Kama ni kukosta prism, ningeku-prism of my affection.",cheesy,kenyan,opening,initial,female,manual_entry,5.0,1.0,0,0,0
+"Wewe ni kama torus - unanifanya donut-shaped perfection.",smooth,kenyan,compliment,initial,female,manual_entry,5.0,1.0,0,0,1
+"Nimeku-save as polyhedron, because you're many-faced beauty.",romantic,mixed,response,advanced,female,manual_entry,5.0,1.0,0,0,1
+"Ukinitaka niku-tessellate, because you fit perfectly.",romantic,mixed,followup,advanced,female,manual_entry,5.0,1.0,0,0,1
+"Wewe ni kama Kenyan geometry - perfectly formed.",romantic,kenyan,compliment,initial,female,manual_entry,5.0,1.0,0,0,1
+"Nimeku-save as symmetry, because you're balanced beauty.",romantic,mixed,response,advanced,female,manual_entry,5.0,1.0,0,0,1
+"Unajua hata kama uta-be asymmetry, bado nita-symmetrize with love.",bold,sheng,followup,advanced,female,manual_entry,5.0,1.0,0,0,0
+"Kama ni kukosta reflection, ningeku-reflection of perfection.",cheesy,kenyan,opening,initial,female,manual_entry,5.0,1.0,0,0,0
+"Wewe ni kama rotation - unanifanya turn my head.",smooth,kenyan,compliment,initial,female,manual_entry,5.0,1.0,0,0,1
+"Nimeku-save as translation, because you move my heart.",romantic,mixed,response,advanced,female,manual_entry,5.0,1.0,0,0,1
+"Sema nikiku-dilation, uta-expand my affection?",playful,sheng,opening,initial,female,manual_entry,5.0,1.0,0,1,0
+"Unajua hata kama uta-be transformation, bado nita-transform with you.",bold,sheng,response,middle,female,manual_entry,5.0,1.0,0,0,0
+"Kama ni kukosta congruence, ningeku-congruent to perfection.",cheesy,kenyan,opening,initial,female,manual_entry,5.0,1.0,0,0,0
+"Wewe ni kama similarity - unanifanya resemble perfection.",smooth,kenyan,compliment,initial,female,manual_entry,5.0,1.0,0,0,1
+"Nimeku-save as proportion, because you're ratio of beauty.",romantic,mixed,response,advanced,female,manual_entry,5.0,1.0,0,0,1
+"Ukinitaka niku-ratio, because you're perfect proportion.",romantic,mixed,followup,advanced,female,manual_entry,5.0,1.0,0,0,1
+"Wewe ni kama Kenyan proportion - golden ratio beautiful.",romantic,kenyan,compliment,initial,female,manual_entry,5.0,1.0,0,0,1
+"Nimeku-save as scale, because you're measurement of perfection.",romantic,mixed,response,advanced,female,manual_entry,5.0,1.0,0,0,1
+"Unajua hata kama uta-be measurement, bado nita-measure with love.",bold,sheng,followup,advanced,female,manual_entry,5.0,1.0,0,0,0
+"Kama ni kukosta dimension, ningeku-dimension of my affection.",cheesy,kenyan,opening,initial,female,manual_entry,5.0,1.0,0,0,0
+"Wewe ni kame 2D - unanifanya two-dimensional perfection.",smooth,kenyan,compliment,initial,female,manual_entry,5.0,1.0,0,0,1
+"Nimeku-save as 3D, because you're three-dimensional in my life.",romantic,mixed,response,advanced,female,manual_entry,5.0,1.0,0,0,1
+"Sema nikiku-4D, uta-be time dimension of my heart?",playful,sheng,opening,initial,female,manual_entry,5.0,1.0,0,1,0
+"Unajua hata kama uta-be n-dimensional, bado nita-vector with you.",bold,sheng,response,middle,female,manual_entry,5.0,1.0,0,0,0
+"Kama ni kukosta manifold, ningeku-manifold of affection.",cheesy,kenyan,opening,initial,female,manual_entry,5.0,1.0,0,0,0
+"Wewe ni kame topology - unanifanya study my heart.",smooth,kenyan,compliment,initial,female,manual_entry,5.0,1.0,0,0,1
+"Nimeku-save as metric space, because you're distance to my happiness.",romantic,mixed,response,advanced,female,manual_entry,5.0,1.0,0,0,1
+"Ukinitaka niku-distance, because you're close to my heart.",romantic,mixed,followup,advanced,female,manual_entry,5.0,1.0,0,0,1
+"Wewe ni kame Kenyan space - beautiful na vast.",romantic,kenyan,compliment,initial,female,manual_entry,5.0,1.0,0,0,1
+"Nimeku-save as point, because you're location in my heart.",romantic,mixed,response,advanced,female,manual_entry,5.0,1.0,0,0,1
+"Unajua hata kama uta-be line, bado nita-segment with you.",bold,sheng,followup,advanced,female,manual_entry,5.0,1.0,0,0,0
+"Kama ni kukosta ray, ningeku-ray of affection.",cheesy,kenyan,opening,initial,female,manual_entry,5.0,1.0,0,0,0
+"Wewe ni kame segment - unanifanya part of my heart.",smooth,kenyan,compliment,initial,female,manual_entry,5.0,1.0,0,0,1
+"Nimeku-save as angle, because you're turn in my life.",romantic,mixed,response,advanced,female,manual_entry,5.0,1.0,0,0,1
+"Sema nikiku-vertex, uta-be point of intersection?",playful,sheng,opening,initial,female,manual_entry,5.0,1.0,0,1,0
+"Unajua hata kama uta-be edge, bado nita-face with you.",bold,sheng,response,middle,female,manual_entry,5.0,1.0,0,0,0
+"Kama ni kukosta face, ningeku-face of perfection.",cheesy,kenyan,opening,initial,female,manual_entry,5.0,1.0,0,0,0
+"Wewe ni kame solid - unanifanya three-dimensional affection.",smooth,kenyan,compliment,initial,female,manual_entry,5.0,1.0,0,0,1
+"Nimeku-save as plane, because you're flat out beautiful.",romantic,mixed,response,advanced,female,manual_entry,5.0,1.0,0,0,1
+"Ukinitaka niku-intersection, because we meet in my heart.",romantic,mixed,followup,advanced,female,manual_entry,5.0,1.0,0,0,1
+"Wewe ni kame Kenyan intersection - meeting point of beauty.",romantic,kenyan,compliment,initial,female,manual_entry,5.0,1.0,0,0,1
+"Nimeku-save as union, because you're combination with me.",romantic,mixed,response,advanced,female,manual_entry,5.0,1.0,0,0,1
+"Unajua hata kama uta-be intersection, bado nita-union with you.",bold,sheng,followup,advanced,female,manual_entry,5.0,1.0,0,0,0
+"Kama ni kukosta complement, ningeku-complement to my life.",cheesy,kenyan,opening,initial,female,manual_entry,5.0,1.0,0,0,0
+"Wewe ni kame subset - unanifanya part of my heart.",smooth,kenyan,compliment,initial,female,manual_entry,5.0,1.0,0,0,1
+"Nimeku-save as superset, because you contain my affection.",romantic,mixed,response,advanced,female,manual_entry,5.0,1.0,0,0,1
+"Sema nikiku-element, uta-be member of my life?",playful,sheng,opening,initial,female,manual_entry,5.0,1.0,0,1,0
+"Unajua hata kama uta-be set, bado nita-element with you.",bold,sheng,response,middle,female,manual_entry,5.0,1.0,0,0,0
+"Kama ni kukosta empty set, ningeku-fill with affection.",cheesy,kenyan,opening,initial,female,manual_entry,5.0,1.0,0,0,0
+"Wewe ni kame universal set - unanifanya contain everything good.",smooth,kenyan,compliment,initial,female,manual_entry,5.0,1.0,0,0,1
+"Nimeku-save as power set, because you're set of all possibilities.",romantic,mixed,response,advanced,female,manual_entry,5.0,1.0,0,0,1
+"Ukinitaka niku-cardinality, because you're number one in my heart.",romantic,mixed,followup,advanced,female,manual_entry,5.0,1.0,0,0,1
+"Wewe ni kame Kenyan set - well-defined na beautiful.",romantic,kenyan,compliment,initial,female,manual_entry,5.0,1.0,0,0,1
+"Nimeku-save as relation, because you're connection to me.",romantic,mixed,response,advanced,female,manual_entry,5.0,1.0,0,0,1
+"Unajua hata kama uta-be function, bado nita-map to you.",bold,sheng,followup,advanced,female,manual_entry,5.0,1.0,0,0,0
+"Kama ni kukosta domain, ningeku-domain of my affection.",cheesy,kenyan,opening,initial,female,manual_entry,5.0,1.0,0,0,0
+"Wewe ni kame codomain - unanifanya range of my love.",smooth,kenyan,compliment,initial,female,manual_entry,5.0,1.0,0,0,1
+"Nimeku-save as image, because you're picture in my heart.",romantic,mixed,response,advanced,female,manual_entry,5.0,1.0,0,0,1
+"Sema nikiku-preimage, uta-be inverse of my affection?",playful,sheng,opening,initial,female,manual_entry,5.0,1.0,0,1,0
+"Unajua hata kama uta-be inverse, bado nita-compose with you.",bold,sheng,response,middle,female,manual_entry,5.0,1.0,0,0,0
+"Kama ni kukosta composition, ningeku-compose with perfection.",cheesy,kenyan,opening,initial,female,manual_entry,5.0,1.0,0,0,0
+"Wewe ni kame bijection - unanifanya one-to-one correspondence.",smooth,kenyan,compliment,initial,female,manual_entry,5.0,1.0,0,0,1
+"Nimeku-save as injection, because you're one-to-one in my heart.",romantic,mixed,response,advanced,female,manual_entry,5.0,1.0,0,0,1
+"Ukinitaka niku-surjection, because you're onto my heart.",romantic,mixed,followup,advanced,female,manual_entry,5.0,1.0,0,0,1
+"Wewe ni kame Kenyan function - well-defined na beautiful.",romantic,kenyan,compliment,initial,female,manual_entry,5.0,1.0,0,0,1
+"Nimeku-save as mapping, because you map to my happiness.",romantic,mixed,response,advanced,female,manual_entry,5.0,1.0,0,0,1
+"Unajua hata kama uta-be transformation, bado nita-transform with you.",bold,sheng,followup,advanced,female,manual_entry,5.0,1.0,0,0,0
+"Kama ni kukosta linear, ningeku-linear transformation of affection.",cheesy,kenyan,opening,initial,female,manual_entry,5.0,1.0,0,0,0
+"Wewe ni kame nonlinear - unanifanya curve my affection.",smooth,kenyan,compliment,initial,female,manual_entry,5.0,1.0,0,0,1
+"Nimeku-save as operator, because you operate on my heart.",romantic,mixed,response,advanced,female,manual_entry,5.0,1.0,0,0,1
+"Sema nikiku- eigenvalue, uta-be value of my affection?",playful,sheng,opening,initial,female,manual_entry,5.0,1.0,0,1,0
+"Unajua hata kama uta-be eigenvector, bado nita-basis with you.",bold,sheng,response,middle,female,manual_entry,5.0,1.0,0,0,0
+"Kama ni kukosta basis, ningeku-basis of my affection.",cheesy,kenyan,opening,initial,female,manual_entry,5.0,1.0,0,0,0
+"Wewe ni kame dimension - unanifanya measure my love.",smooth,kenyan,compliment,initial,female,manual_entry,5.0,1.0,0,0,1
+"Nimeku-save as vector space, because you're space of my affection.",romantic,mixed,response,advanced,female,manual_entry,5.0,1.0,0,0,1
+"Ukinitaka niku-inner product, because you're dot with my heart.",romantic,mixed,followup,advanced,female,manual_entry,5.0,1.0,0,0,1
+"Wewe ni kame Kenyan space - beautiful na structured.",romantic,kenyan,compliment,initial,female,manual_entry,5.0,1.0,0,0,1
+"Nimeku-save as norm, because you're measure of perfection.",romantic,mixed,response,advanced,female,manual_entry,5.0,1.0,0,0,1
+"Unajua hata kama uta-be metric, bado nita-distance with love.",bold,sheng,followup,advanced,female,manual_entry,5.0,1.0,0,0,0
+"Kama ni kukosta topology, ningeku-topology of my heart.",cheesy,kenyan,opening,initial,female,manual_entry,5.0,1.0,0,0,0
+"Wewe ni kame manifold - unanifanya smooth affection.",smooth,kenyan,compliment,initial,female,manual_entry,5.0,1.0,0,0,1
+"Nimeku-save as chart, because you're map of my happiness.",romantic,mixed,response,advanced,female,manual_entry,5.0,1.0,0,0,1
+"Sema nikiku-atlas, uta-be collection of charts?",playful,sheng,opening,initial,female,manual_entry,5.0,1.0,0,1,0
+"Unajua hata kama uta-be coordinate system, bado nita-coordinate with you.",bold,sheng,response,middle,female,manual_entry,5.0,1.0,0,0,0
+"Kama ni kukosta differential, ningeku-differential of affection.",cheesy,kenyan,opening,initial,female,manual_entry,5.0,1.0,0,0,0
+"Wewe ni kame integral - unanifanya accumulate love.",smooth,kenyan,compliment,initial,female,manual_entry,5.0,1.0,0,0,1
+"Nimeku-save as derivative, because you're rate of change of my happiness.",romantic,mixed,response,advanced,female,manual_entry,5.0,1.0,0,0,1
+"Ukinitaka niku-limit, because you're approach to perfection.",romantic,mixed,followup,advanced,female,manual_entry,5.0,1.0,0,0,1
+"Wewe ni kame Kenyan calculus - precise na beautiful.",romantic,kenyan,compliment,initial,female,manual_entry,5.0,1.0,0,0,1
+"Nimeku-save as series, because you're sum of wonderful moments.",romantic,mixed,response,advanced,female,manual_entry,5.0,1.0,0,0,1
+"Unajua hata kama uta-be sequence, bado nita-converge to you.",bold,sheng,followup,advanced,female,manual_entry,5.0,1.0,0,0,0
+"Kama ni kukosta convergence, ningeku-converge to affection.",cheesy,kenyan,opening,initial,female,manual_entry,5.0,1.0,0,0,0
+"Wewe ni kame divergence - unanifanya spread my love.",smooth,kenyan,compliment,initial,female,manual_entry,5.0,1.0,0,0,1
+"Nimeku-save as gradient, because you're direction of my happiness.",romantic,mixed,response,advanced,female,manual_entry,5.0,1.0,0,0,1
+"Sema nikiku-curl, uta-rotate my affection?",playful,sheng,opening,initial,female,manual_entry,5.0,1.0,0,1,0
+"Unajua hata kama uta-be divergence theorem, bado nita-integrate with you.",bold,sheng,response,middle,female,manual_entry,5.0,1.0,0,0,0
+"Kama ni kukosta Stokes, ningeku-Stokes theorem of love.",cheesy,kenyan,opening,initial,female,manual_entry,5.0,1.0,0,0,0
+"Wewe ni kame Green - unanifanya relate line and surface integrals.",smooth,kenyan,compliment,initial,female,manual_entry,5.0,1.0,0,0,1
+"Nimeku-save as fundamental theorem, because you're fundamental to my happiness.",romantic,mixed,response,advanced,female,manual_entry,5.0,1.0,0,0,1
+"Ukinitaka niku-chain rule, because you're composition of perfection.",romantic,mixed,followup,advanced,female,manual_entry,5.0,1.0,0,0,1
+"Wewe ni kame Kenyan theorem - proven na beautiful.",romantic,kenyan,compliment,initial,female,manual_entry,5.0,1.0,0,0,1
+"Nimeku-save as proof, because you're evidence of perfection.",romantic,mixed,response,advanced,female,manual_entry,5.0,1.0,0,0,1
+"Unajua hata kama uta-be lemma, bado nita-theorem with you.",bold,sheng,followup,advanced,female,manual_entry,5.0,1.0,0,0,0
+"Kama ni kukosta corollary, ningeku-corollary of affection.",cheesy,kenyan,opening,initial,female,manual_entry,5.0,1.0,0,0,0
+"Wewe ni kame axiom - unanifanya assume perfection.",smooth,kenyan,compliment,initial,female,manual_entry,5.0,1.0,0,0,1
+"Nimeku-save as postulate, because you're assumed beautiful.",romantic,mixed,response,advanced,female,manual_entry,5.0,1.0,0,0,1
+"Sema nikiku-definition, uta-define perfection?",playful,sheng,opening,initial,female,manual_entry,5.0,1.0,0,1,0
+"Unajua hata kama uta-be definition, bado nita-define with love.",bold,sheng,response,middle,female,manual_entry,5.0,1.0,0,0,0
+"Kama ni kukosta notation, ningeku-notation of affection.",cheesy,kenyan,opening,initial,female,manual_entry,5.0,1.0,0,0,0
+"Wewe ni kame symbol - unanifanya represent perfection.",smooth,kenyan,compliment,initial,female,manual_entry,5.0,1.0,0,0,1
+"Nimeku-save as expression, because you're expression of beauty.",romantic,mixed,response,advanced,female,manual_entry,5.0,1.0,0,0,1
+"Ukinitaka niku-equation, because you balance my life.",romantic,mixed,followup,advanced,female,manual_entry,5.0,1.0,0,0,1
+"Wewe ni kame Kenyan equation - balanced na beautiful.",romantic,kenyan,compliment,initial,female,manual_entry,5.0,1.0,0,0,1
+"Nimeku-save as solution, because you're answer to my heart.",romantic,mixed,response,advanced,female,manual_entry,5.0,1.0,0,0,1
+"Unajua hata kama uta-be root, bado nita-solve for you.",bold,sheng,followup,advanced,female,manual_entry,5.0,1.0,0,0,0
+"Kama ni kukosta zero, ningeku-zero of my affection function.",cheesy,kenyan,opening,initial,female,manual_entry,5.0,1.0,0,0,0
+"Wewe ni kame pole - unanifanya singularity of beauty.",smooth,kenyan,compliment,initial,female,manual_entry,5.0,1.0,0,0,1
+"Nimeku-save as residue, because you're what remains in my heart.",romantic,mixed,response,advanced,female,manual_entry,5.0,1.0,0,0,1
+"Sema nikiku-contour, uta-integrate around my heart?",playful,sheng,opening,initial,female,manual_entry,5.0,1.0,0,1,0
+"Unajua hata kama uta-be path, bado nita-line integral with you.",bold,sheng,response,middle,female,manual_entry,5.0,1.0,0,0,0
+"Kama ni kukosta surface, ningeku-surface integral of affection.",cheesy,kenyan,opening,initial,female,manual_entry,5.0,1.0,0,0,0
+"Wewe ni kame volume - unanifanya triple integral love.",smooth,kenyan,compliment,initial,female,manual_entry,5.0,1.0,0,0,1
+"Nimeku-save as multiple integral, because you're multidimensional in my heart.",romantic,mixed,response,advanced,female,manual_entry,5.0,1.0,0,0,1
+"Ukinitaka niku-change variables, but why change perfection?",romantic,mixed,followup,advanced,female,manual_entry,5.0,1.0,0,0,1
+"Wewe ni kame Kenyan integral - precise na beautiful.",romantic,kenyan,compliment,initial,female,manual_entry,5.0,1.0,0,0,1
+"Nimeku-save as antiderivative, because you're primitive of my happiness.",romantic,mixed,response,advanced,female,manual_entry,5.0,1.0,0,0,1
+"Unajua hata kama uta-be indefinite, bado nita-definite with you.",bold,sheng,followup,advanced,female,manual_entry,5.0,1.0,0,0,0
+"Kama ni kukosta definite, ningeku-definite integral of affection.",cheesy,kenyan,opening,initial,female,manual_entry,5.0,1.0,0,0,0
+"Wewe ni kame improper - unanifanya infinite perfection.",smooth,kenyan,compliment,initial,female,manual_entry,5.0,1.0,0,0,1
+"Nimeku-save as convergent, because you converge to my heart.",romantic,mixed,response,advanced,female,manual_entry,5.0,1.0,0,0,1
+"Sema nikiku-divergent, uta-diverge from others?",playful,sheng,opening,initial,female,manual_entry,5.0,1.0,0,1,0
+"Unajua hata kama uta-be series, bado nita-sum with you.",bold,sheng,response,middle,female,manual_entry,5.0,1.0,0,0,0
+"Kama ni kukosta sum, ningeku-sum of my affection.",cheesy,kenyan,opening,initial,female,manual_entry,5.0,1.0,0,0,0
+"Wewe ni kame product - unanifanya multiply my love.",smooth,kenyan,compliment,initial,female,manual_entry,5.0,1.0,0,0,1
+"Nimeku-save as limit, because you're approach to perfection.",romantic,mixed,response,advanced,female,manual_entry,5.0,1.0,0,0,1
+"Ukinitaka niku-continuous, because you're always in my thoughts.",romantic,mixed,followup,advanced,female,manual_entry,5.0,1.0,0,0,1
+"Wewe ni kame Kenyan function - continuous na beautiful.",romantic,kenyan,compliment,initial,female,manual_entry,5.0,1.0,0,0,1
+"Nimeku-save as differentiable, because you're smooth in my heart.",romantic,mixed,response,advanced,female,manual_entry,5.0,1.0,0,0,1
+"Unajua hata kama uta-be analytic, bado nita-expand with you.",bold,sheng,followup,advanced,female,manual_entry,5.0,1.0,0,0,0
+"Kama ni kukosta Taylor, ningeku-Taylor series of affection.",cheesy,kenyan,opening,initial,female,manual_entry,5.0,1.0,0,0,0
+"Wewe ni kame Fourier - unanifanya decompose into frequencies of love.",smooth,kenyan,compliment,initial,female,manual_entry,5.0,1.0,0,0,1
+"Nimeku-save as transform, because you transform my life.",romantic,mixed,response,advanced,female,manual_entry,5.0,1.0,0,0,1
+"Sema nikiku-Laplace, uta-transform my affection?",playful,sheng,opening,initial,female,manual_entry,5.0,1.0,0,1,0
+"Unajua hata kama uta-be Z-transform, bado nita-discrete with you.",bold,sheng,response,middle,female,manual_entry,5.0,1.0,0,0,0
+"Kama ni kukosta wavelet, ningeku-wavelet transform of love.",cheesy,kenyan,opening,initial,female,manual_entry,5.0,1.0,0,0,0
+"Wewe ni kame convolution - unanifanya combine with my heart.",smooth,kenyan,compliment,initial,female,manual_entry,5.0,1.0,0,0,1
+"Nimeku-save as correlation, because you correlate with my happiness.",romantic,mixed,response,advanced,female,manual_entry,5.0,1.0,0,0,1
+"Ukinitaka niku-autocorrelation, but you're already self-similar perfection.",romantic,mixed,followup,advanced,female,manual_entry,5.0,1.0,0,0,1
+"Wewe ni kame Kenyan transform - beautiful na useful.",romantic,kenyan,compliment,initial,female,manual_entry,5.0,1.0,0,0,1
+"Nimeku-save as inverse, because you're reverse of my sadness.",romantic,mixed,response,advanced,female,manual_entry,5.0,1.0,0,0,1
+"Unajua hata kama uta-be identity, bado nita-transform with you.",bold,sheng,followup,advanced,female,manual_entry,5.0,1.0,0,0,0
+"Kama ni kukosta kernel, ningeku-kernel of affection.",cheesy,kenyan,opening,initial,female,manual_entry,5.0,1.0,0,0,0
+"Wewe ni kame image - unanifanya picture of perfection.",smooth,kenyan,compliment,initial,female,manual_entry,5.0,1.0,0,0,1
+"Nimeku-save as range, because you're output of my heart.",romantic,mixed,response,advanced,female,manual_entry,5.0,1.0,0,0,1
+"Sema nikiku-domain, uta-be input to my affection?",playful,sheng,opening,initial,female,manual_entry,5.0,1.0,0,1,0
+"Unajua hata kama uta-be codomain, bado nita-map to you.",bold,sheng,response,middle,female,manual_entry,5.0,1.0,0,0,0
+"Kama ni kukosta homomorphism, ningeku-homomorphism of love.",cheesy,kenyan,opening,initial,female,manual_entry,5.0,1.0,0,0,0
+"Wewe ni kame isomorphism - unanifanya isomorphic perfection.",smooth,kenyan,compliment,initial,female,manual_entry,5.0,1.0,0,0,1
+"Nimeku-save as automorphism, because you're self-isomorphism of beauty.",romantic,mixed,response,advanced,female,manual_entry,5.0,1.0,0,0,1
+"Ukinitaka niku-endomorphism, because you're endo to my heart.",romantic,mixed,followup,advanced,female,manual_entry,5.0,1.0,0,0,1
+"Wewe ni kame Kenyan morphism - structured na beautiful.",romantic,kenyan,compliment,initial,female,manual_entry,5.0,1.0,0,0,1
+"Nimeku-save as category, because you're object of my affection.",romantic,mixed,response,advanced,female,manual_entry,5.0,1.0,0,0,1
+"Unajua hata kama uta-be functor, bado nita-map categories with you.",bold,sheng,followup,advanced,female,manual_entry,5.0,1.0,0,0,0
+"Kama ni kukosta natural transformation, ningeku-natural perfection.",cheesy,kenyan,opening,initial,female,manual_entry,5.0,1.0,0,0,0
+"Wewe ni kame adjunction - unanifanya adjoint perfection.",smooth,kenyan,compliment,initial,female,manual_entry,5.0,1.0,0,0,1
+"Nimeku-save as monad, because you're monadic in my life.",romantic,mixed,response,advanced,female,manual_entry,5.0,1.0,0,0,1
+"Sema nikiku-comonad, uta-be co-monadic with me?",playful,sheng,opening,initial,female,manual_entry,5.0,1.0,0,1,0
+"Unajua hata kama uta-be algebra, bado nita-coalgebra with you.",bold,sheng,response,middle,female,manual_entry,5.0,1.0,0,0,0
+"Kama ni kukosta coalgebra, ningeku-coalgebra of affection.",cheesy,kenyan,opening,initial,female,manual_entry,5.0,1.0,0,0,0
+"Wewe ni kame bialgebra - unanifanya both algebra and coalgebra.",smooth,kenyan,compliment,initial,female,manual_entry,5.0,1.0,0,0,1
+"Nimeku-save as Hopf algebra, because you're Hopf to my happiness.",romantic,mixed,response,advanced,female,manual_entry,5.0,1.0,0,0,1
+"Ukinitaka niku-group, because you're group of perfection.",romantic,mixed,followup,advanced,female,manual_entry,5.0,1.0,0,0,1
+"Wewe ni kame Kenyan algebra - structured na beautiful.",romantic,kenyan,compliment,initial,female,manual_entry,5.0,1.0,0,0,1
+"Nimeku-save as ring, because you're ring of my affection.",romantic,mixed,response,advanced,female,manual_entry,5.0,1.0,0,0,1
+"Unajua hata kama uta-be field, bado nita-vector space over you.",bold,sheng,followup,advanced,female,manual_entry,5.0,1.0,0,0,0
+"Kama ni kukosta module, ningeku-module over my heart.",cheesy,kenyan,opening,initial,female,manual_entry,5.0,1.0,0,0,0
+"Wewe ni kame vector space - unanifanya space my affection.",smooth,kenyan,compliment,initial,female,manual_entry,5.0,1.0,0,0,1
+"Nimeku-save as basis, because you're basis of my happiness.",romantic,mixed,response,advanced,female,manual_entry,5.0,1.0,0,0,1
+"Sema nikiku-dimension, uta-be dimension of my heart?",playful,sheng,opening,initial,female,manual_entry,5.0,1.0,0,1,0
+"Unajua hata kama uta-be subspace, bado nita-space with you.",bold,sheng,response,middle,female,manual_entry,5.0,1.0,0,0,0
+"Kama ni kukosta span, ningeku-span of my affection.",cheesy,kenyan,opening,initial,female,manual_entry,5.0,1.0,0,0,0
+"Wewe ni kame linear combination - unanifanya combine perfectly.",smooth,kenyan,compliment,initial,female,manual_entry,5.0,1.0,0,0,1
+"Nimeku-save as inner product, because you're dot with my heart.",romantic,mixed,response,advanced,female,manual_entry,5.0,1.0,0,0,1
+"Ukinitaka niku-norm, because you're measure of perfection.",romantic,mixed,followup,advanced,female,manual_entry,5.0,1.0,0,0,1
+"Wewe ni kame Kenyan norm - well-defined na beautiful.",romantic,kenyan,compliment,initial,female,manual_entry,5.0,1.0,0,0,1
+"Nimeku-save as metric, because you're distance to my happiness.",romantic,mixed,response,advanced,female,manual_entry,5.0,1.0,0,0,1
+"Unajua hata kama uta-be topology, bado nita-open set with you.",bold,sheng,followup,advanced,female,manual_entry,5.0,1.0,0,0,0
+"Kama ni kukosta open set, ningeku-open set in my heart.",cheesy,kenyan,opening,initial,female,manual_entry,5.0,1.0,0,0,0
+"Wewe ni kame closed set - unanifanya contain limit points.",smooth,kenyan,compliment,initial,female,manual_entry,5.0,1.0,0,0,1
+"Nimeku-save as compact, because you're compact in my thoughts.",romantic,mixed,response,advanced,female,manual_entry,5.0,1.0,0,0,1
+"Sema nikiku-connected, uta-be connected to my heart?",playful,sheng,opening,initial,female,manual_entry,5.0,1.0,0,1,0
+"Unajua hata kama uta-be path-connected, bado nita-path to you.",bold,sheng,response,middle,female,manual_entry,5.0,1.0,0,0,0
+"Kama ni kukosta simply connected, ningeku-simply connected affection.",cheesy,kenyan,opening,initial,female,manual_entry,5.0,1.0,0,0,0
+"Wewe ni kame manifold - unanifanya smooth perfection.",smooth,kenyan,compliment,initial,female,manual_entry,5.0,1.0,0,0,1
+"Nimeku-save as chart, because you're local coordinates of my heart.",romantic,mixed,response,advanced,female,manual_entry,5.0,1.0,0,0,1
+"Ukinitaka niku-atlas, because you're collection of beautiful charts.",romantic,mixed,followup,advanced,female,manual_entry,5.0,1.0,0,0,1
+"Wewe ni kame Kenyan manifold - smooth na beautiful.",romantic,kenyan,compliment,initial,female,manual_entry,5.0,1.0,0,0,1
+"Nimeku-save as tangent space, because you're tangent to my heart.",romantic,mixed,response,advanced,female,manual_entry,5.0,1.0,0,0,1
+"Unajua hata kama uta-be cotangent, bado nita-tangent with you.",bold,sheng,followup,advanced,female,manual_entry,5.0,1.0,0,0,0
+"Kama ni kukosta vector field, ningeku-vector field of affection.",cheesy,kenyan,opening,initial,female,manual_entry,5.0,1.0,0,0,0
+"Wewe ni kame differential form - unanifanya form my love.",smooth,kenyan,compliment,initial,female,manual_entry,5.0,1.0,0,0,1
+"Nimeku-save as exterior derivative, because you're derivative of my happiness.",romantic,mixed,response,advanced,female,manual_entry,5.0,1.0,0,0,1
+"Sema nikiku-integrate form, uta-integrate with my heart?",playful,sheng,opening,initial,female,manual_entry,5.0,1.0,0,1,0
+"Unajua hata kama uta-be Stokes, bado nita-integrate with you.",bold,sheng,response,middle,female,manual_entry,5.0,1.0,0,0,0
+"Kama ni kukosta de Rham, ningeku-de Rham cohomology of love.",cheesy,kenyan,opening,initial,female,manual_entry,5.0,1.0,0,0,0
+"Wewe ni kame cohomology - unanifanya measure holes in my heart.",smooth,kenyan,compliment,initial,female,manual_entry,5.0,1.0,0,0,1
+"Nimeku-save as homology, because you're homology of my affection.",romantic,mixed,response,advanced,female,manual_entry,5.0,1.0,0,0,1
+"Ukinitaka niku-exact sequence, because you're exact in my life.",romantic,mixed,followup,advanced,female,manual_entry,5.0,1.0,0,0,1
+"Wewe ni kame Kenyan cohomology - beautiful na structured.",romantic,kenyan,compliment,initial,female,manual_entry,5.0,1.0,0,0,1
+"Nimeku-save as spectral sequence, because you're spectral in my heart.",romantic,mixed,response,advanced,female,manual_entry,5.0,1.0,0,0,1
+"Unajua hata kama uta-be sheaf, bado nita-presheaf with you.",bold,sheng,followup,advanced,female,manual_entry,5.0,1.0,0,0,0
+"Kama ni kukosta scheme, ningeku-scheme of affection.",cheesy,kenyan,opening,initial,female,manual_entry,5.0,1.0,0,0,0
+"Wewe ni kame variety - unanifanya algebraic perfection.",smooth,kenyan,compliment,initial,female,manual_entry,5.0,1.0,0,0,1
+"Nimeku-save as ideal, because you're ideal in my heart.",romantic,mixed,response,advanced,female,manual_entry,5.0,1.0,0,0,1
+"Sema nikiku-prime, uta-be prime in my life?",playful,sheng,opening,initial,female,manual_entry,5.0,1.0,0,1,0
+"Unajua hata kama uta-be maximal, bado nita-ideal with you.",bold,sheng,response,middle,female,manual_entry,5.0,1.0,0,0,0
+"Kama ni kukosta Noetherian, ningeku-Noetherian ring of love.",cheesy,kenyan,opening,initial,female,manual_entry,5.0,1.0,0,0,0
+"Wewe ni kame Artinian - unanifanya Artinian perfection.",smooth,kenyan,compliment,initial,female,manual_entry,5.0,1.0,0,0,1
+"Nimeku-save as module, because you're module over my heart.",romantic,mixed,response,advanced,female,manual_entry,5.0,1.0,0,0,1
+"Ukinitaka niku-tensor, because you're tensor product of perfection.",romantic,mixed,followup,advanced,female,manual_entry,5.0,1.0,0,0,1
+"Wewe ni kame Kenyan algebra - beautiful na structured.",romantic,kenyan,compliment,initial,female,manual_entry,5.0,1.0,0,0,1
+"Nimeku-save as Lie algebra, because you're Lie to my heart.",romantic,mixed,response,advanced,female,manual_entry,5.0,1.0,0,0,1

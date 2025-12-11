@@ -1,0 +1,597 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>
+        <%= title %>
+    </title>
+    <link rel="icon" type="image/png" href="/images/favicon.png">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.css">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        /* Copy Button Styles */
+        .copy-btn {
+            background: rgba(255, 255, 255, 0.2);
+            border: none;
+            color: white;
+            width: 35px;
+            height: 35px;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            cursor: pointer;
+            transition: all 0.3s;
+            backdrop-filter: blur(5px);
+        }
+
+        .copy-btn:hover {
+            background: white;
+            color: #667eea;
+            transform: scale(1.1);
+        }
+
+        .copy-btn i {
+            font-size: 16px;
+        }
+
+        /* Toast Notification */
+        .toast {
+            position: fixed;
+            bottom: 30px;
+            left: 50%;
+            transform: translateX(-50%);
+            background: rgba(0, 0, 0, 0.8);
+            color: white;
+            padding: 12px 24px;
+            border-radius: 30px;
+            z-index: 1000;
+            opacity: 0;
+            transition: opacity 0.3s;
+            pointer-events: none;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+
+        .toast.show {
+            opacity: 1;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-image: url('/images/dark-home-bg.png');
+            background-size: cover;
+            background-position: center;
+            background-attachment: fixed;
+            background-color: #0f0f1e;
+            min-height: 100vh;
+            padding: 20px;
+        }
+
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+        }
+
+        .header {
+            text-align: center;
+            color: white;
+            margin-bottom: 30px;
+        }
+
+        .header h1 {
+            font-size: 2.5em;
+            margin-bottom: 10px;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+        }
+
+        .nav-links {
+            display: flex;
+            justify-content: center;
+            gap: 15px;
+            margin-bottom: 30px;
+            flex-wrap: wrap;
+        }
+
+        .nav-links a {
+            color: white;
+            text-decoration: none;
+            padding: 10px 25px;
+            background: rgba(255, 255, 255, 0.2);
+            border-radius: 25px;
+            backdrop-filter: blur(10px);
+            transition: all 0.3s;
+        }
+
+        .nav-links a:hover,
+        .nav-links a.active {
+            background: rgba(255, 255, 255, 0.3);
+            transform: translateY(-2px);
+            font-weight: bold;
+        }
+
+        .card {
+            background: white;
+            border-radius: 20px;
+            padding: 30px;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+            margin-bottom: 30px;
+        }
+
+        .card h2 {
+            color: #667eea;
+            margin-bottom: 20px;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+
+        .textarea-container {
+            margin-bottom: 20px;
+        }
+
+        textarea {
+            width: 100%;
+            padding: 15px;
+            border: 2px solid #e0e0e0;
+            border-radius: 10px;
+            font-size: 16px;
+            font-family: inherit;
+            resize: vertical;
+            min-height: 150px;
+            transition: border-color 0.3s;
+        }
+
+        textarea:focus {
+            outline: none;
+            border-color: #667eea;
+        }
+
+        .filter-item {
+            display: flex;
+            flex-direction: column;
+            margin-bottom: 20px;
+        }
+
+        .filter-item label {
+            font-weight: 600;
+            margin-bottom: 5px;
+            color: #333;
+        }
+
+        input[type="number"] {
+            padding: 10px;
+            border: 2px solid #e0e0e0;
+            border-radius: 8px;
+            font-size: 14px;
+            width: 100px;
+        }
+
+        .button-group {
+            display: flex;
+            gap: 15px;
+            flex-wrap: wrap;
+        }
+
+        button {
+            padding: 15px 30px;
+            border: none;
+            border-radius: 10px;
+            font-size: 16px;
+            font-weight: 600;
+            cursor: pointer;
+            transition: all 0.3s;
+            flex: 1;
+            min-width: 150px;
+        }
+
+        .btn-primary {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+        }
+
+        .btn-primary:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 5px 15px rgba(102, 126, 234, 0.4);
+        }
+
+        .btn-secondary {
+            background: #f0f0f0;
+            color: #333;
+        }
+
+        .btn-secondary:hover {
+            background: #e0e0e0;
+        }
+
+        .loading {
+            display: none;
+            text-align: center;
+            padding: 20px;
+            color: #667eea;
+        }
+
+        .loading.active {
+            display: block;
+        }
+
+        .spinner {
+            border: 3px solid #f3f3f3;
+            border-top: 3px solid #667eea;
+            border-radius: 50%;
+            width: 40px;
+            height: 40px;
+            animation: spin 1s linear infinite;
+            margin: 0 auto 10px;
+        }
+
+        @keyframes spin {
+            0% {
+                transform: rotate(0deg);
+            }
+
+            100% {
+                transform: rotate(360deg);
+            }
+        }
+
+        .results {
+            margin-top: 30px;
+        }
+
+        /* Coach Card Styles */
+        .coach-card {
+            background: linear-gradient(135deg, #2a2a72 0%, #009ffd 100%);
+            color: white;
+            padding: 25px;
+            border-radius: 15px;
+            margin-bottom: 25px;
+            box-shadow: 0 10px 30px rgba(0, 159, 253, 0.3);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+        }
+
+        .coach-header {
+            display: flex;
+            align-items: center;
+            gap: 15px;
+            margin-bottom: 20px;
+            border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+            padding-bottom: 15px;
+        }
+
+        .coach-avatar {
+            font-size: 30px;
+            background: rgba(255, 255, 255, 0.2);
+            width: 50px;
+            height: 50px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border-radius: 50%;
+        }
+
+        .coach-section {
+            margin-bottom: 15px;
+        }
+
+        .coach-label {
+            text-transform: uppercase;
+            font-size: 12px;
+            letter-spacing: 1px;
+            opacity: 0.8;
+            margin-bottom: 5px;
+            color: #b8e2ff;
+        }
+
+        .coach-text {
+            font-size: 16px;
+            line-height: 1.5;
+            font-weight: 500;
+        }
+
+        .coach-suggestion {
+            background: rgba(255, 255, 255, 0.15);
+            padding: 15px;
+            border-radius: 10px;
+            margin-top: 15px;
+            border-left: 4px solid #00d2ff;
+            font-style: italic;
+            font-size: 18px;
+        }
+
+        /* Line Item Styles from index.ejs */
+        .line-item {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 20px;
+            border-radius: 15px;
+            margin-bottom: 15px;
+            box-shadow: 0 5px 15px rgba(102, 126, 234, 0.3);
+            transition: transform 0.3s;
+        }
+
+        .line-item:hover {
+            transform: translateY(-3px);
+        }
+
+        .line-text {
+            font-size: 18px;
+            margin-bottom: 12px;
+            line-height: 1.5;
+        }
+
+        .line-meta {
+            display: flex;
+            gap: 15px;
+            font-size: 14px;
+            opacity: 0.9;
+            flex-wrap: wrap;
+        }
+
+        .meta-badge {
+            background: rgba(255, 255, 255, 0.2);
+            padding: 4px 12px;
+            border-radius: 15px;
+            backdrop-filter: blur(10px);
+        }
+
+        .quality-score {
+            background: rgba(255, 215, 0, 0.3);
+            font-weight: 600;
+        }
+
+        /* Analysis simple card styles */
+        .stats-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+            gap: 10px;
+        }
+
+        .analysis-item {
+            display: flex;
+            justify-content: space-between;
+            padding: 8px;
+            border-radius: 8px;
+        }
+
+        .analysis-label {
+            font-weight: 600;
+        }
+
+        .analysis-value {
+            font-weight: bold;
+            text-transform: capitalize;
+        }
+
+        /* Fallback Analysis Box */
+        .analysis {
+            background: #f8f9fa;
+            padding: 20px;
+            border-radius: 10px;
+            margin-bottom: 20px;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="toast" class="toast">
+        <i class="bi bi-check-circle-fill" style="color: #4ade80;"></i>
+        <span>Copied to clipboard!</span>
+    </div>
+
+    <div class="container">
+        <div class="header">
+            <h1>🧠 AI Coach</h1>
+            <p>Paste your conversation for instant analysis & strategy</p>
+        </div>
+
+        <div class="nav-links">
+            <a href="/">🏠 Home</a>
+            <a href="/lines">📝 Browse Lines</a>
+            <a href="/analyze" class="active">🧠 AI Coach</a>
+            <a href="/random">🎲 Random</a>
+            <a href="/add">➕ Add Line</a>
+            <a href="/stats">📊 Statistics</a>
+        </div>
+
+        <div class="card">
+            <h2>🔎 Conversation Analysis</h2>
+            <p style="margin-bottom: 20px; color: #666;">
+                Paste the text message or conversation you need help with. The Coach will analyze the hidden meaning and
+                tell you exactly what to say next.
+            </p>
+
+            <div class="textarea-container">
+                <label for="conversation" style="font-weight: 600; display: block; margin-bottom: 10px;">Conversation
+                    Context:</label>
+                <textarea id="conversation"
+                    placeholder="Example: She said 'I don't know if I'm ready for a relationship right now'..."></textarea>
+            </div>
+
+            <div class="filter-item" style="flex-direction: row; align-items: center; gap: 10px;">
+                <label for="count" style="margin: 0;">Alternative Lines:</label>
+                <input type="number" id="count" value="3" min="1" max="5">
+            </div>
+
+            <div class="button-group">
+                <button class="btn-primary" onclick="getRecommendations()">
+                    ✨ Analyze & Recommend
+                </button>
+            </div>
+
+            <div class="loading" id="loading">
+                <div class="spinner"></div>
+                <p>Consulting the Vibe Coach...</p>
+            </div>
+
+            <div id="results" class="results"></div>
+        </div>
+    </div>
+
+    <script>
+        function copyToClipboard(text, btn) {
+            navigator.clipboard.writeText(text).then(() => {
+                // Show feedback on button
+                const icon = btn.querySelector('i');
+                const originalClass = icon.className;
+
+                icon.className = 'bi bi-check-lg';
+                btn.style.background = '#4ade80';
+                btn.style.color = 'white';
+                if (btn.closest('.coach-section')) btn.style.color = 'white'; // Keep white in coach card
+
+                // Show toast
+                const toast = document.getElementById('toast');
+                toast.classList.add('show');
+
+                setTimeout(() => {
+                    icon.className = originalClass;
+                    btn.style.background = '';
+                    btn.style.color = '';
+                    toast.classList.remove('show');
+                }, 2000);
+            }).catch(err => {
+                console.error('Failed to copy:', err);
+            });
+        }
+
+        async function getRecommendations() {
+            const conversation = document.getElementById('conversation').value.trim();
+            const count = parseInt(document.getElementById('count').value);
+            const loading = document.getElementById('loading');
+            const results = document.getElementById('results');
+
+            if (!conversation) {
+                alert('Please enter a conversation!');
+                return;
+            }
+
+            loading.classList.add('active');
+            results.innerHTML = '';
+
+            try {
+                const response = await fetch('/api/recommend', {
+                    method: 'POST',
+                    headers: { 'Content-Type': 'application/json' },
+                    body: JSON.stringify({ conversation, count })
+                });
+
+                const data = await response.json();
+
+                if (data.success) {
+                    displayResults(data);
+                } else {
+                    results.innerHTML = `<p style="color: red;">Error: ${data.error}</p>`;
+                }
+            } catch (error) {
+                results.innerHTML = `<p style="color: red;">Error: ${error.message}</p>`;
+            } finally {
+                loading.classList.remove('active');
+            }
+        }
+
+        function displayResults(data) {
+            const results = document.getElementById('results');
+            let html = '';
+
+            // Coach Analysis Card
+            if (data.analysis.intent || data.analysis.strategy) {
+                html += `
+                    <div class="coach-card">
+                        <div class="coach-header">
+                            <div class="coach-avatar">🧙‍♂️</div>
+                            <div>
+                                <h3 style="margin:0; color:white;">Vibe Coach Analysis</h3>
+                                <small style="opacity:0.8">Psychological & Strategic Insight</small>
+                            </div>
+                        </div>
+
+                        <div class="stats-grid" style="margin: 0 0 20px 0; gap: 10px; background: transparent;">
+                            <div class="analysis-item" style="background: rgba(0,0,0,0.2); color:white;">
+                                <span class="analysis-label" style="color: #ccc;">Tone</span>
+                                <span class="analysis-value">${data.analysis.tone}</span>
+                            </div>
+                            <div class="analysis-item" style="background: rgba(0,0,0,0.2); color:white;">
+                                <span class="analysis-label" style="color: #ccc;">Stage</span>
+                                <span class="analysis-value">${data.analysis.stage}</span>
+                            </div>
+                        </div>
+
+                        ${data.analysis.intent ? `
+                        <div class="coach-section">
+                            <div class="coach-label">🔎 Hidden Intent</div>
+                            <div class="coach-text">${data.analysis.intent}</div>
+                        </div>
+                        ` : ''}
+
+                        ${data.analysis.thoughts ? `
+                        <div class="coach-section">
+                            <div class="coach-label">🧠 Coach's Take</div>
+                            <div class="coach-text">${data.analysis.thoughts}</div>
+                        </div>
+                        ` : ''}
+
+                        ${data.analysis.strategy ? `
+                        <div class="coach-section">
+                            <div class="coach-label">🎯 Winning Strategy</div>
+                            <div class="coach-text">${data.analysis.strategy}</div>
+                        </div>
+                        ` : ''}
+                        
+                        ${data.analysis.suggestion ? `
+                        <div class="coach-section">
+                            <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 5px;">
+                                <div class="coach-label" style="margin:0;">✨ Perfect Reply</div>
+                                <button class="copy-btn" onclick="copyToClipboard('${data.analysis.suggestion.replace(/'/g, "\\'")}', this)" style="width: 30px; height: 30px; font-size: 14px;">
+                                    <i class="bi bi-clipboard"></i>
+                                </button>
+                            </div>
+                            <div class="coach-suggestion" style="margin-top:5px;">"${data.analysis.suggestion}"</div>
+                        </div>
+                        ` : ''}
+                    </div>
+                `;
+            } else {
+                html += `
+                <div class="analysis">
+                    <h3>📊 Analysis</h3>
+                    <p>Tone: <strong>${data.analysis.tone}</strong> | Stage: <strong>${data.analysis.stage}</strong></p>
+                </div>`;
+            }
+
+            // Recommendations from DB
+            if (data.recommendations && data.recommendations.length > 0) {
+                html += `<h3 style="margin: 30px 0 15px; color: #667eea;">📚 Similar Database Lines</h3>`;
+                data.recommendations.forEach((line, index) => {
+                    html += `
+                        <div class="line-item">
+                            <div style="display: flex; justify-content: space-between; align-items: start; gap: 10px;">
+                                <div class="line-text">"${line.line_text}"</div>
+                                <button class="copy-btn" onclick="copyToClipboard('${line.line_text.replace(/'/g, "\\'")}', this)" title="Copy line">
+                                    <i class="bi bi-clipboard"></i>
+                                </button>
+                            </div>
+                            <div class="line-meta">
+                                <span class="meta-badge">${line.category}</span>
+                                <span class="meta-badge">${line.style}</span>
+                            </div>
+                        </div>
+                    `;
+                });
+            }
+
+            results.innerHTML = html;
+        }
+    </script>
+</body>
+
+</html>
